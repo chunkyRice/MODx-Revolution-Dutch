@@ -17,11 +17,11 @@ $_lang['login_blocked_too_many_attempts'] = 'Je bent geblokkeerd door te veel mi
 $_lang['login_button'] = 'Inloggen';
 $_lang['login_cannot_locate_account'] = 'Het account kon niet gevonden worden. Controleer je gebruikersnaam en type het wachtwoord om het nog eens te proberen.';
 $_lang['login_copyright'] = '&copy; 2005-2010 bij het <a href="http://modxcms.com/" target="_blank">MODx Team</a>. <strong>MODx</strong>&trade; is gelicentieerd onder de GPLv2 of later.';
-$_lang['login_email_label'] = 'Account e-mail:';
+$_lang['login_email_label'] = 'E-mailadres:';
 $_lang['login_err_unknown'] = 'Er is een onbekende fout opgetreden tijdens het inloggen.';
 $_lang['login_forget_your_login'] = 'Je inlogaccount vergeten?';
 $_lang['login_hostname_error'] = 'Je hostnaam wijst niet terug naar jouw IP adres.';
-$_lang['login_message'] = 'Vul je inloggegevens in om jouw Manager sessie te starten. Je gebruikersnaam en wachtwoord zijn hoofdlettergevoelig, dus vul het met zorg in!';
+$_lang['login_message'] = 'Vul hier jouw inloggevens in om toegang te krijgen tot de Manager. Je gebruikersnaam en wachtwoord zijn hoofdlettergevoelig, dus vul het met zorg in!';
 $_lang['login_modx_support'] = '<p>Ondersteund door:</p><p><a href="http://www.modxcms.com/forums/" target="_blank"><strong>The MODx Community</strong></a></p>';
 $_lang['login_password'] = 'Wachtwoord: ';
 $_lang['login_password_reset_act_sent'] = 'Wachtwoord herstel e-mail is verstuurd. Controleer je e-mail inbox.';
