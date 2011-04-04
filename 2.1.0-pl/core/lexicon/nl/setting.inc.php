@@ -2,7 +2,7 @@
 /**
  * Setting Dutch lexicon topic
  *
- * @language en
+ * @language nl
  * @package modx
  * @subpackage lexicon
  *
@@ -22,16 +22,18 @@ $_lang['area_manager'] = 'Back-end Manager';
 $_lang['area_proxy'] = 'Proxy';
 $_lang['area_session'] = 'Session en Cookie';
 $_lang['area_lexicon_string'] = 'Gebied Lexicon Entry';
-$_lang['area_lexicon_string_msg'] = 'Vul hier een sleutel in van de lexicon entry for het gebied. Indien er geen lexicon entry is, dan wordt de sleutel van het gebied getoond.<br />Core gebieden:<ul><li>authenticatie</li><li>caching</li><li>bestand</li><li>furls</li><li>gateway</li><li>taal</li><li>manager</li><li>session</li><li>site</li><li>systeem</li></ul>';
+$_lang['area_lexicon_string_msg'] = 'Vul hier een key in van de lexicon entry for het gebied. Indien er geen lexicon entry is, dan wordt de key van het gebied getoond.<br />Core gebieden:<ul><li>authenticatie</li><li>caching</li><li>bestand</li><li>furls</li><li>gateway</li><li>taal</li><li>manager</li><li>session</li><li>site</li><li>systeem</li></ul>';
 $_lang['area_site'] = 'Site';
 $_lang['area_system'] = 'Systeem en Server';
 $_lang['areas'] = 'Gebieden';
+$_lang['charset'] = 'Karakterset';
+$_lang['country'] = 'Land';
 $_lang['namespace'] = 'Namespace';
 $_lang['namespace_filter'] = 'Filter op namespace...';
-$_lang['search_by_key'] = 'Zoek op sleutel...';
+$_lang['search_by_key'] = 'Zoek op key...';
 $_lang['setting_create'] = 'Maak nieuwe instelling';
 $_lang['setting_err'] = 'Controleer jouw gegevens voor de volgende velden: ';
-$_lang['setting_err_ae'] = 'Instelling met deze sleutel bestaat reeds. Definieer een andere sleutelnaam.';
+$_lang['setting_err_ae'] = 'Instelling met deze key bestaat reeds. Definieer een andere keynaam.';
 $_lang['setting_err_nf'] = 'Instelling niet gevonden.';
 $_lang['setting_err_ns'] = 'Instelling niet gedefinieerd';
 $_lang['setting_err_remove'] = 'Er is een fout opgetreden tijdens het proberen te verwijderen van de instelling.';
@@ -49,6 +51,7 @@ $_lang['settings_site'] = 'Site';
 $_lang['settings_ui'] = 'Interface &amp; Features';
 $_lang['settings_users'] = 'Gebruiker';
 $_lang['system_settings'] = 'Systeeminstellingen';
+$_lang['usergroup'] = 'Gebruikersgroep';
 
 // user settings
 $_lang['setting_allow_mgr_access'] = 'Manager Interface Toegang';
@@ -67,8 +70,11 @@ $_lang['setting_login_homepage'] = 'Inlogpagina';
 $_lang['setting_login_homepage_desc'] = 'Vul het ID van het document in waar ed gebruiker naartoe gestuurd wordt nadat hij/zij ingelogd is. <strong>Let op: controleer dat het ID dat je invult behoort bij een geldig document en bereikbaar is voor deze gebruiker!</strong>';
 
 // system settings
-$_lang['setting_allow_duplicate_alias'] = 'Alias duplicaten toestaan';
-$_lang['setting_allow_duplicate_alias_desc'] = 'Indien ingesteld op \'Ja\', dan zijn er dezelfde aliassen mogelijk bij het opslaan. <strong>Let op: deze optie alleen gebruiken als \'Vriendelijk alias pad\' optie is ingesteld op \'Ja\' om problemen met de referentie aan een document te voorkomen.</strong>';
+$_lang['setting_access_policies_version'] = 'Toegansbeleid schema versie';
+$_lang['setting_access_policies_version_desc'] = 'De versie van het toegangsbeleid systeem. NIET VERANDEREN.';
+
+$_lang['setting_allow_forward_across_contexts'] = 'Sta forwarding over contexts toe';
+$_lang['setting_allow_forward_across_contexts_desc'] = 'Indien waar, Symlinks en modX::sendForward() API calls kunnen requests naar documenten in andere contexts forwarden.';
 
 $_lang['setting_allow_tags_in_post'] = 'HTML tags in POST toestaan';
 $_lang['setting_allow_tags_in_post_desc'] = 'Indien onwaar, alle POST acties in de manager strippen elke html tag eruit. MODX beveelt aan om deze op waar te laten staan.';
@@ -91,6 +97,9 @@ $_lang['setting_allow_multiple_emails_desc'] = 'Indien ingeschakeld, gebruikers 
 $_lang['setting_automatic_alias'] = 'Automatisch aliassen genereren';
 $_lang['setting_automatic_alias_desc'] = 'Selecteer \'Ja\' om het systeem automatisch een alias te laten genereren aan de hand van de document titel bij het opslaan.';
 
+$_lang['setting_base_help_url'] = 'Basis help URL';
+$_lang['setting_base_help_url_desc'] = 'De basis URL waarmee de Help links, rechtsboven van de manager pagina\'s gebouwd worden.';
+
 $_lang['setting_blocked_minutes'] = 'Geblokkeerde minuten';
 $_lang['setting_blocked_minutes_desc'] = 'Hier kun je het aantal minuten definieren dat een gebruiker geblokkeerd is na het bereiken van het maximale aantal foutieve inlogpogingen. Vul alleen cijfers in (geen komma\'s, spaties etc.)';
 
@@ -106,6 +115,9 @@ $_lang['setting_cache_db_desc'] = 'Indien ingeschakeld, objects en ruwe resultaa
 $_lang['setting_cache_db_expires'] = 'Verlooptijd voor Database Cache';
 $_lang['setting_cache_db_expires_desc'] = 'Deze waarde (in seconden) stelt de verlooptijd voor de laatste cache bestanden van de database in.';
 
+$_lang['setting_cache_format'] = 'Te gebruiken caching formaat';
+$_lang['setting_cache_format_desc'] = '0 = PHP, 1 = JSON, 2 = serialize. Een van de formaten.';
+
 $_lang['setting_cache_default'] = 'Cacheable standaard';
 $_lang['setting_cache_default_desc'] = 'Stel in op \'Ja\' om alle nieuwe documenten standaard cacheable te maken.';
 $_lang['setting_cache_default_err'] = 'Vermeld of je standaard wilt dat documenten worden gecached.';
@@ -114,14 +126,8 @@ $_lang['setting_cache_disabled'] = 'Uitschakelen globale Cache opties';
 $_lang['setting_cache_disabled_desc'] = 'Selecteer \'Ja\' om alle MODX caching functionaliteit uit te schakelen. MODX raad het niet aan dit uit te zetten.';
 $_lang['setting_cache_disabled_err'] = 'Vermeld of je wilt dat cache ingeschakeld moet zijn.';
 
-$_lang['setting_cache_json'] = 'Cache JSON Data';
-$_lang['setting_cache_json_desc'] = 'Cache elke JSON data verstuurd naar of van de manager UI.';
-
 $_lang['setting_cache_expires'] = 'Verlooptijd van standaard Cache';
 $_lang['setting_cache_expires_desc'] = 'Deze waarde (in seconden) stelt de verlooptijd voor de laatste cache bestanden van de standaard in.';
-
-$_lang['setting_cache_json_expires'] = 'Verlooptijd van JSON Cache';
-$_lang['setting_cache_json_expires_desc'] = 'Deze waarde (in seconden) stelt de verlooptijd voor de laatste cache bestanden van JSON in.';
 
 $_lang['setting_cache_handler'] = 'Caching Handler Class';
 $_lang['setting_cache_handler_desc'] = 'De class naam van het type handler te gebruiken voor caching.';
@@ -163,7 +169,7 @@ $_lang['setting_cultureKey'] = 'Taal';
 $_lang['setting_cultureKey_desc'] = 'Selecteer de taal voor alle niet-manager Contexts, inclusief web.';
 
 $_lang['setting_custom_resource_classes'] = 'Aangepaste Document Classes';
-$_lang['setting_custom_resource_classes_desc'] = 'Een komma-gescheiden lijst van aangepaste document classes. Specificeer met kleine letters de lexicon_sleutel:className (vb: wiki_resource:WikiResource). Alle classes moeten extenden van modResource. Om de locatie van de controller te specificeren voor elke class, voeg een instelling toe met kleine letters [deNaamVanDeClass]_delegate_path met een pad naar de map met de php maak/wijzig bestanden. Vb: wikiresource_delegate_path voor de class WikiResource welke modResource extend.';
+$_lang['setting_custom_resource_classes_desc'] = 'Een komma-gescheiden lijst van aangepaste document classes. Specificeer met kleine letters de lexicon_key:className (vb: wiki_resource:WikiResource). Alle classes moeten extenden van modResource. Om de locatie van de controller te specificeren voor elke class, voeg een instelling toe met kleine letters [deNaamVanDeClass]_delegate_path met een pad naar de map met de php maak/wijzig bestanden. Vb: wikiresource_delegate_path voor de class WikiResource welke modResource extend.';
 
 $_lang['setting_default_template'] = 'Standaard Template';
 $_lang['setting_default_template_desc'] = 'Selecteer de standaard template welke je wilt gebruiken voor nieuwe documenten. Uiteraard kun je altijd nog een andere template kiezen in de document-editor, deze instelling selecteert er alvast een voor jou.';
@@ -245,9 +251,6 @@ $_lang['setting_friendly_alias_translit_class_desc'] = 'Een optionele service cl
 
 $_lang['setting_friendly_alias_trim_chars'] = 'FURL trim alias karakters';
 $_lang['setting_friendly_alias_trim_chars_desc'] = 'Karakters welke aan het eind van de een document alias weggehaald worden.';
-
-$_lang['setting_friendly_alias_urls'] = 'Gebruik vriendelijke aliassen';
-$_lang['setting_friendly_alias_urls_desc'] = 'Indien je vriendelijke URLs gebruikt en het document heeft een alias, dan heeft de alias altijd voorrang op de vriendelijke URL. Indien deze instelling op \'Ja\' gezet wordt, de content-type achtervoegsel van het document wordt dan toegevoegd aan de alias. Ter voorbeeld, jouw document met ID 1 heeft een alias als \'introductie\', en je hebt een content-type achtervoegsel als \'.html\', dan zal deze instelling \'introductie.html\' genereren. Indien er geen alias is, dan zal MODX \'1.html\' genereren als link.';
 
 $_lang['setting_friendly_alias_word_delimiter'] = 'FURL scheidingsteken alias';
 $_lang['setting_friendly_alias_word_delimiter_desc'] = 'Het voorkeurs scheidingsteken voor de woorden in de alias voor vriendelijke URLs.';
