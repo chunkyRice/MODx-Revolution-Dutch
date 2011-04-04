@@ -1,40 +1,41 @@
 <?php
 /**
- * English Upgrades Lexicon Topic for Revolution setup.
+ * Dutch Upgrades Lexicon Topic for Revolution setup.
  *
  * @package setup
  * @subpackage lexicon
+ * @author Bert Oost, <bertoost85@gmail.com>
  */
-$_lang['add_column'] = 'Added new `[[+column]]` column to `[[+table]]`.';
-$_lang['add_index'] = 'Added new index on `[[+index]]` for table `[[+table]]`.';
-$_lang['add_moduser_classkey'] = 'Added class_key field to support modUser derivatives.';
-$_lang['added_cachepwd'] = 'Added cachepwd field missing in early Revolution releases.';
-$_lang['added_content_ft_idx'] = 'Added new `content_ft_idx` full-text index on the fields `pagetitle`, `longtitle`, `description`, `introtext`, `content`.';
-$_lang['allow_null_properties'] = 'Fixing allow null for `[[+class]]`.`properties`.';
-$_lang['alter_activeuser_action'] = 'Modified modActiveUser `action` field to allow longer action labels.';
-$_lang['alter_usermessage_messageread'] = 'Changed modUserMessage `messageread` field to `read`.';
-$_lang['alter_usermessage_postdate'] = 'Changed modUserMessage `postdate` field from an INT to a DATETIME and to name `date_sent`.';
-$_lang['alter_usermessage_subject'] = 'Changed modUserMessage `subject` field from VARCHAR(60) to VARCHAR(255).';
-$_lang['change_column'] = 'Changed `[[+old]]` field to `[[+new]]` on table `[[+table]]`.';
-$_lang['change_default_value'] = 'Changed default value for column `[[+column]]` to "[[+value]]" on table `[[+table]]`.';
-$_lang['connector_acls_removed'] = 'Removed connector context ACLs.';
-$_lang['connector_acls_not_removed'] = 'Could not remove connector context ACLs.';
+$_lang['add_column'] = 'Nieuwe kolom `[[+column]]` toegevoegd in `[[+table]]`.';
+$_lang['add_index'] = 'Nieuwe index `[[+index]]` toegevoegd voor tabel `[[+table]]`.';
+$_lang['add_moduser_classkey'] = 'Het veld class_key toegevoegd om modUser derivaten te ondersteunen.';
+$_lang['added_cachepwd'] = 'Het veld cachepwd toegevoegd welke miste in oudere Revolution releases.';
+$_lang['added_content_ft_idx'] = 'Nieuwe full-text index `content_ft_idx` op de volgende velden toegevoegd `pagetitle`, `longtitle`, `description`, `introtext`, `content`.';
+$_lang['allow_null_properties'] = 'Toestaan NULL opgelost in `[[+class]]`.`properties`.';
+$_lang['alter_activeuser_action'] = 'Het veld `action` voor modActiveUser aangepast om lange actie labels toe te staan.';
+$_lang['alter_usermessage_messageread'] = 'Het veld van modUserMessage `messageread` veranderd in `read`.';
+$_lang['alter_usermessage_postdate'] = 'Het veld van modUserMessage `postdate` veranderd van INT naar DATETIME en hernoemd naar `date_sent`.';
+$_lang['alter_usermessage_subject'] = 'Het veld van modUserMessage `subject` veranderd van VARCHAR(60) naar VARCHAR(255).';
+$_lang['change_column'] = 'Het veld `[[+old]]` veranderd naar `[[+new]]` in tabel `[[+table]]`.';
+$_lang['change_default_value'] = 'Standaard waarde van kolom `[[+column]]` veranderd naar "[[+value]]" in tabel `[[+table]]`.';
+$_lang['connector_acls_removed'] = 'Connector context ACLs verwijderd.';
+$_lang['connector_acls_not_removed'] = 'Kan de connector context ACLs niet verwijderen.';
 $_lang['connector_ctx_removed'] = '';
-$_lang['connector_ctx_not_removed'] = 'Could not remove connector context.';
-$_lang['data_remove_error'] = 'Error removing data for class `[[+class]]`.';
-$_lang['data_remove_success'] = 'Successfully removed data from table for class `[[+class]]`.';
-$_lang['drop_column'] = 'Dropped column `[[+column]]` on table `[[+table]]`.';
-$_lang['drop_index'] = 'Dropped index `[[+index]]` on table `[[+table]]`.';
-$_lang['lexiconentry_createdon_null'] = 'Changed modLexiconEntry `createdon` to allow NULL.';
-$_lang['lexiconentry_focus_alter'] = 'Changed modLexiconEntry `focus` from VARCHAR(100) to INT(10).';
-$_lang['lexiconentry_focus_alter_int'] = 'Updated modLexiconEntry `focus` column data from string to new int foreign key from modLexiconTopic.';
-$_lang['lexiconfocus_add_id'] = 'Added modLexiconFocus `id` column.';
-$_lang['lexiconfocus_add_pk'] = 'Added modLexiconFocus PRIMARY KEY to `id` column.';
-$_lang['lexiconfocus_alter_pk'] = 'Changed modLexiconFocus `name` from PRIMARY KEY to UNIQUE KEY';
-$_lang['lexiconfocus_drop_pk'] = 'Dropped modLexiconFocus PRIMARY KEY.';
-$_lang['rename_column'] = 'Renamed column `[[+old]]` to `[[+new]]` on table `[[+table]]`.';
-$_lang['rename_table'] = 'Renamed table `[[+old]]` to `[[+new]]`.';
-$_lang['remove_fulltext_index'] = 'Removed full-text index `[[+index]]`.';
-$_lang['systemsetting_xtype_fix'] = 'Successfully fixed xtypes for modSystemSettings.';
-$_lang['transportpackage_manifest_text'] = 'Modified column `manifest` to TEXT from MEDIUMTEXT on `[[+class]]`.';
-$_lang['update_closure_table'] = 'Updating closure table data for class `[[+class]]`.';
+$_lang['connector_ctx_not_removed'] = 'Kan de connector context niet verwijderen.';
+$_lang['data_remove_error'] = 'Fout bij verwijderen van de data voor class `[[+class]]`.';
+$_lang['data_remove_success'] = 'Met succes de data van tabel `[[+class]]` verwijderd.';
+$_lang['drop_column'] = 'Kolom `[[+column]]` verwijderd uit tabel `[[+table]]`.';
+$_lang['drop_index'] = 'Index `[[+index]]` verwijderd uit tabel `[[+table]]`.';
+$_lang['lexiconentry_createdon_null'] = 'De modLexiconEntry `createdon` veranderd naar toestaan NULL.';
+$_lang['lexiconentry_focus_alter'] = 'De modLexiconEntry `focus` van VARCHAR(100) naar INT(10) aangepast.';
+$_lang['lexiconentry_focus_alter_int'] = 'De modLexiconEntry `focus` kolom data van string naar een nieuw int relatie met modLexiconTopic aangepast.';
+$_lang['lexiconfocus_add_id'] = 'Kolom modLexiconFocus `id` toegevoegd.';
+$_lang['lexiconfocus_add_pk'] = 'Primaire sleutel op modLexiconFocus `id` kolom toegevoegd.';
+$_lang['lexiconfocus_alter_pk'] = 'Het veld modLexiconFocus `name` van primaire sleutel naar unieke waarde aangepast';
+$_lang['lexiconfocus_drop_pk'] = 'De modLexiconFocus primaire sleutel verwijderd.';
+$_lang['rename_column'] = 'Kolom `[[+old]]` hernoemd naar `[[+new]]` in tabel `[[+table]]`.';
+$_lang['rename_table'] = 'Tabel `[[+old]]` hernoemd naar `[[+new]]`.';
+$_lang['remove_fulltext_index'] = 'Volledige-tekst index `[[+index]]` verwijderd.';
+$_lang['systemsetting_xtype_fix'] = 'Succesvol de xtypes voor modSystemSettings opgelost.';
+$_lang['transportpackage_manifest_text'] = 'Kolom `manifest` naar TEXT van MEDIUMTEXT veranderd in `[[+class]]`.';
+$_lang['update_closure_table'] = 'Update afsluiting tabel data voor class `[[+class]]`.';

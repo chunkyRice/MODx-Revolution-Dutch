@@ -1,21 +1,23 @@
 <?php
 /**
- * Manager Log English lexicon topic
+ * Manager Log Dutch lexicon topic
  *
- * @language en
+ * @language nl
  * @package modx
  * @subpackage lexicon
+ * 
+ * @author Bert Oost, <bertoost85@gmail.com>
  */
-$_lang['action'] = 'Action';
-$_lang['date_end'] = 'End Date';
-$_lang['date_start'] = 'Start Date';
-$_lang['filter_clear'] = 'Clear Filter';
+$_lang['action'] = 'Actie';
+$_lang['date_end'] = 'Einddatum';
+$_lang['date_start'] = 'Startdatum';
+$_lang['filter_clear'] = 'Herstel Filter';
 $_lang['manager_log'] = 'Manager Log';
-$_lang['mgrlog_clear'] = 'Empty Manager Log';
-$_lang['mgrlog_clear_confirm'] = 'Are you sure you want to completely empty the manager log? This cannot be undone.';
-$_lang['mgrlog_query_msg'] = 'Please make a selection for viewing the logs. You can select log entries by date, but be aware that the dates you enter are not inclusive - to select every log entry for 01-01-2004, set \'date start\' to 01-01-2004 and \'date end\' to 02-01-2004.';
-$_lang['mgrlog_query'] = 'Query logging';
-$_lang['mgrlog_view'] = 'View manager logs';
+$_lang['mgrlog_clear'] = 'Leeg Manager Log';
+$_lang['mgrlog_clear_confirm'] = 'Weet je zeker dat je de manager log wilt legen? Dit kan niet ongedaan gemaakt worden.';
+$_lang['mgrlog_query_msg'] = 'Maak een keuze voor het inzien van de logs. U kunt kiezen logboekvermeldingen op datum, maar wees ervan bewust dat de datums die u invoert, niet inclusief zijn. Voor de log van 01-01-2004, zet de startdatum op 01-01-2004 en de einddatum op 02-01-2004.';
+$_lang['mgrlog_query'] = 'Query log';
+$_lang['mgrlog_view'] = 'Bekijk manager logs';
 $_lang['object'] = 'Object';
-$_lang['occurred'] = 'Occurred';
-$_lang['user'] = 'User';
+$_lang['occurred'] = 'Opgetreden';
+$_lang['user'] = 'Gebruiker';

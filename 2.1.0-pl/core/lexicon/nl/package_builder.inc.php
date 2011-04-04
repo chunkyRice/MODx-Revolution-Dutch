@@ -1,71 +1,73 @@
 <?php
 /**
- * Package Builder English lexicon topic
+ * Package Builder Dutch lexicon topic
  *
- * @language en
+ * @language nl
  * @package modx
  * @subpackage lexicon
+ * 
+ * @author Bert Oost, <bertoost85@gmail.com>
  */
-$_lang['as_system_settings'] = 'System Settings';
-$_lang['as_context_settings'] = 'Context Settings';
+$_lang['as_system_settings'] = 'Systeem Instellingen';
+$_lang['as_context_settings'] = 'Context Instellingen';
 $_lang['as_lexicon_entries'] = 'Lexicon Entries';
-$_lang['as_lexicon_topics'] = 'Lexicon Topics';
-$_lang['build'] = 'Build';
-$_lang['class_key'] = 'Class Key';
-$_lang['class_key_desc'] = 'The type of object you would like to map to the vehicle.';
-$_lang['class_key_custom'] = 'Or Custom Class';
-$_lang['class_key_custom_desc'] = 'Here you can specify a custom xPDOObject class name that is not in the above list.';
-$_lang['file'] = 'File';
+$_lang['as_lexicon_topics'] = 'Lexicon Onderwerpen';
+$_lang['build'] = 'Maken';
+$_lang['class_key'] = 'Klasse sleutel';
+$_lang['class_key_desc'] = 'Het type object dat je wilt mappen naar het voortuig.';
+$_lang['class_key_custom'] = 'Of eigen klasse';
+$_lang['class_key_custom_desc'] = 'Hier kun je een eigen xPDOObject klasse specificeren, welke niet in de lijst hierboven staat.';
+$_lang['file'] = 'Bestand';
 $_lang['index'] = 'Index';
 $_lang['object'] = 'Object';
 $_lang['object_id'] = 'Object ID';
-$_lang['object_id_desc'] = 'The exact object that you want to map. Required.';
-$_lang['package_autoselects'] = 'Package Auto-Includes';
-$_lang['package_autoselects_desc'] = 'Please select the resources you would like the Package Builder to automatically include. Note: if building from the core, it is recommended not to check any of these.';
-$_lang['package_build'] = 'Build the Package';
-$_lang['package_build_desc'] = 'You are now ready to build the package. Once built, it will be placed in your core/packages directory.';
-$_lang['package_build_err'] = 'An error occurred while trying to build the package.';
-$_lang['package_build_xml'] = 'Build Package from XML';
-$_lang['package_build_xml_desc'] = 'Please select a valid build XML file for your component.';
-$_lang['package_builder'] = 'Package Builder';
-$_lang['package_built'] = 'The package has been built.';
-$_lang['package_info'] = 'Package Information';
-$_lang['package_info_desc'] = 'First specify the package information, such as name, version and release.';
-$_lang['package_method'] = 'Select a Packaging Method';
-$_lang['package_method_desc'] = 'Please select the method of package building that you would like to use.';
+$_lang['object_id_desc'] = 'Het exacte object dat je wilt mappen. Verplicht.';
+$_lang['package_autoselects'] = 'Pakket Auto-Includes';
+$_lang['package_autoselects_desc'] = 'Selecteer de resources welke je wilt dat de Pakket Maker automatisch include. Let op: indien je bouwt van de core, dan is het niet aan te raden om hier iets aan te vinken.';
+$_lang['package_build'] = 'Maak het pakket';
+$_lang['package_build_desc'] = 'Je bent nu klaar om het pakket te maken. Zodra het gemaakt is, kun je het terugvinden in je core/packages map.';
+$_lang['package_build_err'] = 'Er is een fout opgetreden tijdens het maken van het pakket.';
+$_lang['package_build_xml'] = 'Maak pakket vanuit XML';
+$_lang['package_build_xml_desc'] = 'Selecteer een geldig XML bestand voor jouw component.';
+$_lang['package_builder'] = 'Pakket Maker';
+$_lang['package_built'] = 'Het pakket is gemaakt.';
+$_lang['package_info'] = 'Pakket Informatie';
+$_lang['package_info_desc'] = 'Specifeer eerst de pakket informatie, zoals naam, versie en relase.';
+$_lang['package_method'] = 'Selecteer een pakket methode';
+$_lang['package_method_desc'] = 'Selecteer een pakket bouw methode die je wenst te gebruiken.';
 $_lang['php_script'] = 'PHP Script';
-$_lang['preserve_keys'] = 'Preserve Keys';
-$_lang['preserve_keys_desc'] = 'This will preserve the primary keys to the values that they currently are in your DB.';
+$_lang['preserve_keys'] = 'Behoud van sleutels';
+$_lang['preserve_keys_desc'] = 'Dit behoud de primaire sleutels voor de waarden die momenteel in jouw DB staan.';
 $_lang['release'] = 'Release';
-$_lang['resolve_files'] = 'Resolve Files';
-$_lang['resolve_files_desc'] = 'When checked, this will resolve the files specified in the resolvers.';
-$_lang['resolve_php'] = 'Resolve PHP Scripts';
-$_lang['resolve_php_desc'] = 'When checked, this will resolve the PHP scripts specified in the resolvers.';
-$_lang['resolver_add'] = 'Add Resolver';
-$_lang['resolver_create'] = 'Create Resolver';
-$_lang['resolver_name_desc'] = 'The name of the resolver. Used for organizational purposes.';
-$_lang['resolver_remove'] = 'Remove Resolver';
-$_lang['resolver_remove_confirm'] = 'Are you sure you want to remove this resolver?';
-$_lang['resolver_source_desc'] = 'The absolute path of the source of the resolver. If it is a file resolver, select the directory of the files you\'d like to copy. If a PHP Script, specify the script. Example: <br /><br />/public_html/modx/_build/components/demo/';
-$_lang['resolver_target_desc'] = 'The absolute path target for where the resolver should put files or actions. Usually you won\'t have to change this. Example: <br /><br />return MODX_ASSETS_PATH . "snippets/";';
-$_lang['resolver_type_desc'] = 'File resolvers make sure to copy all the files in the source directory to the target. PHP Script resolvers execute the source file as PHP.';
+$_lang['resolve_files'] = 'Bestanden oplossen';
+$_lang['resolve_files_desc'] = 'Indien aangevinkt, dan worden de gespecificeerde bestanden opgelost.';
+$_lang['resolve_php'] = 'PHP Scripts oplossen';
+$_lang['resolve_php_desc'] = 'Indien aangevink, dan worden de PHP scripts resolved in de resolvers.';
+$_lang['resolver_add'] = 'Resolver toevoegen';
+$_lang['resolver_create'] = 'Resolver maken';
+$_lang['resolver_name_desc'] = 'De naam van de resolver. Gebruikt voor organisatorsche doeleinde.';
+$_lang['resolver_remove'] = 'Verwijder Resolver';
+$_lang['resolver_remove_confirm'] = 'Weet je zeker dat je deze resolver wilt verwijderen?';
+$_lang['resolver_source_desc'] = 'Het absolute pad van de resolver. Wanneer het een bestand resolver is, selecteer de map van de bestanden welke je wenst te kopieren. Indien een PHP script, specificeer het script. Voorbeeld: <br /><br />/public_html/modx/_build/components/demo/';
+$_lang['resolver_target_desc'] = 'Het absolute pad waar de resolver de bestande of acties zal plaatsen. Normaal gesproken hoef je dit niet te veranderen. Voorbeeld:<br /><br />return MODX_ASSETS_PATH . "snippets/";';
+$_lang['resolver_type_desc'] = 'Met bestand resolvers weet je zeker dat alle bestanden gekopiëerd worden van de bron map naar de doel map. PHP script resolvers voert het bronbestand uit als PHP.';
 $_lang['resolvers'] = 'Resolvers';
-$_lang['source'] = 'Source';
-$_lang['target'] = 'Target';
+$_lang['source'] = 'Bron';
+$_lang['target'] = 'Doel';
 $_lang['type'] = 'Type';
-$_lang['unique_key'] = 'Unique Key';
-$_lang['unique_key_desc'] = 'A unique key identifying how to search for the object. Can be a string or comma-delimited list. Examples: <br />"name" for modPlugin<br />"templatename" for modTemplate<br />Or more complex, "pluginid,evtid" for modPluginEvent';
+$_lang['unique_key'] = 'Unieke sleutel';
+$_lang['unique_key_desc'] = 'Een unieke sleutel identificeert hoe te zoeken voor het object. Kan een string of een komma-gescheiden lijst zijn. Voorbeeld: <br />"naam" voor modPlugin<br />"sjabloonnaam" voor modTemplate<br />Of meer complex, "pluginid,extid" voor modPluginEvent';
 $_lang['update_object'] = 'Update Object';
-$_lang['update_object_desc'] = 'If checked, this will update the object if it is found. If not checked, it will not save the object if it is already found.';
-$_lang['use_wizard'] = 'Use the Wizard';
-$_lang['use_xml'] = 'Build from an XML file';
-$_lang['vehicle'] = 'Vehicle';
-$_lang['vehicle_add'] = 'Add Vehicle';
-$_lang['vehicle_create'] = 'Create Vehicle';
-$_lang['vehicle_remove'] = 'Remove Vehicle';
-$_lang['vehicle_remove_confirm'] = 'Are you sure you want to remove this vehicle?';
-$_lang['vehicles'] = 'Vehicles';
-$_lang['vehicles_add'] = 'Add Vehicles';
-$_lang['vehicles_desc'] = 'Vehicles are the objects that are contained in the package. You may add them in here.';
-$_lang['version'] = 'Version';
-$_lang['xml_file_err_upload'] = 'There was an error while trying to upload the XML file.';
+$_lang['update_object_desc'] = 'Wanneer aangevinkt, dan zal het object geupdate worden, als het bestaat. Als niet aangevinkt, dan zal het object niet opgeslagen worden als het al bestaat.';
+$_lang['use_wizard'] = 'Gebruik de wizard';
+$_lang['use_xml'] = 'Bouw aan de hand van een XML bestand';
+$_lang['vehicle'] = 'Voortuig';
+$_lang['vehicle_add'] = 'Voortuig toevoegen';
+$_lang['vehicle_create'] = 'Voortuig maken';
+$_lang['vehicle_remove'] = 'Voortuig verwijderen';
+$_lang['vehicle_remove_confirm'] = 'Weet je zeker dat je dit voortuig wilt verwijderen?';
+$_lang['vehicles'] = 'Voortuigen';
+$_lang['vehicles_add'] = 'Voortuigen toevoegen';
+$_lang['vehicles_desc'] = 'Voortuigen zijn objecten welke in het pakket zitten. Je kunt ze hier toevoegen.';
+$_lang['version'] = 'Versie';
+$_lang['xml_file_err_upload'] = 'Er is een error opgetreden tijdens het uploaden van het XML bestand.';

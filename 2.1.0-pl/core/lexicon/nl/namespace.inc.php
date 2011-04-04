@@ -1,22 +1,24 @@
 <?php
 /**
- * Namespace English lexicon topic
+ * Namespace Dutch lexicon topic
  *
- * @language en
+ * @language nl
  * @package modx
  * @subpackage lexicon
+ * 
+ * @author Bert Oost, <bertoost85@gmail.com>
  */
 $_lang['namespace'] = 'Namespace';
-$_lang['namespace_create'] = 'Create Namespace';
-$_lang['namespace_err_create'] = 'An error occurred while trying to create the namespace.';
-$_lang['namespace_err_nf'] = 'Namespace not found.';
-$_lang['namespace_err_nfs'] = 'Namespace not found with name: %s';
-$_lang['namespace_err_ns'] = 'Namespace not specified.';
-$_lang['namespace_err_remove'] = 'An error occurred while trying to remove the namespace.';
-$_lang['namespace_err_save'] = 'An error occurred while trying to save the namespace.';
-$_lang['namespace_path_desc'] = 'Specify an absolute pathname here: (example: MODX_CORE_PATH . "assets/democomponent")';
-$_lang['namespace_remove'] = 'Remove Namespace';
-$_lang['namespace_remove_confirm'] = 'Are you sure you want to remove this namespace and all related content?';
-$_lang['namespace_update'] = 'Update Namespace';
+$_lang['namespace_create'] = 'Namespace toevoegen';
+$_lang['namespace_err_create'] = 'Er is een fout opgetreden bij het toevoegen van de namespace.';
+$_lang['namespace_err_nf'] = 'Namespace niet gevonden.';
+$_lang['namespace_err_nfs'] = 'Namespace niet gevonden, met naam: %s';
+$_lang['namespace_err_ns'] = 'Namespace niet gedefiniëerd.';
+$_lang['namespace_err_remove'] = 'Er is een fout opgetreden bij het verwijderen van de namespace.';
+$_lang['namespace_err_save'] = 'Er is een fout opgetreden bij het opslaan van de namespace.';
+$_lang['namespace_path_desc'] = 'Definiëer een absoluut padnaam hier: (voorbeeld: MODX_CORE_PATH."assets/democomponent")';
+$_lang['namespace_remove'] = 'Namespace Verwijderen';
+$_lang['namespace_remove_confirm'] = 'Weet je zeker dat je de namespace en alle gerelateerde content wilt verwijderen?';
+$_lang['namespace_update'] = 'Namespace Aanpassen';
 $_lang['namespaces'] = 'Namespaces';
-$_lang['namespaces_desc'] = 'Namespaces are global identifiers for packages and components, registering their vehicles, lexicon entries and resources all together.';
+$_lang['namespaces_desc'] = 'Namespaces zijn globale identificaties voor pakketten en componenten, registratie van hun vehicles, lexicon vermeldingen en alle documenten samen.';

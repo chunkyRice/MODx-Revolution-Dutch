@@ -1,25 +1,27 @@
 <?php
 /**
- * Content Type English lexicon topic
+ * Content Type Dutch lexicon topic
  *
- * @language en
+ * @language nl
  * @package modx
  * @subpackage lexicon
+ * 
+ * @author Bert Oost <bertoost85@gmail.com>
  */
-$_lang['binary'] = 'Binary';
-$_lang['binary_desc'] = 'Is the file a binary file or text/ascii?';
+$_lang['binary'] = 'Binair';
+$_lang['binary_desc'] = 'Is het bestand een binair bestand of tekst/ASCII?';
 $_lang['content_type'] = 'Content Type';
-$_lang['content_type_desc'] = 'Content Types are specific filesystem types for your resources. Here you can manage them; as well as associate them with a file extension.';
-$_lang['content_type_err_nf'] = 'Content Type not found.';
-$_lang['content_type_err_nfs'] = 'Content type with ID [[+id]] not found.';
-$_lang['content_type_err_ns'] = 'Content Type not specified.';
-$_lang['content_type_err_ns_name'] = 'Please specify a valid name for the Content Type.';
-$_lang['content_type_err_create'] = 'An error occurred while trying to create the Content Type.';
-$_lang['content_type_err_remove'] = 'An error occurred while trying to remove the Content Type.';
-$_lang['content_type_err_save'] = 'An error occurred while trying to save the Content Type.';
-$_lang['content_type_new'] = 'New Content Type';
-$_lang['content_type_remove'] = 'Remove Content Type';
-$_lang['content_type_remove_confirm'] = 'Are you sure you want to remove this Content Type?';
-$_lang['content_types'] = 'Content Types';
-$_lang['file_extensions'] = 'File Extension';
-$_lang['file_extensions_desc'] = 'This is the specified file extension for this Content Type.';
+$_lang['content_type_desc'] = 'Content typen are zijn specifieke bestandstypen voor uw documenten. Hier kunt u deze beheren en ze koppelen aan bestandsextensies.';
+$_lang['content_type_err_nf'] = 'Content type niet gevonden.';
+$_lang['content_type_err_nfs'] = 'Content type met ID [[+id]] niet gevonden.';
+$_lang['content_type_err_ns'] = 'Content type niet opgegeven.';
+$_lang['content_type_err_ns_name'] = 'Geef een geldige naam voor het content type.';
+$_lang['content_type_err_create'] = 'Er is een fout opgetreden bij het maken van het content type.';
+$_lang['content_type_err_remove'] = 'Er is een fout opgetreden bij het verwijderen van het content type.';
+$_lang['content_type_err_save'] = 'Er is een fout opgetreden bij het opslaan van het content type.';
+$_lang['content_type_new'] = 'Nieuw Content Type';
+$_lang['content_type_remove'] = 'Verwijder Content Type';
+$_lang['content_type_remove_confirm'] = 'Weet u zeker dat u dit content type wilt verwijderen?';
+$_lang['content_types'] = 'Content Typen';
+$_lang['file_extensions'] = 'Bestandsextensies';
+$_lang['file_extensions_desc'] = 'Dit is de aangegeven extentie voor dit Content Type.';

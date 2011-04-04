@@ -1,625 +1,534 @@
 <?php
 /**
- * Setting English lexicon topic
+ * Setting Dutch lexicon topic
  *
  * @language en
  * @package modx
  * @subpackage lexicon
+ *
+ * @author Bert Oost, <bertoost85@gmail.com>
  */
-$_lang['area'] = 'Area';
-$_lang['area_authentication'] = 'Authentication and Security';
+$_lang['area'] = 'Gebied';
+$_lang['area_authentication'] = 'Authenticatie en beveiliging';
 $_lang['area_caching'] = 'Caching';
-$_lang['area_editor'] = 'Rich-Text Editor';
-$_lang['area_file'] = 'File System';
-$_lang['area_filter'] = 'Filter by area...';
-$_lang['area_furls'] = 'Friendly URL';
+$_lang['area_editor'] = 'Rich-Tekst Editor';
+$_lang['area_file'] = 'Bestandssysteem';
+$_lang['area_filter'] = 'Filter op gebied...';
+$_lang['area_furls'] = 'Vriendelijke URLs';
 $_lang['area_gateway'] = 'Gateway';
-$_lang['area_language'] = 'Lexicon and Language';
+$_lang['area_language'] = 'Lexicon en taal';
 $_lang['area_mail'] = 'Mail';
 $_lang['area_manager'] = 'Back-end Manager';
 $_lang['area_proxy'] = 'Proxy';
-$_lang['area_session'] = 'Session and Cookie';
-$_lang['area_lexicon_string'] = 'Area Lexicon Entry';
-$_lang['area_lexicon_string_msg'] = 'Enter the key of the lexicon entry for the area here. If there is no lexicon entry, it will just display the area key.<br />Core Areas:<ul><li>authentication</li><li>caching</li><li>file</li><li>furls</li><li>gateway</li><li>language</li><li>manager</li><li>session</li><li>site</li><li>system</li></ul>';
+$_lang['area_session'] = 'Session en Cookie';
+$_lang['area_lexicon_string'] = 'Gebied Lexicon Entry';
+$_lang['area_lexicon_string_msg'] = 'Vul hier een sleutel in van de lexicon entry for het gebied. Indien er geen lexicon entry is, dan wordt de sleutel van het gebied getoond.<br />Core gebieden:<ul><li>authenticatie</li><li>caching</li><li>bestand</li><li>furls</li><li>gateway</li><li>taal</li><li>manager</li><li>session</li><li>site</li><li>systeem</li></ul>';
 $_lang['area_site'] = 'Site';
-$_lang['area_system'] = 'System and Server';
-$_lang['areas'] = 'Areas';
-$_lang['charset'] = 'Charset';
-$_lang['country'] = 'Country';
+$_lang['area_system'] = 'Systeem en Server';
+$_lang['areas'] = 'Gebieden';
 $_lang['namespace'] = 'Namespace';
-$_lang['namespace_filter'] = 'Filter by namespace...';
-$_lang['search_by_key'] = 'Search by key...';
-$_lang['setting_create'] = 'Create New Setting';
-$_lang['setting_err'] = 'Please check your data for the following fields: ';
-$_lang['setting_err_ae'] = 'Setting with that key already exists. Please specify another key name.';
-$_lang['setting_err_nf'] = 'Setting not found.';
-$_lang['setting_err_ns'] = 'Setting not specified';
-$_lang['setting_err_remove'] = 'An error occurred while trying to remove the setting.';
-$_lang['setting_err_save'] = 'An error occurred while trying to save the setting.';
-$_lang['setting_err_startint'] = 'Settings may not start with an integer.';
-$_lang['setting_err_invalid_document'] = 'There is no document with ID %d. Please specify an existing document.';
-$_lang['setting_remove'] = 'Remove Setting';
-$_lang['setting_remove_confirm'] = 'Are you sure you want to remove this setting? This might break your MODX installation.';
-$_lang['setting_update'] = 'Update Setting';
-$_lang['settings_after_install'] = 'As this is a new install, you are required to control these settings, and change any that you may wish to. After you\'ve controlled the settings, press \'Save\' to update the settings database.<br /><br />';
-$_lang['settings_desc'] = 'Here you can set general preferences and configuration settings for the MODX manager interface, as well as how your MODX site runs. Double-click on the value column for the setting you\'d like to edit to dynamically edit via the grid, or right-click on a setting for more options. You can also click the "+" sign for a description of the setting.';
-$_lang['settings_furls'] = 'Friendly URLs';
-$_lang['settings_misc'] = 'Miscellaneous';
+$_lang['namespace_filter'] = 'Filter op namespace...';
+$_lang['search_by_key'] = 'Zoek op sleutel...';
+$_lang['setting_create'] = 'Maak nieuwe instelling';
+$_lang['setting_err'] = 'Controleer jouw gegevens voor de volgende velden: ';
+$_lang['setting_err_ae'] = 'Instelling met deze sleutel bestaat reeds. Definieer een andere sleutelnaam.';
+$_lang['setting_err_nf'] = 'Instelling niet gevonden.';
+$_lang['setting_err_ns'] = 'Instelling niet gedefinieerd';
+$_lang['setting_err_remove'] = 'Er is een fout opgetreden tijdens het proberen te verwijderen van de instelling.';
+$_lang['setting_err_save'] = 'Er is een fout opgetreden tijdens het proberen op te slaan van de instelling.';
+$_lang['setting_err_startint'] = 'Instelling mag niet starten met een cijfer.';
+$_lang['setting_err_invalid_document'] = 'Er is geen document met ID %d. Definieer een geldig document.';
+$_lang['setting_remove'] = 'Instelling verwijderen';
+$_lang['setting_remove_confirm'] = 'Weet je zeker dat je deze insteling wilt verwijderen? Dit kan jouw MODX installatie kapot maken.';
+$_lang['setting_update'] = 'Instelling updaten';
+$_lang['settings_after_install'] = 'Aangezien dit een nieuwe installatie is, ben je verplicht deze instellingen te controleren en daar waar je wenst aan te passen. Nadat je deze instellingen hebt gecontroleerd, klik op \'opslaan\' om de instellingen in de database weg te schrijven.<br /><br />';
+$_lang['settings_desc'] = 'Hier kun je algemene instellingen en configuratie instellingen voor MODX manager interface instellen, en tevens voor jouw MODX website. Klik dubbel op de kolom met de waarde om de instelling welke je wilt aanpassen te wijzigen of klik met de rechtermuisknop op een instelling voor meer opties. Je kunt ook op het "+" teken klikken voor een omschrijving van de instelling.';
+$_lang['settings_furls'] = 'Vriendelijke URLs';
+$_lang['settings_misc'] = 'Diversen';
 $_lang['settings_site'] = 'Site';
 $_lang['settings_ui'] = 'Interface &amp; Features';
-$_lang['settings_users'] = 'User';
-$_lang['system_settings'] = 'System Settings';
-$_lang['usergroup'] = 'User Group';
+$_lang['settings_users'] = 'Gebruiker';
+$_lang['system_settings'] = 'Systeeminstellingen';
 
 // user settings
-$_lang['setting_allow_mgr_access'] = 'Manager Interface Access';
-$_lang['setting_allow_mgr_access_desc'] = 'Select this option to enable or disable access to the manager interface. <strong>NOTE: If this option is set to no then the user will be redirected the the Manager Login Startup or Site Start web page.</strong>';
+$_lang['setting_allow_mgr_access'] = 'Manager Interface Toegang';
+$_lang['setting_allow_mgr_access_desc'] = 'Selecteer deze optie om toegang tot de manager interface aan of uit te zetten. <strong>Let op: Als deze op nee is ingesteld dan zal de gebruiker naar de Manager Login of Site startpagina gestuurd worden</strong>';
 
-$_lang['setting_failed_login'] = 'Failed Login Attempts';
-$_lang['setting_failed_login_desc'] = 'Here you can enter the number of failed login attempts that are allowed before a user is blocked.';
+$_lang['setting_failed_login'] = 'Mislukte inlog pogingen';
+$_lang['setting_failed_login_desc'] = 'Hier kun je het aantal keren foutief inloggen definieren waarna een gebruiker geblokkeerd wordt.';
 
-$_lang['setting_login_allowed_days'] = 'Allowed Days';
-$_lang['setting_login_allowed_days_desc'] = 'Select the days that this user is allowed to login.';
+$_lang['setting_login_allowed_days'] = 'Dagen toegestaan';
+$_lang['setting_login_allowed_days_desc'] = 'Selecteer het aantal dagen zolang de gebruiker mag inloggen.';
 
-$_lang['setting_login_allowed_ip'] = 'Allowed IP Address';
-$_lang['setting_login_allowed_ip_desc'] = 'Enter the IP addresses that this user is allowed to login from. <strong>NOTE: Separate multiple IP addresses with a comma (,)</strong>';
+$_lang['setting_login_allowed_ip'] = 'Toegestaan IP adres';
+$_lang['setting_login_allowed_ip_desc'] = 'Vul het IP adres in van waar de gebruiker mag inloggen. <strong>Let op: verdeel meerdere IP adressen middels een komma (,)</strong>';
 
-$_lang['setting_login_homepage'] = 'Login Home Page';
-$_lang['setting_login_homepage_desc'] = 'Enter the ID of the document you want to send user to after he/she has logged in. <strong>NOTE: make sure the ID you enter belongs to an existing document, and that it has been published and is accessible by this user!</strong>';
+$_lang['setting_login_homepage'] = 'Inlogpagina';
+$_lang['setting_login_homepage_desc'] = 'Vul het ID van het document in waar ed gebruiker naartoe gestuurd wordt nadat hij/zij ingelogd is. <strong>Let op: controleer dat het ID dat je invult behoort bij een geldig document en bereikbaar is voor deze gebruiker!</strong>';
 
 // system settings
-$_lang['setting_access_policies_version'] = 'Access Policy Schema Version';
-$_lang['setting_access_policies_version_desc'] = 'The version of the Access Policy system. DO NOT CHANGE.';
+$_lang['setting_allow_duplicate_alias'] = 'Alias duplicaten toestaan';
+$_lang['setting_allow_duplicate_alias_desc'] = 'Indien ingesteld op \'Ja\', dan zijn er dezelfde aliassen mogelijk bij het opslaan. <strong>Let op: deze optie alleen gebruiken als \'Vriendelijk alias pad\' optie is ingesteld op \'Ja\' om problemen met de referentie aan een document te voorkomen.</strong>';
 
-$_lang['setting_allow_forward_across_contexts'] = 'Allow Forwarding Across Contexts';
-$_lang['setting_allow_forward_across_contexts_desc'] = 'When true, Symlinks and modX::sendForward() API calls can forward requests to Resources in other Contexts.';
+$_lang['setting_allow_tags_in_post'] = 'HTML tags in POST toestaan';
+$_lang['setting_allow_tags_in_post_desc'] = 'Indien onwaar, alle POST acties in de manager strippen elke html tag eruit. MODX beveelt aan om deze op waar te laten staan.';
 
-$_lang['setting_allow_tags_in_post'] = 'Allow HTML Tags in POST';
-$_lang['setting_allow_tags_in_post_desc'] = 'If false, all POST actions within the manager will strip out any tags. MODX Recommends to leave this set at true.';
+$_lang['setting_archive_with'] = 'Forceer PCLZip Archieven';
+$_lang['setting_archive_with_desc'] = 'Indien waar, dan wordt de PCLZip gebruikt in plaats van ZipArchive als zip extentie. Zet dit aan als je uitpak-errors krijgt of problemen hebt met uitpakken in de Pakket Manager.';
 
-$_lang['setting_archive_with'] = 'Force PCLZip Archives';
-$_lang['setting_archive_with_desc'] = 'If true, will use PCLZip instead of ZipArchive as the zip extension. Turn this on if you are getting extractTo errors or are having problems with unzipping in Package Management.';
+$_lang['setting_auto_menuindex'] = 'Standaard Menu indexing';
+$_lang['setting_auto_menuindex_desc'] = 'Selecteer \'Ja\' om standaard automatische menu index doortelling in te schakelen.';
 
-$_lang['setting_auto_menuindex'] = 'Menu indexing default';
-$_lang['setting_auto_menuindex_desc'] = 'Select \'Yes\' to turn on automatic menu index incrementing by default.';
+$_lang['setting_auto_check_pkg_updates'] = 'Automatisch controleren op pakket updates';
+$_lang['setting_auto_check_pkg_updates_desc'] = 'Indien \'Ja\', MODX zal automatisch controleren op updates voor pakketjes in de Pakket Manager. Hierdoor zal het laden van het overzicht langer duren.';
 
-$_lang['setting_auto_check_pkg_updates'] = 'Automatic Check for Package Updates';
-$_lang['setting_auto_check_pkg_updates_desc'] = 'If \'Yes\', MODX will automatically check for updates for packages in Package Management. This may slow the loading of the grid.';
+$_lang['setting_auto_check_pkg_updates_cache_expire'] = 'Cache verlooptijd voor automatisch pakket update controle';
+$_lang['setting_auto_check_pkg_updates_cache_expire_desc'] = 'Het aantal minuten dat de Pakket Manager de update resultaten in de cache houdt.';
 
-$_lang['setting_auto_check_pkg_updates_cache_expire'] = 'Cache Expiration Time for Automatic Package Updates Check';
-$_lang['setting_auto_check_pkg_updates_cache_expire_desc'] = 'The number of minutes that Package Management will cache the results for checking for package updates.';
+$_lang['setting_allow_multiple_emails'] = 'Toestaan dubbele e-mailadressen voor gebruikers';
+$_lang['setting_allow_multiple_emails_desc'] = 'Indien ingeschakeld, gebruikers mogen hetzelfde e-mailadressen hebben.';
 
-$_lang['setting_allow_multiple_emails'] = 'Allow Duplicate Emails for Users';
-$_lang['setting_allow_multiple_emails_desc'] = 'If enabled, Users may share the same email address.';
+$_lang['setting_automatic_alias'] = 'Automatisch aliassen genereren';
+$_lang['setting_automatic_alias_desc'] = 'Selecteer \'Ja\' om het systeem automatisch een alias te laten genereren aan de hand van de document titel bij het opslaan.';
 
-$_lang['setting_automatic_alias'] = 'Automatically generate alias';
-$_lang['setting_automatic_alias_desc'] = 'Select \'Yes\' to have the system automatically generate an alias based on the Resource\'s page title when saving.';
+$_lang['setting_blocked_minutes'] = 'Geblokkeerde minuten';
+$_lang['setting_blocked_minutes_desc'] = 'Hier kun je het aantal minuten definieren dat een gebruiker geblokkeerd is na het bereiken van het maximale aantal foutieve inlogpogingen. Vul alleen cijfers in (geen komma\'s, spaties etc.)';
 
-$_lang['setting_base_help_url'] = 'Base Help URL';
-$_lang['setting_base_help_url_desc'] = 'The base URL by which to build the Help links in the top right of pages in the manager.';
+$_lang['setting_cache_action_map'] = 'Actie Map Cache inschakelen';
+$_lang['setting_cache_action_map_desc'] = 'Indien ingeschakeld, acties (of controller maps) worden gecached om de laadtijd van de manager te beforderen.';
 
-$_lang['setting_blocked_minutes'] = 'Blocked Minutes';
-$_lang['setting_blocked_minutes_desc'] = 'Here you can enter the number of minutes that a user will be blocked for if they reach their maximum number of allowed failed login attempts. Please enter this value as numbers only (no commas, spaces etc.)';
+$_lang['setting_cache_context_settings'] = 'Context Instellingen Cache';
+$_lang['setting_cache_context_settings_desc'] = 'Indien ingeschakeld, context instellingen worden gecached om de laadtijd te bevorderen.';
 
-$_lang['setting_cache_action_map'] = 'Enable Action Map Cache';
-$_lang['setting_cache_action_map_desc'] = 'When enabled, actions (or controller maps) will be cached to reduce manager page load times.';
+$_lang['setting_cache_db'] = 'Database Cache inschakelen';
+$_lang['setting_cache_db_desc'] = 'Indien ingeschakeld, objects en ruwe resultaatsets van SQL queries worden gecached om de snelheid significant te verbeteren.';
 
-$_lang['setting_cache_context_settings'] = 'Enable Context Setting Cache';
-$_lang['setting_cache_context_settings_desc'] = 'When enabled, context settings will be cached to reduce load times.';
+$_lang['setting_cache_db_expires'] = 'Verlooptijd voor Database Cache';
+$_lang['setting_cache_db_expires_desc'] = 'Deze waarde (in seconden) stelt de verlooptijd voor de laatste cache bestanden van de database in.';
 
-$_lang['setting_cache_db'] = 'Enable Database Cache';
-$_lang['setting_cache_db_desc'] = 'When enabled, objects and raw result sets from SQL queries are cached to significantly reduce database loads.';
+$_lang['setting_cache_default'] = 'Cacheable standaard';
+$_lang['setting_cache_default_desc'] = 'Stel in op \'Ja\' om alle nieuwe documenten standaard cacheable te maken.';
+$_lang['setting_cache_default_err'] = 'Vermeld of je standaard wilt dat documenten worden gecached.';
 
-$_lang['setting_cache_db_expires'] = 'Expiration Time for DB Cache';
-$_lang['setting_cache_db_expires_desc'] = 'This value (in seconds) sets the amount of time cache files last for DB result-set caching.';
+$_lang['setting_cache_disabled'] = 'Uitschakelen globale Cache opties';
+$_lang['setting_cache_disabled_desc'] = 'Selecteer \'Ja\' om alle MODX caching functionaliteit uit te schakelen. MODX raad het niet aan dit uit te zetten.';
+$_lang['setting_cache_disabled_err'] = 'Vermeld of je wilt dat cache ingeschakeld moet zijn.';
 
-$_lang['setting_cache_default'] = 'Cacheable default';
-$_lang['setting_cache_default_desc'] = 'Select \'Yes\' to make all new Resources cacheable by default.';
-$_lang['setting_cache_default_err'] = 'Please state whether or not you want documents to be cached by default.';
+$_lang['setting_cache_json'] = 'Cache JSON Data';
+$_lang['setting_cache_json_desc'] = 'Cache elke JSON data verstuurd naar of van de manager UI.';
 
-$_lang['setting_cache_disabled'] = 'Disable Global Cache Options';
-$_lang['setting_cache_disabled_desc'] = 'Select \'Yes\' to disable all MODX caching features. MODX does not recommend disabling caching.';
-$_lang['setting_cache_disabled_err'] = 'Please state whether or not you want the cache enabled.';
+$_lang['setting_cache_expires'] = 'Verlooptijd van standaard Cache';
+$_lang['setting_cache_expires_desc'] = 'Deze waarde (in seconden) stelt de verlooptijd voor de laatste cache bestanden van de standaard in.';
 
-$_lang['setting_cache_expires'] = 'Expiration Time for Default Cache';
-$_lang['setting_cache_expires_desc'] = 'This value (in seconds) sets the amount of time cache files last for default caching.';
-
-$_lang['setting_cache_format'] = 'Caching Format to Use';
-$_lang['setting_cache_format_desc'] = '0 = PHP, 1 = JSON, 2 = serialize. One of the formats';
+$_lang['setting_cache_json_expires'] = 'Verlooptijd van JSON Cache';
+$_lang['setting_cache_json_expires_desc'] = 'Deze waarde (in seconden) stelt de verlooptijd voor de laatste cache bestanden van JSON in.';
 
 $_lang['setting_cache_handler'] = 'Caching Handler Class';
-$_lang['setting_cache_handler_desc'] = 'The class name of the type handler to use for caching.';
+$_lang['setting_cache_handler_desc'] = 'De class naam van het type handler te gebruiken voor caching.';
 
 $_lang['setting_cache_lang_js'] = 'Cache Lexicon JS Strings';
-$_lang['setting_cache_lang_js_desc'] = 'If set to true, this will use server headers to cache the lexicon strings loaded into JavaScript for the manager interface.';
+$_lang['setting_cache_lang_js_desc'] = 'Indien op waar ingesteld, zal dit server headers gebruiken om de lexicon strings geladen in Javascript voor de manager interface te cachen.';
 
 $_lang['setting_cache_lexicon_topics'] = 'Cache Lexicon Topics';
-$_lang['setting_cache_lexicon_topics_desc'] = 'When enabled, all Lexicon Topics will be cached so as to greatly reduce load times for Internationalization functionality. MODX strongly recommends leaving this set to \'Yes\'.';
+$_lang['setting_cache_lexicon_topics_desc'] = 'Indien ingeschakeld, alle Lexicon topics zullen gecached worden om de laadtijd van de internationalisatie functionaliteit sterk te verbeteren. MODX beveelt ten strengste aan dit op \'Ja\' te laten staan.';
 
 $_lang['setting_cache_noncore_lexicon_topics'] = 'Cache Non-Core Lexicon Topics';
-$_lang['setting_cache_noncore_lexicon_topics_desc'] = 'When disabled, non-core Lexicon Topics will be not be cached. This is useful to disable when developing your own Extras.';
+$_lang['setting_cache_noncore_lexicon_topics_desc'] = 'Indien uitgeschakeld, niet-core Lexicon topics worden niet gecached. Dit kan handig zijn als je je eigen extra\'s ontwikkeld.';
 
-$_lang['setting_cache_resource'] = 'Enable Partial Resource Cache';
-$_lang['setting_cache_resource_desc'] = 'Partial resource caching is configurable by resource when this feature is enabled.  Disabling this feature will disable it globally.';
+$_lang['setting_cache_resource'] = 'Inschakelen gedeeltelijke document Cache';
+$_lang['setting_cache_resource_desc'] = 'Gedeeltelijke document caching is configureerbaar per document als deze functionaliteit ingeschakeld is. Uitschakelen zal het globaal uitzetten.';
 
-$_lang['setting_cache_resource_expires'] = 'Expiration Time for Partial Resource Cache';
-$_lang['setting_cache_resource_expires_desc'] = 'This value (in seconds) sets the amount of time cache files last for partial Resource caching.';
+$_lang['setting_cache_resource_expires'] = 'Verlooptijd voor gedeeltelijke document Cache';
+$_lang['setting_cache_resource_expires_desc'] = 'Deze waarde (in seconden) stelt de verlooptijd voor de laatste cache bestanden van de gedeeltelijke documenten in.';
 
-$_lang['setting_cache_scripts'] = 'Enable Script Cache';
-$_lang['setting_cache_scripts_desc'] = 'When enabled, MODX will cache all Scripts (Snippets and Plugins) to file to reduce load times. MODX recommends leaving this set to \'Yes\'.';
+$_lang['setting_cache_scripts'] = 'Inschakelen Script Cache';
+$_lang['setting_cache_scripts_desc'] = 'Indien ingeschakeld, MODX zal alle scripts cachen (snippets en plugins) naar een bestand om de laadtijd te verbeteren. MODX beveelt aan deze op \'Ja\' ingesteld te laten.';
 
-$_lang['setting_cache_system_settings'] = 'Enable System Setting Cache';
-$_lang['setting_cache_system_settings_desc'] = 'When enabled, system settings will be cached to reduce load times. MODX recommends leaving this on.';
+$_lang['setting_cache_system_settings'] = 'Inschakelen Systeeminstellingen Cache';
+$_lang['setting_cache_system_settings_desc'] = 'Indien ingeschakeld, systeeminstellingen worden gecached om laadtijd te verbeteren. MODX beveelt aan om dit aan te laten staan.';
 
-$_lang['setting_clear_cache_refresh_trees'] = 'Refresh Trees on Site Cache Clear';
-$_lang['setting_clear_cache_refresh_trees_desc'] = 'When enabled, will refresh the trees after clearing the site cache.';
+$_lang['setting_compress_css'] = 'Gebruik Gecomprimeerde CSS';
+$_lang['setting_compress_css_desc'] = 'Indien ingeschakeld, MODX zal een gecomprimeerde versie van zijn css stylesheets gebruiken in de manager interface. Dit reduceert de laadtijd enorm in de manager. Schakel deze alleen uit als je aanpassingen verricht aan core elementen.';
 
-$_lang['setting_compress_css'] = 'Use Compressed CSS';
-$_lang['setting_compress_css_desc'] = 'When this is enabled, MODX will use a compressed version of its css stylesheets in the manager interface. This greatly reduces load and execution time within the manager. Disable only if you are modifying core elements.';
+$_lang['setting_compress_js'] = 'Gebruik Gecomprimeerde Javascript Libraries';
+$_lang['setting_compress_js_desc'] = 'Indien ingeschakeld, MODX zal een gecomprimeerde versie van zijn Javascript libraries gebruiken in de manager interface. Dit reduceert de laadtijd enorm in de manager. Schakel deze alleen uit als je aanpassingen verricht aan core elementen.';
 
-$_lang['setting_compress_js'] = 'Use Compressed Javascript Libraries';
-$_lang['setting_compress_js_desc'] = 'When this is enabled, MODX will use a compressed version of its custom JavaScript libraries in the manager interface. This greatly reduces load and execution time within the manager. Disable only if you are modifying core elements.';
+$_lang['setting_concat_js'] = 'Gebruik Samengevoegde Javascript Libraries';
+$_lang['setting_concat_js_desc'] = 'Indien ingeschakeld, MODX zal een samengevoegde versie gebruiken van zijn Javascript libraries in de manager interface. Dit reduceert de laadtijd enorm in de manager. Schakel deze alleen uit als je aanpassingen verricht aan core elementen.';
 
-$_lang['setting_concat_js'] = 'Use Concatenated Javascript Libraries';
-$_lang['setting_concat_js_desc'] = 'When this is enabled, MODX will use a concatenated version of its common JavaScript libraries in the manager interface. This greatly reduces load and execution time within the manager. Disable only if you are modifying core elements.';
+$_lang['setting_container_suffix'] = 'Container Achtervoegsel';
+$_lang['setting_container_suffix_desc'] = 'Het achtervoegsel voor documenten indien het containers zijn en als er gebruikt gemaakt wordt van FURLs.';
 
-$_lang['setting_container_suffix'] = 'Container Suffix';
-$_lang['setting_container_suffix_desc'] = 'The suffix to append to Resources set as containers when using FURLs.';
+$_lang['setting_cultureKey'] = 'Taal';
+$_lang['setting_cultureKey_desc'] = 'Selecteer de taal voor alle niet-manager Contexts, inclusief web.';
 
-$_lang['setting_cultureKey'] = 'Language';
-$_lang['setting_cultureKey_desc'] = 'Select the language for all non-manager Contexts, including web.';
+$_lang['setting_custom_resource_classes'] = 'Aangepaste Document Classes';
+$_lang['setting_custom_resource_classes_desc'] = 'Een komma-gescheiden lijst van aangepaste document classes. Specificeer met kleine letters de lexicon_sleutel:className (vb: wiki_resource:WikiResource). Alle classes moeten extenden van modResource. Om de locatie van de controller te specificeren voor elke class, voeg een instelling toe met kleine letters [deNaamVanDeClass]_delegate_path met een pad naar de map met de php maak/wijzig bestanden. Vb: wikiresource_delegate_path voor de class WikiResource welke modResource extend.';
 
-$_lang['setting_custom_resource_classes'] = 'Custom Resource Classes';
-$_lang['setting_custom_resource_classes_desc'] = 'A comma-separated list of custom Resource classes. Specify with lowercase_lexicon_key:className (Ex: wiki_resource:WikiResource). All custom Resource classes must extend modResource. To specify the controller location for each class, add a setting with [nameOfClassLowercase]_delegate_path with the directory path of the create/update php files. Ex: wikiresource_delegate_path for a class WikiResource that extends modResource.';
+$_lang['setting_default_template'] = 'Standaard Template';
+$_lang['setting_default_template_desc'] = 'Selecteer de standaard template welke je wilt gebruiken voor nieuwe documenten. Uiteraard kun je altijd nog een andere template kiezen in de document-editor, deze instelling selecteert er alvast een voor jou.';
 
-$_lang['setting_default_template'] = 'Default Template';
-$_lang['setting_default_template_desc'] = 'Select the default Template you wish to use for new Resources. You can still select a different template in the Resource editor, this setting just pre-selects one of your Templates for you.';
+$_lang['setting_default_per_page'] = 'Standaard Per Pagina';
+$_lang['setting_default_per_page_desc'] = 'Het standaard aantal rijen per pagina dat gebruikt wordt in overzichten in de manager.';
 
-$_lang['setting_default_per_page'] = 'Default Per Page';
-$_lang['setting_default_per_page_desc'] = 'The default number of results to show in grids throughout the manager.';
+$_lang['setting_editor_css_path'] = 'Pad naar CSS bestand';
+$_lang['setting_editor_css_path_desc'] = 'Vul een pad in naar jouw CSS bestand dat je wilt gebruiken in een richtekst editor. De beste manier om het pad in te voeren is vanaf de root van jouw installatie, bijvoorbeeld: /assets/site/style.css. Indien je geen CSS wilt laden in de richtekst editor, laat dit veld dan leeg.';
 
-$_lang['setting_editor_css_path'] = 'Path to CSS file';
-$_lang['setting_editor_css_path_desc'] = 'Enter the path to your CSS file that you wish to use within a richtext editor. The best way to enter the path is to enter the path from the root of your server, for example: /assets/site/style.css. If you do not wish to load a style sheet into a richtext editor, leave this field blank.';
+$_lang['setting_editor_css_selectors'] = 'CSS Selectors voor de editor';
+$_lang['setting_editor_css_selectors_desc'] = 'Een komma-gescheiden lijst van CSS selectors voor de richtext editor.';
 
-$_lang['setting_editor_css_selectors'] = 'CSS Selectors for Editor';
-$_lang['setting_editor_css_selectors_desc'] = 'A comma-separated list of CSS selectors for a richtext editor.';
+$_lang['setting_emailsender'] = 'Registratie e-mail from adres';
+$_lang['setting_emailsender_desc'] = 'Vul hier het e-mailadres in dat gebruikt wordt voor het versturen van de gebruikers zijn gebruikersnaam en wachtwoord.';
+$_lang['setting_emailsender_err'] = 'Vermeld het e-mailadres voor het e-mail bericht aan gebruikers.';
 
-$_lang['setting_emailsender'] = 'Registration E-mail From Address';
-$_lang['setting_emailsender_desc'] = 'Here you can specify the e-mail address used when sending Users their usernames and passwords.';
-$_lang['setting_emailsender_err'] = 'Please state the administration email address.';
+$_lang['setting_emailsubject'] = 'Registratie e-mail onderwerp';
+$_lang['setting_emailsubject_desc'] = 'Het onderwerp voor de standaard inschrijf e-mail wanneer een gebruiker zich aanmeldt.';
+$_lang['setting_emailsubject_err'] = 'Vermeld een onderwerp voor de inschrijf e-mail.';
 
-$_lang['setting_emailsubject'] = 'Registration E-mail Subject';
-$_lang['setting_emailsubject_desc'] = 'The subject line for the default signup email when a User is registered.';
-$_lang['setting_emailsubject_err'] = 'Please state the subject line for the signup email.';
+$_lang['setting_enable_dragdrop'] = 'Schakel drag/drop in voor document/element boomstructuren';
+$_lang['setting_enable_dragdrop_desc'] = 'Als uit, voorkom dan slepen en neerzetten in de document en element boomstructuur.';
 
-$_lang['setting_enable_dragdrop'] = 'Enable Drag/Drop in Resource/Element Trees';
-$_lang['setting_enable_dragdrop_desc'] = 'If off, will prevent dragging and dropping in Resource and Element trees.';
+$_lang['setting_error_page'] = 'Foutpagina';
+$_lang['setting_error_page_desc'] = 'Vul het ID in van het document jij wilt dat gebruikers naar doorgestuurd worden als een document verzoek niet gevonden kan worden. <strong>Let op: controleer dat dit ID behoort tot een geldig document en dat deze gepubliceerd is!</strong>';
+$_lang['setting_error_page_err'] = 'Specificeer een document ID voor de foutpagina.';
 
-$_lang['setting_error_page'] = 'Error Page';
-$_lang['setting_error_page_desc'] = 'Enter the ID of the document you want to send users to if they request a document which doesn\'t actually exist. <strong>NOTE: make sure this ID you enter belongs to an existing document, and that it has been published!</strong>';
-$_lang['setting_error_page_err'] = 'Please specify a document ID that is the error page.';
+$_lang['setting_extension_packages'] = 'Pakket Extensies';
+$_lang['setting_extension_packages_desc'] = 'Een komma-gescheiden list van te laden pakketjes in de MODX installatie. In het formaat pakketnaam:padnaarmodel';
 
-$_lang['setting_extension_packages'] = 'Extension Packages';
-$_lang['setting_extension_packages_desc'] = 'A JSON array of packages to load on MODX instantiation. In the format [{"packagename":{path":"path/to/package"},{"anotherpkg":{"path":"path/to/otherpackage"}}]';
+$_lang['setting_failed_login_attempts'] = 'Foutieve Inlogpogingen';
+$_lang['setting_failed_login_attempts_desc'] = 'Het aantal foutieve inlogpogingen waarna een gebruiker \'geblokkeerd\' wordt.';
 
-$_lang['setting_failed_login_attempts'] = 'Failed Login Attempts';
-$_lang['setting_failed_login_attempts_desc'] = 'The number of failed login attempts a User is allowed before becoming \'blocked\'.';
+$_lang['setting_fe_editor_lang'] = 'Front-end editor taal';
+$_lang['setting_fe_editor_lang_desc'] = 'Kies een taal voor de editor wanneer je een front-end editor gebruikt.';
 
-$_lang['setting_fe_editor_lang'] = 'Front-end Editor Language';
-$_lang['setting_fe_editor_lang_desc'] = 'Choose a language for the editor to use when used as a front-end editor.';
+$_lang['setting_feed_modx_news'] = 'MODX Nieuws Feed URL';
+$_lang['setting_feed_modx_news_desc'] = 'Stel de URL in voor de RSS feed voor het MODX Nieuws paneel in de manager.';
 
-$_lang['setting_feed_modx_news'] = 'MODX News Feed URL';
-$_lang['setting_feed_modx_news_desc'] = 'Set the URL for the RSS feed for the MODX News panel in the manager.';
+$_lang['setting_feed_modx_news_enabled'] = 'MODX Nieuws Feed Ingeschakeld';
+$_lang['setting_feed_modx_news_enabled_desc'] = 'Indien \'Nee\', MODX zal het Nieuws blok verbergen op het welkomstscherm van de manager.';
 
-$_lang['setting_feed_modx_news_enabled'] = 'MODX News Feed Enabled';
-$_lang['setting_feed_modx_news_enabled_desc'] = 'If \'No\', MODX will hide the News feed in the welcome section of the manager.';
+$_lang['setting_feed_modx_security'] = 'MODX Beveiliginsberichten Feed URL';
+$_lang['setting_feed_modx_security_desc'] = 'Stel de URL in voor de RSS feed voor hey MODX beveiligingsberichten paneel in de manager.';
 
-$_lang['setting_feed_modx_security'] = 'MODX Security Notices Feed URL';
-$_lang['setting_feed_modx_security_desc'] = 'Set the URL for the RSS feed for the MODX Security Notices panel in the manager.';
+$_lang['setting_feed_modx_security_enabled'] = 'MODX Beveiligings Feed Ingeschakeld';
+$_lang['setting_feed_modx_security_enabled_desc'] = 'Indien \'Nee\', MODX zal het Beveiligings blok verbergen op het welkomstscherm van de manager.';
 
-$_lang['setting_feed_modx_security_enabled'] = 'MODX Security Feed Enabled';
-$_lang['setting_feed_modx_security_enabled_desc'] = 'If \'No\', MODX will hide the Security feed in the welcome section of the manager.';
+$_lang['setting_filemanager_path'] = 'Bestandsmanager pad';
+$_lang['setting_filemanager_path_desc'] = 'IIS heeft moeite met het goed instellen van de document_root instelling, welke door de bestandsmanager gebruikt wordt zodat bepaald wordt wat jij te zien krijgt. Indien je problemen ondervindt in de bestandsmanager, controleer of dit pad naar de root van jouw MODX installatie gaat.';
 
-$_lang['setting_filemanager_path'] = 'File Manager Path';
-$_lang['setting_filemanager_path_desc'] = 'IIS often does not populate the document_root setting properly, which is used by the file manager to determine what you can look at. If you\'re having problems using the file manager, make sure this path points to the root of your MODX installation.';
+$_lang['setting_filemanager_url'] = 'Bestandsmanager URL';
+$_lang['setting_filemanager_url_desc'] = 'Optioneel. Stel deze in als je een expliciete URL wilt gebruiken voor de bestanden in de MODX bestandsmanager (handig als je het filemanager_path naar een pad buiten de MODX webroot hebt veranderd). Controleer wel of dit een web-bereikbare URL van de filemanager_path is. Als je deze leeg laat zal MODX proberen dit pad automatisch te berekenen.';
 
-$_lang['setting_filemanager_path_relative'] = 'Is File Manager Path Relative?';
-$_lang['setting_filemanager_path_relative_desc'] = 'If your filemanager_path setting is relative to the MODX base_path, then please set this setting to Yes. If your filemanager_path is outside the docroot, set this to No.';
+$_lang['setting_forgot_login_email'] = 'Inlog vergeten e-mail';
+$_lang['setting_forgot_login_email_desc'] = 'Het template voor de e-mail welke gestuurd wordt zodra een gebruiker zijn MODX gebruikersnaam/wachtwoord vergeten is';
 
-$_lang['setting_filemanager_url'] = 'File Manager Url';
-$_lang['setting_filemanager_url_desc'] = 'Optional. Set this if you want to set an explicit URL to access the files in the MODX file manager from (useful if you have changed filemanager_path to a path outside the MODX webroot). Make sure this is the web-accessible URL of the filemanager_path setting value. If leave this empty, MODX will try to automatically calculate it.';
+$_lang['setting_friendly_alias_lowercase_only'] = 'FURL Kleine letter aliassen';
+$_lang['setting_friendly_alias_lowercase_only_desc'] = 'Bepaal of er alleen kleine letters in een document alias gebruikt mag worden.';
 
-$_lang['setting_filemanager_url_relative'] = 'Is File Manager URL Relative?';
-$_lang['setting_filemanager_url_relative_desc'] = 'If your filemanager_url setting is relative to the MODX base_url, then please set this setting to Yes. If your filemanager_url is outside the main webroot, set this to No.';
+$_lang['setting_friendly_alias_max_length'] = 'FURL Maximale alias lengte';
+$_lang['setting_friendly_alias_max_length_desc'] = 'Indien groter dan nul, het maximale aantal tekens dat gebruikt voor een document alias. Nul is gelijk aan ongelimiteerd.';
 
-$_lang['setting_forgot_login_email'] = 'Forgot Login Email';
-$_lang['setting_forgot_login_email_desc'] = 'The template for the email that is sent when a user has forgotten their MODX username and/or password.';
+$_lang['setting_friendly_alias_restrict_chars'] = 'FURL Beperking alias karakter methode';
+$_lang['setting_friendly_alias_restrict_chars_desc'] = 'De methode wordt gebruikt om het aantal karakters te beperken in een document alias. "pattern" staat een RegEx patroon toe, "legal" staat elk geldig URL karakter toe, "alpha" staat alleen letters uit het alfabet toe en "alphanumeric" staat alleen letters en cijfers toe.';
 
-$_lang['setting_forward_merge_excludes'] = 'sendForward Exclude Fields on Merge';
-$_lang['setting_forward_merge_excludes_desc'] = 'A Symlink merges non-empty field values over the values in the target Resource; using this comma-delimited list of excludes prevents specified fields from being overridden by the Symlink.';
+$_lang['setting_friendly_alias_restrict_chars_pattern'] = 'FURL beperkingspatroon alias karakter';
+$_lang['setting_friendly_alias_restrict_chars_pattern_desc'] = 'Een geldig RegEx patroon voor het beperken van karakters in een document alias.';
 
-$_lang['setting_friendly_alias_lowercase_only'] = 'FURL Lowercase Aliases';
-$_lang['setting_friendly_alias_lowercase_only_desc'] = 'Determines whether to allow only lowercase characters in a Resource alias.';
+$_lang['setting_friendly_alias_strip_element_tags'] = 'FURL alias strip element tags';
+$_lang['setting_friendly_alias_strip_element_tags_desc'] = 'Bepaal of element tags gestript moeten worden van een document alias.';
 
-$_lang['setting_friendly_alias_max_length'] = 'FURL Alias Maximum Length';
-$_lang['setting_friendly_alias_max_length_desc'] = 'If greater than zero, the maximum number of characters to allow in a Resource alias. Zero equals unlimited.';
+$_lang['setting_friendly_alias_translit'] = 'FURL alias transliteratie';
+$_lang['setting_friendly_alias_translit_desc'] = 'De methode voor transliteratie die wordt gebruikt op een alias van een document. Leeg of "none" is de standaard waarde welke transliteratie overslaat. Andere mogelijke waarden zijn "iconv" (indien beschikbaar) of een naam van een transliteratie tabel, geleverd door een aangepaste transliteratie service class.';
 
-$_lang['setting_friendly_alias_restrict_chars'] = 'FURL Alias Character Restriction Method';
-$_lang['setting_friendly_alias_restrict_chars_desc'] = 'The method used to restrict characters used in a Resource alias. "pattern" allows a RegEx pattern to be provided, "legal" allows any legal URL characters, "alpha" allows only letters of the alphabet, and "alphanumeric" allows only letters and numbers.';
+$_lang['setting_friendly_alias_translit_class'] = 'FURL alias transliteration service class';
+$_lang['setting_friendly_alias_translit_class_desc'] = 'Een optionele service class welke een aangepaste transliteratie service bied voor de FURL Alias generator/filtering.';
 
-$_lang['setting_friendly_alias_restrict_chars_pattern'] = 'FURL Alias Character Restriction Pattern';
-$_lang['setting_friendly_alias_restrict_chars_pattern_desc'] = 'A valid RegEx pattern for restricting characters used in a Resource alias.';
+$_lang['setting_friendly_alias_trim_chars'] = 'FURL trim alias karakters';
+$_lang['setting_friendly_alias_trim_chars_desc'] = 'Karakters welke aan het eind van de een document alias weggehaald worden.';
 
-$_lang['setting_friendly_alias_strip_element_tags'] = 'FURL Alias Strip Element Tags';
-$_lang['setting_friendly_alias_strip_element_tags_desc'] = 'Determines if Element tags should be stripped from a Resource alias.';
+$_lang['setting_friendly_alias_urls'] = 'Gebruik vriendelijke aliassen';
+$_lang['setting_friendly_alias_urls_desc'] = 'Indien je vriendelijke URLs gebruikt en het document heeft een alias, dan heeft de alias altijd voorrang op de vriendelijke URL. Indien deze instelling op \'Ja\' gezet wordt, de content-type achtervoegsel van het document wordt dan toegevoegd aan de alias. Ter voorbeeld, jouw document met ID 1 heeft een alias als \'introductie\', en je hebt een content-type achtervoegsel als \'.html\', dan zal deze instelling \'introductie.html\' genereren. Indien er geen alias is, dan zal MODX \'1.html\' genereren als link.';
 
-$_lang['setting_friendly_alias_translit'] = 'FURL Alias Transliteration';
-$_lang['setting_friendly_alias_translit_desc'] = 'The method of transliteration to use on an alias specified for a Resource. Empty or "none" is the default which skips transliteration. Other possible values are "iconv" (if available) or a named transliteration table provided by a custom transliteration service class.';
+$_lang['setting_friendly_alias_word_delimiter'] = 'FURL scheidingsteken alias';
+$_lang['setting_friendly_alias_word_delimiter_desc'] = 'Het voorkeurs scheidingsteken voor de woorden in de alias voor vriendelijke URLs.';
 
-$_lang['setting_friendly_alias_translit_class'] = 'FURL Alias Transliteration Service Class';
-$_lang['setting_friendly_alias_translit_class_desc'] = 'An optional service class to provide named transliteration services for FURL Alias generation/filtering.';
+$_lang['setting_friendly_alias_word_delimiters'] = 'FURL scheidingsteken alias';
+$_lang['setting_friendly_alias_word_delimiters_desc'] = 'De karakters welke scheidingstekens voor vriendelijke URL aliassen gebruikt worden. Deze tekens worden omgezet en geconsolideerd om de gewenste FURL alias scheidingsteken te maken.';
 
-$_lang['setting_friendly_alias_translit_class_path'] = 'FURL Alias Transliteration Service Class Path';
-$_lang['setting_friendly_alias_translit_class_path_desc'] = 'The model package location where the FURL Alias Transliteration Service Class will be loaded from.';
+$_lang['setting_friendly_urls'] = 'Gebruik vriendelijke URLs';
+$_lang['setting_friendly_urls_desc'] = 'Dit staat je toe om zoekmachine vriendelijke URLs te gebruiken met MODX. Let op: dit zal alleen werken in MODX installaties draaiend op Apache en je moet een .htaccess bestand gemaakt hebben om dit te laten werken. Bekijk de .htaccess bestand welke is meegeleverd voor meer info.';
+$_lang['setting_friendly_urls_err'] = 'Vul in of je wel of niet gebruik wilt maken van vriendelijke URLs.';
 
-$_lang['setting_friendly_alias_trim_chars'] = 'FURL Alias Trim Characters';
-$_lang['setting_friendly_alias_trim_chars_desc'] = 'Characters to trim from the ends of a provided Resource alias.';
-
-$_lang['setting_friendly_alias_word_delimiter'] = 'FURL Alias Word Delimiter';
-$_lang['setting_friendly_alias_word_delimiter_desc'] = 'The preferred word delimiter for friendly URL alias slugs.';
-
-$_lang['setting_friendly_alias_word_delimiters'] = 'FURL Alias Word Delimiters';
-$_lang['setting_friendly_alias_word_delimiters_desc'] = 'Characters which represent word delimiters when processing friendly URL alias slugs. These characters will be converted and consolidated to the preferred FURL alias word delimiter.';
-
-$_lang['setting_friendly_urls'] = 'Use Friendly URLs';
-$_lang['setting_friendly_urls_desc'] = 'This allows you to use search engine friendly URLs with MODX. Please note, this only works for MODX installations running on Apache, and you\'ll need to write a .htaccess file for this to work. See the .htaccess file included in the distribution for more info.';
-$_lang['setting_friendly_urls_err'] = 'Please state whether or not you want to use friendly URLs.';
-
-$_lang['setting_global_duplicate_uri_check'] = 'Check for Duplicate URIs Across All Contexts';
-$_lang['setting_global_duplicate_uri_check_desc'] = 'Select \'Yes\' to make duplicate URI checks include all Contexts in the search. Otherwise, only the Context the Resource is being saved in is checked.';
-
-$_lang['setting_hidemenu_default'] = 'Hide From Menus Default';
-$_lang['setting_hidemenu_default_desc'] = 'Select \'Yes\' to make all new resources hidden from menus by default.';
-
-$_lang['setting_link_tag_scheme'] = 'URL Generation Scheme';
-$_lang['setting_link_tag_scheme_desc'] = 'URL generation scheme for tag [[~id]]. Available options: <a href="http://api.modxcms.com/modx/modX.html#makeUrl">http://api.modxcms.com/modx/modX.html#makeUrl</a>';
-
-$_lang['setting_mail_charset'] = 'Mail Charset';
-$_lang['setting_mail_charset_desc'] = 'The default charset for e-mails, e.g. \'iso-8859-1\' or \'utf-8\'';
+$_lang['setting_mail_charset'] = 'Mail Karakterset';
+$_lang['setting_mail_charset_desc'] = 'Het (standaard) karakterset voor e-mails, bijv. \'iso-8859-1\' of \'UTF-8\'';
 
 $_lang['setting_mail_encoding'] = 'Mail Encoding';
-$_lang['setting_mail_encoding_desc'] = 'Sets the Encoding of the message. Options for this are "8bit", "7bit", "binary", "base64", and "quoted-printable".';
+$_lang['setting_mail_encoding_desc'] = 'Stelt de encoding in van het bericht. Mogelijkheden voor dit zijn "8bit", "7bit", "binary", "base64" en "quoted-printable".';
 
-$_lang['setting_mail_use_smtp'] = 'Use SMTP';
-$_lang['setting_mail_use_smtp_desc'] = 'If true, MODX will attempt to use SMTP in mail functions.';
+$_lang['setting_mail_use_smtp'] = 'Gebruik SMTP';
+$_lang['setting_mail_use_smtp_desc'] = 'Indien waar, MODX zal probren SMTP te gebruiken in mail functionaliteiten.';
 
-$_lang['setting_mail_smtp_auth'] = 'SMTP Authentication';
-$_lang['setting_mail_smtp_auth_desc'] = 'Sets SMTP authentication. Utilizes the mail_smtp_user and mail_smtp_pass settings.';
+$_lang['setting_mail_smtp_auth'] = 'SMTP Authenticatie';
+$_lang['setting_mail_smtp_auth_desc'] = 'Stelt SMTP authenticatie in. Maakt gebruik van de mail_smtp_user en mail_smtp_pass instellingen.';
 
-$_lang['setting_mail_smtp_helo'] = 'SMTP Helo Message';
-$_lang['setting_mail_smtp_helo_desc'] = 'Sets the SMTP HELO of the message (Defaults to the hostname).';
+$_lang['setting_mail_smtp_helo'] = 'SMTP Helo Bericht';
+$_lang['setting_mail_smtp_helo_desc'] = 'Stelt de SMTP HELO in van het bericht (Standaard de hostnaam).';
 
 $_lang['setting_mail_smtp_hosts'] = 'SMTP Hosts';
-$_lang['setting_mail_smtp_hosts_desc'] = 'Sets the SMTP hosts.  All hosts must be separated by a semicolon.  You can also specify a different port for each host by using this format: [hostname:port] (e.g. "smtp1.example.com:25;smtp2.example.com"). Hosts will be tried in order.';
+$_lang['setting_mail_smtp_hosts_desc'] = 'Stelt de SMTP host in. Alle hosts moeten worden gescheiden door een puntcomma. Je kunt ook een andere poort gebruiken voor elke host, in dit formaat: [hostnaam:poort] (bijv. "smtp1.example.com:25;smtp2.example.com"). Hosts worden op volgorde gebruikt.';
 
 $_lang['setting_mail_smtp_keepalive'] = 'SMTP Keep-Alive';
-$_lang['setting_mail_smtp_keepalive_desc'] = 'Prevents the SMTP connection from being closed after each mail sending. Not recommended.';
+$_lang['setting_mail_smtp_keepalive_desc'] = 'Voorkomt dat de SMTP-verbinding wordt gesloten na elke gestuurde e-mail. Niet aanbevolen.';
 
-$_lang['setting_mail_smtp_pass'] = 'SMTP Password';
-$_lang['setting_mail_smtp_pass_desc'] = 'The password to authenticate to SMTP against.';
+$_lang['setting_mail_smtp_pass'] = 'SMTP wachtwoord';
+$_lang['setting_mail_smtp_pass_desc'] = 'Het wachtwoord voor de authenticatie voor de SMTP.';
 
-$_lang['setting_mail_smtp_port'] = 'SMTP Port';
-$_lang['setting_mail_smtp_port_desc'] = 'Sets the default SMTP server port.';
+$_lang['setting_mail_smtp_port'] = 'SMTP poort';
+$_lang['setting_mail_smtp_port_desc'] = 'Stel de standaard SMTP poort in.';
 
-$_lang['setting_mail_smtp_prefix'] = 'SMTP Connection Prefix';
-$_lang['setting_mail_smtp_prefix_desc'] = 'Sets connection prefix. Options are "", "ssl" or "tls"';
+$_lang['setting_mail_smtp_prefix'] = 'SMTP verbinding voorvoegsel';
+$_lang['setting_mail_smtp_prefix_desc'] = 'Stel het voorvoegsel van de verbinding in. Mogelijk zijn "", "ssl" of "tls"';
 
 $_lang['setting_mail_smtp_single_to'] = 'SMTP Single To';
-$_lang['setting_mail_smtp_single_to_desc'] = 'Provides the ability to have the TO field process individual emails, instead of sending to entire TO addresses.';
+$_lang['setting_mail_smtp_single_to_desc'] = 'Biedt de mogelijkheid om e-mail berichten afzonderlijk te sturen in plaats van het versturen naar alle \'naar\' adressen.';
 
 $_lang['setting_mail_smtp_timeout'] = 'SMTP Timeout';
-$_lang['setting_mail_smtp_timeout_desc'] = 'Sets the SMTP server timeout in seconds. This function will not work in win32 servers.';
+$_lang['setting_mail_smtp_timeout_desc'] = 'Stel de SMTP server timeout in, in seconden. Deze functionaliteit zal niet werken op win32 servers.';
 
-$_lang['setting_mail_smtp_user'] = 'SMTP User';
-$_lang['setting_mail_smtp_user_desc'] = 'The user to authenticate to SMTP against.';
+$_lang['setting_mail_smtp_user'] = 'SMTP Gebruiker';
+$_lang['setting_mail_smtp_user_desc'] = 'De gebruikersnaam voor de authenticatie voor de SMTP.';
 
-$_lang['setting_manager_direction'] = 'Manager Text Direction';
-$_lang['setting_manager_direction_desc'] = 'Choose the direction that the text will be rendered in the Manager, left to right or right to left.';
+$_lang['setting_manager_direction'] = 'Manager tekstrichting';
+$_lang['setting_manager_direction_desc'] = 'Kies de richting waarin de tekst getoond moet worden in de manager, van links naar rechts of van rechts naar links.';
 
-$_lang['setting_manager_date_format'] = 'Manager Date Format';
-$_lang['setting_manager_date_format_desc'] = 'The format string, in PHP date() format, for the dates represented in the manager.';
+$_lang['setting_manager_date_format'] = 'Manager Datumformaat';
+$_lang['setting_manager_date_format_desc'] = 'Het formaat, in PHP date() formaat, voor de datums vertegenwoordigd in de manager.';
 
-$_lang['setting_manager_favicon_url'] = 'Manager Favicon URL';
-$_lang['setting_manager_favicon_url_desc'] = 'If set, will load this URL as a favicon for the MODX manager. Must be a relative URL to the manager/ directory, or an absolute URL.';
+$_lang['setting_manager_lang_attribute'] = 'Manager HTML en XML taal attribuut';
+$_lang['setting_manager_lang_attribute_desc'] = 'Vul een taalcode in dat het beste past bij de gekozen manager taal, dit zal ervoor zorgen dat de browser de content in een zo goed mogelijk formaat kan tonen.';
 
-$_lang['setting_manager_lang_attribute'] = 'Manager HTML and XML Language Attribute';
-$_lang['setting_manager_lang_attribute_desc'] = 'Enter the language code that best fits with your chosen manager language, this will ensure that the browser can present content in the best format for you.';
+$_lang['setting_manager_language'] = 'Manager taal';
+$_lang['setting_manager_language_desc'] = 'Selecteer de taal voor de MODX content manager.';
 
-$_lang['setting_manager_language'] = 'Manager Language';
-$_lang['setting_manager_language_desc'] = 'Select the language for the MODX Content Manager.';
+$_lang['setting_manager_login_start'] = 'Manager inlog start';
+$_lang['setting_manager_login_start_desc'] = 'Vul het ID in van het document waar de gebruiker naartoe gestuurd moet worden zodra hij/zij inlogt in de manager. <strong>Let op: controleer of het ID behoort tot een bestaand document en dat het gepubliceerd is en bereikbaar voor deze gebruiker!</strong>';
 
-$_lang['setting_manager_login_start'] = 'Manager Login Startup';
-$_lang['setting_manager_login_start_desc'] = 'Enter the ID of the document you want to send the user to after he/she has logged into the manager. <strong>NOTE: make sure the ID you\'ve enter belongs to an existing document, and that it has been published and is accessible by this user!</strong>';
+$_lang['setting_manager_theme'] = 'Manager Thema';
+$_lang['setting_manager_theme_desc'] = 'Selecteer een thema voor de content manager.';
 
-$_lang['setting_manager_theme'] = 'Manager Theme';
-$_lang['setting_manager_theme_desc'] = 'Select the Theme for the Content Manager.';
+$_lang['setting_manager_time_format'] = 'Manager Tijdsformaat';
+$_lang['setting_manager_time_format_desc'] = 'Het formaat, in PHP date(), voor de tijd instellingen getoond in de manager.';
 
-$_lang['setting_manager_time_format'] = 'Manager Time Format';
-$_lang['setting_manager_time_format_desc'] = 'The format string, in PHP date() format, for the time settings represented in the manager.';
-
-$_lang['setting_manager_use_tabs'] = 'Use Tabs in Manager Layout';
-$_lang['setting_manager_use_tabs_desc'] = 'If true, the manager will use tabs for rendering the content panes. Otherwise, it will use portals.';
+$_lang['setting_manager_use_tabs'] = 'Gebruik tabs in de manager layout';
+$_lang['setting_manager_use_tabs_desc'] = 'Indien waar, de manager zal tabs gebruiken voor het renderen van de content panelen. Anders gebruikt het portalen.';
 
 $_lang['setting_modRequest.class'] = 'Request Handler Class';
 $_lang['setting_modRequest.class_desc'] = '';
 
-$_lang['setting_modx_charset'] = 'Character encoding';
-$_lang['setting_modx_charset_desc'] = 'Please select which character encoding you wish to use. Please note that MODX has been tested with a number of these encodings, but not all of them. For most languages, the default setting of UTF-8 is preferrable.';
+$_lang['setting_modx_charset'] = 'Karakter encoding';
+$_lang['setting_modx_charset_desc'] = 'Selecteer welek karakter encoding je wilt gebruiken. Onthoud dat MODX is getest met een aantal van deze encodings, maar niet met alle. Voor de meeste talen is de standaard instelling UTF-8 de voorkeur.';
 
-$_lang['setting_new_file_permissions'] = 'New File Permissions';
-$_lang['setting_new_file_permissions_desc'] = 'When uploading a new file in the File Manager, the File Manager will attempt to change the file permissions to those entered in this setting. This may not work on some setups, such as IIS, in which case you will need to manually change the permissions.';
+$_lang['setting_new_file_permissions'] = 'Nieuwe bestandsrechten';
+$_lang['setting_new_file_permissions_desc'] = 'Wanneer een nieuw bestand geupload wordt in de bestandsmanager, zal de bestandsmanager proberen de rechten van het bestand te veranderen naar deze instelling. Dit werkt niet op alle omgevingen, zoals IIS. In dat geval moet je zelf handmatig de rechten aanpassen.';
 
-$_lang['setting_new_folder_permissions'] = 'New Folder Permissions';
-$_lang['setting_new_folder_permissions_desc'] = 'When creating a new folder in the File Manager, the File Manager will attempt to change the folder permissions to those entered in this setting. This may not work on some setups, such as IIS, in which case you will need to manually change the permissions.';
+$_lang['setting_new_folder_permissions'] = 'Nieuwe maprechten';
+$_lang['setting_new_folder_permissions_desc'] = 'Wanneer een nieuwe map toegeoegd wordt in de bestandsmanager, zal de bestandsmanager proberen de rechten van de map te veranderen naar deze instelling. Dit werkt niet op alle omgevingen, zoals IIS. In dat geval moet je zelf handmatig de rechten aanpassen.';
 
-$_lang['setting_password_generated_length'] = 'Password Auto-Generated Length';
-$_lang['setting_password_generated_length_desc'] = 'The length of the auto-generated password for a User.';
+$_lang['setting_password_generated_length'] = 'Lengte auto-gegenereerde wachtwoorden';
+$_lang['setting_password_generated_length_desc'] = 'De lengte van de auto-gegenereerde wachtwoorden voor een gebruiker.';
 
-$_lang['setting_password_min_length'] = 'Minimum Password Length';
-$_lang['setting_password_min_length_desc'] = 'The minimum length for a password for a User.';
-
-$_lang['setting_principal_targets'] = 'ACL Targets to Load';
-$_lang['setting_principal_targets_desc'] = 'Customize the ACL targets to load for MODX Users.';
-
-$_lang['setting_proxy_auth_type'] = 'Proxy Authentication Type';
-$_lang['setting_proxy_auth_type_desc'] = 'Supports either BASIC or NTLM.';
+$_lang['setting_proxy_auth_type'] = 'Proxy Authenticatie Type';
+$_lang['setting_proxy_auth_type_desc'] = 'Ondersteund BASIC of NTLM.';
 
 $_lang['setting_proxy_host'] = 'Proxy Host';
-$_lang['setting_proxy_host_desc'] = 'If your server is using a proxy, set the hostname here to enable MODX features that might need to use the proxy, such as Package Management.';
+$_lang['setting_proxy_host_desc'] = 'Als jouw server gebruik maakt van een proxy, stel de hostnaam hier in om bepaalde functionaliteiten van MODX te activeren welke een proxy gebruiken, zoals de Pakket Manager.';
 
-$_lang['setting_proxy_password'] = 'Proxy Password';
-$_lang['setting_proxy_password_desc'] = 'The password required to authenticate to your proxy server.';
+$_lang['setting_proxy_password'] = 'Proxy wachtwoord';
+$_lang['setting_proxy_password_desc'] = 'Het wachtwoord nodig voor authenticatie van de proxy server.';
 
-$_lang['setting_proxy_port'] = 'Proxy Port';
-$_lang['setting_proxy_port_desc'] = 'The port for your proxy server.';
+$_lang['setting_proxy_port'] = 'Proxy poort';
+$_lang['setting_proxy_port_desc'] = 'De poort voor jouw proxy server.';
 
-$_lang['setting_proxy_username'] = 'Proxy Username';
-$_lang['setting_proxy_username_desc'] = 'The username to authenticate against with your proxy server.';
+$_lang['setting_proxy_username'] = 'Proxy gebruikersnaam';
+$_lang['setting_proxy_username_desc'] = 'De gebruikersnaam nodig voor authenticatie van de proxy server.';
 
-$_lang['setting_phpthumb_allow_src_above_docroot'] = 'phpThumb Allow src Above Document Root';
-$_lang['setting_phpthumb_allow_src_above_docroot_desc'] = 'Indicates if the src path is allowed outside the document root. This is useful for multi-context deployments with multiple virtual hosts.';
+$_lang['setting_password_min_length'] = 'Minimale wachtwoord lengte';
+$_lang['setting_password_min_length_desc'] = 'De minimale lengte van een wachtwoord voor een gebruiker.';
 
-$_lang['setting_phpthumb_cache_maxage'] = 'phpThumb Max Cache Age';
-$_lang['setting_phpthumb_cache_maxage_desc'] = 'Delete cached thumbnails that have not been accessed in more than X days.';
+$_lang['setting_phpthumb_cache_maxage'] = 'phpThumb maximale cache leeftijd';
+$_lang['setting_phpthumb_cache_maxage_desc'] = 'Verwijder gecachte thumbnails welke niet opgeroepen zijn meer dan X dagen.';
 
-$_lang['setting_phpthumb_cache_maxsize'] = 'phpThumb Max Cache Size';
-$_lang['setting_phpthumb_cache_maxsize_desc'] = 'Delete least-recently-accessed thumbnails when cache grows bigger than X megabytes in size.';
+$_lang['setting_phpthumb_cache_maxsize'] = 'phpThumb maximale cache grootte';
+$_lang['setting_phpthumb_cache_maxsize_desc'] = 'Verwijder minst onlangs benaderde thumbnails wanneer de cache groter is dan X megabytes.';
 
-$_lang['setting_phpthumb_cache_maxfiles'] = 'phpThumb Max Cache Files';
-$_lang['setting_phpthumb_cache_maxfiles_desc'] = 'Delete least-recently-accessed thumbnails when cache has more than X files.';
+$_lang['setting_phpthumb_cache_maxfiles'] = 'phpThumb maximale cache bestanden';
+$_lang['setting_phpthumb_cache_maxfiles_desc'] = 'Verwijder minst onlangs benaderde thumbnails wanneer de cache meer dan X bestanden heeft.';
 
-$_lang['setting_phpthumb_cache_source_enabled'] = 'phpThumb Cache Source Files';
-$_lang['setting_phpthumb_cache_source_enabled_desc'] = 'Whether or not to cache source files as they are loaded. Recommended to off.';
+$_lang['setting_phpthumb_cache_source_enabled'] = 'phpThumb cache bronbestanden';
+$_lang['setting_phpthumb_cache_source_enabled_desc'] = 'Wel of niet cachen van bronbestanden zodra ze geladen zijn. Uit is aanbevolen.';
 
-$_lang['setting_phpthumb_document_root'] = 'PHPThumb Document Root';
-$_lang['setting_phpthumb_document_root_desc'] = 'Set this if you are experiencing issues with the server variable DOCUMENT_ROOT, or getting errors with OutputThumbnail or !is_resource. Set it to the absolute document root path you would like to use. If this is empty, MODX will use the DOCUMENT_ROOT server variable.';
-
-$_lang['setting_phpthumb_error_bgcolor'] = 'phpThumb Error Background Color';
-$_lang['setting_phpthumb_error_bgcolor_desc'] = 'A hex value, without the #, indicating a background color for phpThumb error output.';
-
-$_lang['setting_phpthumb_error_fontsize'] = 'phpThumb Error Font Size';
-$_lang['setting_phpthumb_error_fontsize_desc'] = 'An em value indicating a font size to use for text appearing in phpThumb error output.';
-
-$_lang['setting_phpthumb_error_textcolor'] = 'phpThumb Error Font Color';
-$_lang['setting_phpthumb_error_textcolor_desc'] = 'A hex value, without the #, indicating a font color for text appearing in phpThumb error output.';
-
-$_lang['setting_phpthumb_far'] = 'phpThumb Force Aspect Ratio';
-$_lang['setting_phpthumb_far_desc'] = 'The default far setting for phpThumb when used in MODX. Defaults to C to force aspect ratio toward the center.';
-
-$_lang['setting_phpthumb_imagemagick_path'] = 'phpThumb ImageMagick Path';
-$_lang['setting_phpthumb_imagemagick_path_desc'] = 'Optional. Set an alternative ImageMagick path here for generating thumbnails with phpThumb, if it is not in the PHP default.';
-
-$_lang['setting_phpthumb_nohotlink_enabled'] = 'phpThumb Hotlinking Disabled';
-$_lang['setting_phpthumb_nohotlink_enabled_desc'] = 'Remote servers are allowed in the src parameter unless you disable hotlinking in phpThumb.';
-
-$_lang['setting_phpthumb_nohotlink_erase_image'] = 'phpThumb Hotlinking Erase Image';
-$_lang['setting_phpthumb_nohotlink_erase_image_desc'] = 'Indicates if an image generated from a remote server should be erased when not allowed.';
-
-$_lang['setting_phpthumb_nohotlink_text_message'] = 'phpThumb Hotlinking Not Allowed Message';
-$_lang['setting_phpthumb_nohotlink_text_message_desc'] = 'A message that is rendered instead of the thumbnail when a hotlinking attempt is rejected.';
-
-$_lang['setting_phpthumb_nohotlink_valid_domains'] = 'phpThumb Hotlinking Valid Domains';
-$_lang['setting_phpthumb_nohotlink_valid_domains_desc'] = 'A comma-delimited list of hostnames that are valid in src URLs.';
-
-$_lang['setting_phpthumb_nooffsitelink_enabled'] = 'phpThumb Offsite Linking Disabled';
-$_lang['setting_phpthumb_nooffsitelink_enabled_desc'] = 'Disables the ability for others to use phpThumb to render images on their own sites.';
-
-$_lang['setting_phpthumb_nooffsitelink_erase_image'] = 'phpThumb Offsite Linking Erase Image';
-$_lang['setting_phpthumb_nooffsitelink_erase_image_desc'] = 'Indicates if an image linked from a remote server should be erased when not allowed.';
-
-$_lang['setting_phpthumb_nooffsitelink_require_refer'] = 'phpThumb Offsite Linking Require Referrer';
-$_lang['setting_phpthumb_nooffsitelink_require_refer_desc'] = 'If enabled, any offsite linking attempts will be rejected without a valid referrer header.';
-
-$_lang['setting_phpthumb_nooffsitelink_text_message'] = 'phpThumb Offsite Linking Not Allowed Message';
-$_lang['setting_phpthumb_nooffsitelink_text_message_desc'] = 'A message that is rendered instead of the thumbnail when an offsite linking attempt is rejected.';
-
-$_lang['setting_phpthumb_nooffsitelink_valid_domains'] = 'phpThumb Offsite Linking Valid Domains';
-$_lang['setting_phpthumb_nooffsitelink_valid_domains_desc'] = 'A comma-delimited list of hostnames that are valid referrers for offsite linking.';
-
-$_lang['setting_phpthumb_nooffsitelink_watermark_src'] = 'phpThumb Offsite Linking Watermark Source';
-$_lang['setting_phpthumb_nooffsitelink_watermark_src_desc'] = 'Optional. A valid file system path to a file to use as a watermark source when your images are rendered offsite by phpThumb.';
+$_lang['setting_phpthumb_imagemagick_path'] = 'phpThumb ImageMagick pad';
+$_lang['setting_phpthumb_imagemagick_path_desc'] = 'Optioneel. Stel een alternatief ImageMagick pad in voor het genereren van de thumbnails met phpThumb, als het niet in de PHP standaard opgenomen is.';
 
 $_lang['setting_phpthumb_zoomcrop'] = 'phpThumb Zoom-Crop';
-$_lang['setting_phpthumb_zoomcrop_desc'] = 'The default zc setting for phpThumb when used in MODX. Defaults to 0 to prevent zoom cropping.';
+$_lang['setting_phpthumb_zoomcrop_desc'] = 'De standaard zoom-crop instelling voor phpThumb bij gebruik in MODX. Standaard op 0 om zoom-crop te voorkomen.';
 
-$_lang['setting_publish_default'] = 'Published default';
-$_lang['setting_publish_default_desc'] = 'Select \'Yes\' to make all new resources published by default.';
-$_lang['setting_publish_default_err'] = 'Please state whether or not you want documents to be published by default.';
+$_lang['setting_phpthumb_far'] = 'phpThumb behoud verhoudingen forceren';
+$_lang['setting_phpthumb_far_desc'] = 'De standaard instelling voor zover phpThumb bij gebruik in MODX. Standaard C tot verhouding in de richting van het midden.';
 
-$_lang['setting_rb_base_dir'] = 'Resource path';
-$_lang['setting_rb_base_dir_desc'] = 'Enter the physical path to the resource directory. This setting is usually automatically generated. If you\'re using IIS, however, MODX may not be able to work the path out on its own, causing the Resource Browser to show an error. In that case, you can enter the path to the images directory here (the path as you\'d see it in Windows Explorer). <strong>NOTE:</strong> The resource directory must contain the subfolders images, files, flash and media in order for the resource browser to function correctly.';
-$_lang['setting_rb_base_dir_err'] = 'Please state the resource browser base directory.';
-$_lang['setting_rb_base_dir_err_invalid'] = 'This resource directory either does not exist or cannot be accessed. Please state a valid directory or adjust the permissions of this directory.';
+$_lang['setting_publish_default'] = 'Standaard gepubliceerd';
+$_lang['setting_publish_default_desc'] = 'Selecteer \'Ja\' om alle nieuwe documenten standaard gepubliceerd te maken.';
+$_lang['setting_publish_default_err'] = 'Vul in om wel of niet documenten standaard gepubliceerd te maken.';
 
-$_lang['setting_rb_base_url'] = 'Resource URL';
-$_lang['setting_rb_base_url_desc'] = 'Enter the virtual path to resource directory. This setting is usually automatically generated. If you\'re using IIS, however, MODX may not be able to work the URL out on it\'s own, causing the Resource Browser to show an error. In that case, you can enter the URL to the images directory here (the URL as you\'d enter it on Internet Explorer).';
-$_lang['setting_rb_base_url_err'] = 'Please state the resource browser base URL.';
+$_lang['setting_rb_base_dir'] = 'Document pad';
+$_lang['setting_rb_base_dir_desc'] = 'Vul een fysiek pad in naar een document map. Deze instelling wordt normaal gesproken automatisch gegenereerd. Echter als je IIS gebruikt zal MODX niet in staat zijn het pad goed te genereren, dit veroorzaakt problemen met de document browser. In dat geval, kun je een pad naar de afbeeldingen map hier instellen (zoals je die ziet in Windows Explorer). <strong>Let op:</strong> De documentmap moet een submap images, files, flash en media bevatten om de browser goed te laten werken.';
+$_lang['setting_rb_base_dir_err'] = 'Vul een document browser basis map in.';
+$_lang['setting_rb_base_dir_err_invalid'] = 'Dit document bestaat niet of kan niet bereikt worden. Vul een geldige map in of pas de rechten van die map aan.';
 
-$_lang['setting_request_controller'] = 'Request Controller Filename';
-$_lang['setting_request_controller_desc'] = 'The filename of the main request controller from which MODX is loaded. Most users can leave this as index.php.';
+$_lang['setting_rb_base_url'] = 'Document URL';
+$_lang['setting_rb_base_url_desc'] = 'Vul een virtueel pad in naar de documentmap. Deze instelling wordt normaal gesproken automatisch gegenereerd. Echter als je IIS gebruikt zal MODX niet in staat zijn het pad goed te genereren, dit veroorzaakt problemen met de document browser. In dat geval, kun je een URL naar de afbeeldingen map hier instellen (zoals je die ziet in Internet Explorer).';
+$_lang['setting_rb_base_url_err'] = 'Vul een document browser basis URL in.';
 
-$_lang['setting_request_param_alias'] = 'Request Alias Parameter';
-$_lang['setting_request_param_alias_desc'] = 'The name of the GET parameter to identify Resource aliases when redirecting with FURLs.';
+$_lang['setting_request_controller'] = 'Request controller bestandsnaam';
+$_lang['setting_request_controller_desc'] = 'De bestandsnaam van de hoofd request controller vanwaar MODX geladen is. De meeste gebruikers kunnen dit laten staan op index.php.';
+
+$_lang['setting_request_param_alias'] = 'Request alias parameter';
+$_lang['setting_request_param_alias_desc'] = 'De naam van de GET parameter om document aliassen te identificeren bij doorsturen met FURLs.';
 
 $_lang['setting_request_param_id'] = 'Request ID Parameter';
-$_lang['setting_request_param_id_desc'] = 'The name of the GET parameter to identify Resource IDs when not using FURLs.';
+$_lang['setting_request_param_id_desc'] = 'De naam van de GET parameter om document aliassen te identificeren zonder gebruik van FURLs.';
 
-$_lang['setting_resolve_hostnames'] = 'Resolve hostnames';
-$_lang['setting_resolve_hostnames_desc'] = 'Do you want MODX to try to resolve your visitors\' hostnames when they visit your site? Resolving hostnames may create some extra server load, although your visitors won\'t notice this in any way.';
+$_lang['setting_resolve_hostnames'] = 'Achterhalen hostnamen';
+$_lang['setting_resolve_hostnames_desc'] = 'Wil je dat MODX probeert de hostnamen van jouw bezoekers te achterhalen wanneer deze jouw site bezoeken? Hostnamen achterhalen kan wellicht extra laadtijd veroorzaken, hoewel jouw bezoekers op geen enkele wijze bericht hiervan krijgen.';
 
-$_lang['setting_resource_tree_node_name'] = 'Resource Tree Node Field';
-$_lang['setting_resource_tree_node_name_desc'] = 'Specify the Resource field to use when rendering the nodes in the Resource Tree. Defaults to pagetitle, although any Resource field can be used, such as menutitle, alias, longtitle, etc.';
+$_lang['setting_richtext_default'] = 'Richtext standaard';
+$_lang['setting_richtext_default_desc'] = 'Selecteer \'Ja\' om alle nieuwe documenten gebruik te laten maken van de richtekst editor.';
 
-$_lang['setting_resource_tree_node_tooltip'] = 'Resource Tree Tooltip Field';
-$_lang['setting_resource_tree_node_tooltip_desc'] = 'Specify the Resource field to use when rendering the nodes in the Resource Tree. Any Resource field can be used, such as menutitle, alias, longtitle, etc. If blank, will be the longtitle with a description underneath.';
+$_lang['setting_search_default'] = 'Standaard doorzoekbaar';
+$_lang['setting_search_default_desc'] = 'Selecteer \'Ja\' om alle nieuwe documenten standaard doorzoekbaar in te stellen.';
+$_lang['setting_search_default_err'] = 'Geef aan of documenten standaard doorzoekbaar moeten zijn of niet.';
 
-$_lang['setting_richtext_default'] = 'Richtext Default';
-$_lang['setting_richtext_default_desc'] = 'Select \'Yes\' to make all new Resources use the Richtext Editor by default.';
-
-$_lang['setting_search_default'] = 'Searchable Default';
-$_lang['setting_search_default_desc'] = 'Select \'Yes\' to make all new resources searchable by default.';
-$_lang['setting_search_default_err'] = 'Please specify whether or not you want documents to be searchable by default.';
-
-$_lang['setting_server_offset_time'] = 'Server offset time';
-$_lang['setting_server_offset_time_desc'] = 'Select the number of hours time difference between where you are and where the server is.';
+$_lang['setting_server_offset_time'] = 'Server offset tijd';
+$_lang['setting_server_offset_time_desc'] = 'Selecteer het aantal uren in tijdsverschil in waar jij bent en waar de server is.';
 
 $_lang['setting_server_protocol'] = 'Server type';
-$_lang['setting_server_protocol_desc'] = 'If your site is on a https connection, please specify so here.';
-$_lang['setting_server_protocol_err'] = 'Please specify whether or not your site is a secure site.';
+$_lang['setting_server_protocol_desc'] = 'Als jouw site op een http verbinding draait, specificeer het hier.';
+$_lang['setting_server_protocol_err'] = 'Geef aan of jouw site wel of niet een beveiligde site is';
 $_lang['setting_server_protocol_http'] = 'http';
 $_lang['setting_server_protocol_https'] = 'https';
 
-$_lang['setting_session_cookie_domain'] = 'Session Cookie Domain';
-$_lang['setting_session_cookie_domain_desc'] = 'Use this setting to customize the session cookie domain. Leave blank to use the current domain.';
+$_lang['setting_session_cookie_domain'] = 'Sessie cookie domein';
+$_lang['setting_session_cookie_domain_desc'] = 'Gebruik deze instelling om de sessie cookie domein aan te passen.';
 
-$_lang['setting_session_cookie_lifetime'] = 'Session Cookie Lifetime';
-$_lang['setting_session_cookie_lifetime_desc'] = 'Use this setting to customize the session cookie lifetime in seconds.  This is used to set the lifetime of a client session cookie when they choose the \'remember me\' option on login.';
+$_lang['setting_session_cookie_lifetime'] = 'Sessie cookie verlooptijd';
+$_lang['setting_session_cookie_lifetime_desc'] = 'Gebruik deze instelling om de sessie cookie verlooptijd in seconden aan te passen. Dit wordt gebruikt om de verlooptijd van de sessie cookie wanneer er gekozen wordt voor \'onthoud mij\' optie bij het inloggen.';
 
-$_lang['setting_session_cookie_path'] = 'Session Cookie Path';
-$_lang['setting_session_cookie_path_desc'] = 'Use this setting to customize the cookie path for identifying site specific session cookies. Leave blank to use MODX_BASE_URL.';
+$_lang['setting_session_cookie_path'] = 'Sessie cookie pad';
+$_lang['setting_session_cookie_path_desc'] = 'Gebruik deze instelling om het cookie pad aan te passen voor het identificeren van specifieke site sessie cookies';
 
-$_lang['setting_session_cookie_secure'] = 'Session Cookie Secure';
-$_lang['setting_session_cookie_secure_desc'] = 'Enable this setting to use secure session cookies.';
+$_lang['setting_session_cookie_secure'] = 'Sessie cookie beveiligd';
+$_lang['setting_session_cookie_secure_desc'] = 'Activeer deze instelling om beveiligde cookies te gebruiken.';
 
-$_lang['setting_session_handler_class'] = 'Session Handler Class Name';
-$_lang['setting_session_handler_class_desc'] = 'For database managed sessions, use \'modSessionHandler\'.  Leave this blank to use standard PHP session management.';
+$_lang['setting_session_handler_class'] = 'Sessie handler classnaam';
+$_lang['setting_session_handler_class_desc'] = 'Voor database gestuurde sessies, gebruik \'modSessionHandler\'. Laat deze leeg voor de standaard PHP sessie management.';
 
-$_lang['setting_session_name'] = 'Session Name';
-$_lang['setting_session_name_desc'] = 'Use this setting to customize the session name used for the sessions in MODX. Leave blank to use the default PHP session name.';
+$_lang['setting_session_name'] = 'Sessienaam';
+$_lang['setting_session_name_desc'] = 'Gebruik deze instelling om de sessienaam voor gebruik in sessies in MODX aan te passen.';
 
-$_lang['setting_settings_version'] = 'Settings Version';
-$_lang['setting_settings_version_desc'] = 'The current installed version of MODX.';
+$_lang['setting_settings_version'] = 'Instellingen Versie';
+$_lang['setting_settings_version_desc'] = 'De huidig ge�nstalleerde versie van MODX.';
 
-$_lang['setting_settings_distro'] = 'Settings Distribution';
-$_lang['setting_settings_distro_desc'] = 'The current installed distribution of MODX.';
+$_lang['setting_set_header'] = 'Stel HTTP Headers in';
+$_lang['setting_set_header_desc'] = 'Indien geactiveerd, MODX zal proberen de HTTP headers in te stellen voor documenten.';
 
-$_lang['setting_set_header'] = 'Set HTTP Headers';
-$_lang['setting_set_header_desc'] = 'When enabled, MODX will attempt to set the HTTP headers for Resources.';
+$_lang['setting_signupemail_message'] = 'Inschrijf e-mail';
+$_lang['setting_signupemail_message_desc'] = 'Hier kun je het e-mailbericht opstellen welke gestuurd wordt naar gebruikers wanneer je een account voor ze aanmaakt en MODX een e-mail laat sturen met de te gebruiken gebruikersnaam en wachtwoord.<br /><strong>Let op:</strong> de volgende placeholders worden vervangen door de Content Manager wanneer het bericht verstuurd wordt:<br /><br />[[+sname]] - Naam van jouw website<br />[[+saddr]] - Het standaard e-mailadres<br />[[+surl]] - Website URL<br />[[+uid]] - Gebruikers loginnaam of id<br />[[+pwd]] - Gebruikerswachtwoord<br />[[+ufn]] - Gebruikers volledige naam<br /><br />Laat de [[+uid]] en [[+pwd]] in het e-mailbericht, want anders wordt er geen gebruikersnaam en wachtwoord gestuurd en weet de gebruiker niet hoe hij/zij moet inloggen!</strong>';
+$_lang['setting_signupemail_message_default'] = 'Hallo [[+uid]]\n\nHier zijn jouw logingegevens voor [[+sname]] Content Manager:\n\nGebruikersnaam: [[+uid]]\nWachtwoord: [[+pwd]]\n\nAls je inlogt in de Content Manager ([[+surl]]), kun je je wachtwoord wijzigen.\n\nMet vriendelijke groet,\nSite beheerder';
 
-$_lang['setting_signupemail_message'] = 'Sign-up e-mail';
-$_lang['setting_signupemail_message_desc'] = 'Here you can set the message sent to your users when you create an account for them and let MODX send them an e-mail containing their username and password. <br /><strong>Note:</strong> The following placeholders are replaced by the Content Manager when the message is sent: <br /><br />[[+sname]] - Name of your web site, <br />[[+saddr]] - Your web site email address, <br />[[+surl]] - Your site url, <br />[[+uid]] - User\'s Login name or id, <br />[[+pwd]] - User\'s password, <br />[[+ufn]] - User\'s full name. <br /><br /><strong>Leave the [[+uid]] and [[+pwd]] in the e-mail, or else the username and password won\'t be sent in the mail and your users won\'t know their username or password!</strong>';
-$_lang['setting_signupemail_message_default'] = 'Hello [[+uid]] \n\nHere are your login details for [[+sname]] Content Manager:\n\nUsername: [[+uid]]\nPassword: [[+pwd]]\n\nOnce you log into the Content Manager ([[+surl]]), you can change your password.\n\nRegards,\nSite Administrator';
-
-$_lang['setting_site_name'] = 'Site name';
-$_lang['setting_site_name_desc'] = 'Enter the name of your site here.';
-$_lang['setting_site_name_err']  = 'Please enter a site name.';
+$_lang['setting_site_name'] = 'Site naam';
+$_lang['setting_site_name_desc'] = 'Vul de naam van jouw site in!';
+$_lang['setting_site_name_err']  = 'Vul een site naam in';
 
 $_lang['setting_site_start'] = 'Site start';
-$_lang['setting_site_start_desc'] = 'Enter the ID of the Resource you want to use as homepage here. <strong>NOTE: make sure this ID you enter belongs to an existing Resource, and that it has been published!</strong>';
-$_lang['setting_site_start_err'] = 'Please specify a Resource ID that is the site start.';
+$_lang['setting_site_start_desc'] = 'Vul het ID van het document in dat jij als startpagina wilt hebben. <strong>Let op:</strong> controleer of dit ID behoort tot een bestaand document en dat dit document gepubliceerd is!</strong>';
+$_lang['setting_site_start_err'] = 'Vul een ID in welke de startpagina zal zijn.';
 
 $_lang['setting_site_status'] = 'Site status';
-$_lang['setting_site_status_desc'] = 'Select \'Yes\' to publish your site on the web. If you select \'No\', your visitors will see the \'Site unavailable message\', and won\'t be able to browse the site.';
-$_lang['setting_site_status_err'] = 'Please select whether or not the site is online (Yes) or offline (No).';
+$_lang['setting_site_status_desc'] = 'Selecteer \'Ja\' om de site beschikbaar te maken voor het web. Indien je \'Nee\' selecteert, jouw bezoekers zien dan een \'Site niet beschikbaar bericht\' en zijn niet in staat door de site te navigeren.';
+$_lang['setting_site_status_err'] = 'Selecteer of jouw website wel (Ja) of niet (Nee) online is.';
 
-$_lang['setting_site_unavailable_message'] = 'Site unavailable message';
-$_lang['setting_site_unavailable_message_desc'] = 'Message to show when the site is offline or if an error occurs. <strong>Note: This message will only be displayed if the Site unavailable page option is not set.</strong>';
+$_lang['setting_site_unavailable_message'] = 'Site niet beschikbaar bericht';
+$_lang['setting_site_unavailable_message_desc'] = 'Bericht te tonen wanneer de site offline is of wanneer er een fout optreed. <strong>Let op: Dit bericht wordt alleen getoont als de Site niet beschikbaar pagina optie niet ingesteld is.</strong>';
 
-$_lang['setting_site_unavailable_page'] = 'Site unavailable page';
-$_lang['setting_site_unavailable_page_desc'] = 'Enter the ID of the Resource you want to use as an offline page here. <strong>NOTE: make sure this ID you enter belongs to an existing Resource, and that it has been published!</strong>';
-$_lang['setting_site_unavailable_page_err'] = 'Please specify the document ID for the site unavailable page.';
+$_lang['setting_site_unavailable_page'] = 'Site niet beschikbaar pagina';
+$_lang['setting_site_unavailable_page_desc'] = 'Vul een ID van een document dat je wilt gebruiker als offline pagina. <strong>Let op: controleer dat dit ID een geldig document ID is en dat het document gepubliceerd is!</strong>';
+$_lang['setting_site_unavailable_page_err'] = 'Vul een document ID in voor de niet beschikbaar pagina.';
 
-$_lang['setting_strip_image_paths'] = 'Rewrite browser paths?';
-$_lang['setting_strip_image_paths_desc'] = 'If this is set to \'No\', MODX will write file browser resource src\'s (images, files, flash, etc.) as absolute URLs. Relative URLs are helpful should you wish to move your MODX install, e.g., from a staging site to a production site. If you have no idea what this means, it\'s best just to leave it set to \'Yes\'.';
+$_lang['setting_strip_image_paths'] = 'Herschrijf browser paden?';
+$_lang['setting_strip_image_paths_desc'] = 'Als dit op \'Nee\' gezet is, MODX zal bestandsmanager geschreven src\'s (afbeeldingen, bestanden, flash, etc.) als absolute URLs. Relatieve URLs zijn nuttig indien je wenst de MODX installatie te verplaatsen, bijv. van staging naar een productie omgeving. Indien je niet weet wat dit inhoudt laat dit dan staan op \'Ja\'.';
 
-$_lang['setting_symlink_merge_fields'] = 'Merge Resource Fields in Symlinks';
-$_lang['setting_symlink_merge_fields_desc'] = 'If set to Yes, will automatically merge non-empty fields with target resource when forwarding using Symlinks.';
+$_lang['setting_topmenu_show_descriptions'] = 'Toon omschrijvingen in het topmenu';
+$_lang['setting_topmenu_show_descriptions_desc'] = 'Als op \'No\' ingesteld is, MODX zal de omschrijvingen verbergen in het menu bovenin de manager.';
 
-$_lang['setting_topmenu_show_descriptions'] = 'Show Descriptions in Top Menu';
-$_lang['setting_topmenu_show_descriptions_desc'] = 'If set to \'No\', MODX will hide the descriptions from top menu items in the manager.';
+$_lang['setting_tree_root_id'] = 'Structuur Root ID';
+$_lang['setting_tree_root_id_desc'] = 'Stel dit in naar een geldig ID van een document om boomstructuur aan de linkerkant te starten als root. De gebruiker zal alleen de documenten zien dat subs zijn van dit document.';
 
-$_lang['setting_tree_default_sort'] = 'Resource Tree Default Sort Field';
-$_lang['setting_tree_default_sort_desc'] = 'The default sort field for the Resource tree when loading the manager.';
+$_lang['setting_udperms_allowroot'] = 'Root toestaan';
+$_lang['setting_udperms_allowroot_desc'] = 'Wil je gebruikers toestaan om nieuwe documenten te maken in de root van jouw site?';
 
-$_lang['setting_tree_root_id'] = 'Tree Root ID';
-$_lang['setting_tree_root_id_desc'] = 'Set this to a valid ID of a Resource to start the left Resource tree at below that node as the root. The user will only be able to see Resources that are children of the specified Resource.';
+$_lang['setting_unauthorized_page'] = 'Onbevoegde pagina';
+$_lang['setting_unauthorized_page_desc'] = 'Vul het ID in van het document waar je gebruikers naar toe wilt sturen als ze een beveiligde of onbevoegde pagina opvragen. <strong>Let op: controleer of dit document ID bestaat en gepubliceerd is en toegankelijk is voor deze gebruiker!</strong>';
+$_lang['setting_unauthorized_page_err'] = 'Vul een document ID in voor de onbevoegde pagina.';
 
-$_lang['setting_udperms_allowroot'] = 'Allow root';
-$_lang['setting_udperms_allowroot_desc'] = 'Do you want to allow your users to create new Resources in the root of the site? ';
+$_lang['setting_upload_files'] = 'Uploadbare bestandstypen';
+$_lang['setting_upload_files_desc'] = 'Hier kun je een lijst van bestandstypen invullen welke geupload kunnen worden in \'assets/files/\' bij gebruik van de document manager. Vul de extenties van de bestandstypen in gescheiden door een komma.';
 
-$_lang['setting_unauthorized_page'] = 'Unauthorized page';
-$_lang['setting_unauthorized_page_desc'] = 'Enter the ID of the Resource you want to send users to if they have requested a secured or unauthorized Resource. <strong>NOTE: make sure the ID you enter belongs to an existing Resource, and that it has been published and is publicly accessible!</strong>';
-$_lang['setting_unauthorized_page_err'] = 'Please specify a Resource ID for the unauthorized page.';
+$_lang['setting_upload_flash'] = 'Uploadbare Flashtypen';
+$_lang['setting_upload_flash_desc'] = 'Hier kun je een lijst van bestandstypen invullen welke geupload kunnen worden in \'assets/flash/\' bij gebruik van de document manager. Vul de extenties van de bestandstypen in gescheiden door een komma.';
 
-$_lang['setting_upload_files'] = 'Uploadable File Types';
-$_lang['setting_upload_files_desc'] = 'Here you can enter a list of files that can be uploaded into \'assets/files/\' using the Resource Manager. Please enter the extensions for the filetypes, seperated by commas.';
+$_lang['setting_upload_images'] = 'Uploadbare afbeeldingstypen';
+$_lang['setting_upload_images_desc'] = 'Hier kun je een lijst van bestandstypen invullen welke geupload kunnen worden in \'assets/images/\' bij gebruik van de document manager. Vul de extenties van de bestandstypen in gescheiden door een komma.';
 
-$_lang['setting_upload_flash'] = 'Uploadable Flash Types';
-$_lang['setting_upload_flash_desc'] = 'Here you can enter a list of files that can be uploaded into \'assets/flash/\' using the Resource Manager. Please enter the extensions for the flash types, separated by commas.';
+$_lang['setting_upload_maxsize'] = 'Maximale upload grootte';
+$_lang['setting_upload_maxsize_desc'] = 'Vul een maximale bestandsgrootte in dat geupload kan worden via de bestandsmanager. Upload grootte moet ingevuld worden in bytes. <strong>Let op: grote bestanden kunnen er lang over doen voordat ze geupload zijn!</strong>';
 
-$_lang['setting_upload_images'] = 'Uploadable Image Types';
-$_lang['setting_upload_images_desc'] = 'Here you can enter a list of files that can be uploaded into \'assets/images/\' using the Resource Manager. Please enter the extensions for the image types, separated by commas.';
+$_lang['setting_upload_media'] = 'Uploadbare mediatypen';
+$_lang['setting_upload_media_desc'] = 'Hier kun je een lijst van bestandstypen invullen welke geupload kunnen worden in \'assets/media/\' bij gebruik van de document manager. Vul de extenties van de bestandstypen in gescheiden door een komma.';
 
-$_lang['setting_upload_maxsize'] = 'Maximum upload size';
-$_lang['setting_upload_maxsize_desc'] = 'Enter the maximum file size that can be uploaded via the file manager. Upload file size must be entered in bytes. <strong>NOTE: Large files can take a very long time to upload!</strong>';
+$_lang['setting_use_alias_path'] = 'Gebruik vriendelijke aliaspaden';
+$_lang['setting_use_alias_path_desc'] = 'Stel deze optie in op \'Ja\' zal een volledig pad tonen naar het document als het een alias heeft. Ter voorbeeld, als een document met een alias genaamd \'child\' in een container document zit met een alias genaamd \'parent\', dan is het volledige pad naar het document dat getoond word zoiets als \'parent/child.html\'<br /><strong>Let op: wanneer je deze instelling instelt op \'Ja\' (aanzetten aliaspaden), refereer items (zoals afbeeldingen, css, javascripts, etc.) middels gebruik van absolute paden: bijv., \'/assets/images\' in tegenstelling tot \'assets/images\'. Als je dit doet dan voorkom je dat de browser (of webserver) dat ze het pad toevoegen aan het alias pad.</strong>';
 
-$_lang['setting_upload_media'] = 'Uploadable Media Types';
-$_lang['setting_upload_media_desc'] = 'Here you can enter a list of files that can be uploaded into \'assets/media/\' using the Resource Manager. Please enter the extensions for the media types, separated by commas.';
+$_lang['setting_use_browser'] = 'Activeren document manager';
+$_lang['setting_use_browser_desc'] = 'Selecteer \'Ja\' om de document manager te gebruiken. Dit zal jouw gebruikers toestaan om te bladeren en te uploaden van documenten zoals afbeeldingen, flash en media bestanden op de server.';
+$_lang['setting_use_browser_err'] = 'Vul in of je wel of niet gebruik wilt maken van de document manager.';
 
-$_lang['setting_use_alias_path'] = 'Use Friendly Alias Path';
-$_lang['setting_use_alias_path_desc'] = 'Setting this option to \'yes\' will display the full path to the Resource if the Resource has an alias. For example, if a Resource with an alias called \'child\' is located inside a container Resource with an alias called \'parent\', then the full alias path to the Resource will be displayed as \'/parent/child.html\'.<br /><strong>NOTE: When setting this option to \'Yes\' (turning on alias paths), reference items (such as images, css, javascripts, etc) use the absolute path: e.g., \'/assets/images\' as opposed to \'assets/images\'. By doing so you will prevent the browser (or web server) from appending the relative path to the alias path.</strong>';
+$_lang['setting_use_editor'] = 'Activeer rich tekst editor';
+$_lang['setting_use_editor_desc'] = 'Wil je gebruik van de rich tekst editor inschakelen? Als je je pretiger voelt met schrijven van HTML, dan kun je de editor uitzetten middels deze instelling. Let op dat deze instelling wordt toegepast op alle documenten en gebruikers!';
+$_lang['setting_use_editor_err'] = 'Geef aan of je de RTE editor wel of niet wilt gebruiken.';
 
-$_lang['setting_use_browser'] = 'Enable Resource Browser';
-$_lang['setting_use_browser_desc'] = 'Select yes to enable the resource browser. This will allow your users to browse and upload resources such as images, flash and media files on the server.';
-$_lang['setting_use_browser_err'] = 'Please state whether or not you want to use the resource browser.';
+$_lang['setting_use_multibyte'] = 'Gebruik multibyte extensie';
+$_lang['setting_use_multibyte_desc'] = 'Stel in op waar als je gebruik wilt maken van mbstring extentie voor multibyte karakters in jouw MODX installatie. Alleen op waar instellen als de mbstring PHP extentie ge�nstalleerd is.';
 
-$_lang['setting_use_editor'] = 'Enable Rich Text Editor';
-$_lang['setting_use_editor_desc'] = 'Do you want to enable the rich text editor? If you\'re more comfortable writing HTML, then you can turn the editor off using this setting. Note that this setting applies to all documents and all users!';
-$_lang['setting_use_editor_err'] = 'Please state whether or not you want to use an RTE editor.';
+$_lang['setting_webpwdreminder_message'] = 'Web herinneringsbericht';
+$_lang['setting_webpwdreminder_message_desc'] = 'Hier kun je het e-mailbericht opstellen welke gestuurd wordt naar gebruikers wanneer ze een nieuw wachtwoord aanvragen. De Content Managr zal een e-mail sturen met het nieuwe wachtwoord en activatie informatie.<br /><strong>Let op:</strong> de volgende placeholders worden vervangen door de Content Manager wanneer het bericht verstuurd wordt:<br /><br />[[+sname]] - Naam van jouw website<br />[[+saddr]] - Het standaard e-mailadres<br />[[+surl]] - Website URL<br />[[+uid]] - Gebruikers loginnaam of id<br />[[+pwd]] - Gebruikerswachtwoord<br />[[+ufn]] - Gebruikers volledige naam<br /><br />Laat de [[+uid]] en [[+pwd]] in het e-mailbericht, want anders wordt er geen gebruikersnaam en wachtwoord gestuurd en weet de gebruiker niet hoe hij/zij moet inloggen!</strong>';
+$_lang['setting_webpwdreminder_message_default'] = 'Hallo [[+uid]]\n\nOm je nieuwe wachtwoord te activeren, klik op de volgende link:\n\n[[+surl]]\n\nAls dit succesvol is kun je het volgende wachtwoord gebruiken om in te loggen:\n\nWachtwoord: [[+pwd]]\n\nAls je niet om een nieuw wachtwoord gevraagd hebt dan kun je dit bericht negeren.\n\nMet vriendelijke groet,\nSite beheerder';
 
-$_lang['setting_use_multibyte'] = 'Use Multibyte Extension';
-$_lang['setting_use_multibyte_desc'] = 'Set to true if you want to use the mbstring extension for multibyte characters in your MODX installation. Only set to true if you have the mbstring PHP extension installed.';
+$_lang['setting_websignupemail_message'] = 'Web Inschrijf e-mail';
+$_lang['setting_websignupemail_message_desc'] = 'Hier kun je het e-mailbericht opstellen welke gestuurd wordt naar gebruikers wanneer je een account voor ze aanmaakt en MODX een e-mail laat sturen met de te gebruiken gebruikersnaam en wachtwoord.<br /><strong>Let op:</strong> de volgende placeholders worden vervangen door de Content Manager wanneer het bericht verstuurd wordt:<br /><br />[[+sname]] - Naam van jouw website<br />[[+saddr]] - Het standaard e-mailadres<br />[[+surl]] - Website URL<br />[[+uid]] - Gebruikers loginnaam of id<br />[[+pwd]] - Gebruikerswachtwoord<br />[[+ufn]] - Gebruikers volledige naam<br /><br />Laat de [[+uid]] en [[+pwd]] in het e-mailbericht, want anders wordt er geen gebruikersnaam en wachtwoord gestuurd en weet de gebruiker niet hoe hij/zij moet inloggen!</strong>';
+$_lang['setting_signupemail_message_default'] = 'Hallo [[+uid]]\n\nHier zijn jouw logingegevens voor [[+sname]]:\n\nGebruikersnaam: [[+uid]]\nWachtwoord: [[+pwd]]\n\nAls je inlogt in de Content Manager ([[+surl]]), kun je je wachtwoord wijzigen.\n\nMet vriendelijke groet,\nSite beheerder';
 
-$_lang['setting_webpwdreminder_message'] = 'Web Reminder Email';
-$_lang['setting_webpwdreminder_message_desc'] = 'Enter a message to be sent to your web users whenever they request a new password via email. The Content Manager will send an e-mail containing their new password and activation information. <br /><strong>Note:</strong> The following placeholders are replaced by the Content Manager when the message is sent: <br /><br />[[+sname]] - Name of your web site, <br />[[+saddr]] - Your web site email address, <br />[[+surl]] - Your site url, <br />[[+uid]] - User\'s Login name or id, <br />[[+pwd]] - User\'s password, <br />[[+ufn]] - User\'s full name. <br /><br /><strong>Leave the [[+uid]] and [[+pwd]] in the e-mail, or else the username and password won\'t be sent in the mail and your users won\'t know their username or password!</strong>';
-$_lang['setting_webpwdreminder_message_default'] = 'Hello [[+uid]]\n\nTo active you new password click the following link:\n\n[[+surl]]\n\nIf successful you can use the following password to login:\n\nPassword:[[+pwd]]\n\nIf you did not request this email then please ignore it.\n\nRegrads,\nSite Administrator';
 
-$_lang['setting_websignupemail_message'] = 'Web Signup e-mail';
-$_lang['setting_websignupemail_message_desc'] = 'Here you can set the message sent to your web users when you create a web account for them and let the Content Manager send them an e-mail containing their username and password. <br /><strong>Note:</strong> The following placeholders are replaced by the Content Manager when the message is sent: <br /><br />[[+sname]] - Name of your web site, <br />[[+saddr]] - Your web site email address, <br />[[+surl]] - Your site url, <br />[[+uid]] - User\'s Login name or id, <br />[[+pwd]] - User\'s password, <br />[[+ufn]] - User\'s full name. <br /><br /><strong>Leave the [[+uid]] and [[+pwd]] in the e-mail, or else the username and password won\'t be sent in the mail and your users won\'t know their username or password!</strong>';
-$_lang['setting_websignupemail_message_default'] = 'Hello [[+uid]] \n\nHere are your login details for [[+sname]]:\n\nUsername: [[+uid]]\nPassword: [[+pwd]]\n\nOnce you log into [[+sname]] ([[+surl]]), you can change your password.\n\nRegards,\nSite Administrator';
+$_lang['setting_welcome_screen'] = 'Toon welkomstscherm';
+$_lang['setting_welcome_screen_desc'] = 'Indien op waar gezet, dan wordt het welkomstscherm wordt getoond bij het laden van de welkomstpagina en daarna niet meer.';
 
-$_lang['setting_welcome_screen'] = 'Show Welcome Screen';
-$_lang['setting_welcome_screen_desc'] = 'If set to true, the welcome screen will show on the next successful loading of the welcome page, and then not show after that.';
+$_lang['setting_welcome_screen_url'] = 'Welkomstscherm URL';
+$_lang['setting_welcome_screen_url_desc'] = 'De URL voor het welkomstscherm dat geladen wordt bij de eerste keer laden van MODX Revolution.';
 
-$_lang['setting_welcome_screen_url'] = 'Welcome Screen URL';
-$_lang['setting_welcome_screen_url_desc'] = 'The URL for the welcome screen that loads on first load of MODX Revolution.';
+$_lang['setting_which_editor'] = 'Te gebruiken editor';
+$_lang['setting_which_editor_desc'] = 'Hier kun je selecteren welke rich tekst editor je wenst te gebruiken. Je kunt alternatieve rich tekst editors downloaden en installeren vai de Pakket Manager.';
 
-$_lang['setting_which_editor'] = 'Editor to use';
-$_lang['setting_which_editor_desc'] = 'Here you can select which Rich Text Editor you wish to use. You can download and install additional Rich Text Editors from Package Management.';
-
-$_lang['setting_which_element_editor'] = 'Editor to use for Elements';
-$_lang['setting_which_element_editor_desc'] = 'Here you can select which Rich Text Editor you wish to use when editing Elements. You can download and install additional Rich Text Editors from Package Management.';
+$_lang['setting_which_element_editor'] = 'Te gebruiken editor voor elementen';
+$_lang['setting_which_element_editor_desc'] = 'Hier kun je selecteren welke rich tekst editor je wenst te gebruiken om elemente te bewerken. Je kunt alternatieve rich tekst editors downloaden en installeren vai de Pakket Manager.';
 
 $_lang['setting_xhtml_urls'] = 'XHTML URLs';
-$_lang['setting_xhtml_urls_desc'] = 'If set to true, all URLs generated by MODX will be XHTML-compliant, including encoding of the ampersand character.';
-
+$_lang['setting_xhtml_urls_desc'] = 'Indien op waar gezet, alle URLs gegenereerd door MODX zijn XHTML-compliant, inclusief de encoding van het ampersand karakter.';

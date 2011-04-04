@@ -1,37 +1,39 @@
 <?php
 /**
- * Snippet English lexicon topic
+ * Snippet Dutch lexicon topic
  *
  * @language en
  * @package modx
  * @subpackage lexicon
+ *
+ * @author Bert Oost, <bertoost85@gmail.com>
  */
 $_lang['snippet'] = 'Snippet';
-$_lang['snippets_available'] = 'Snippets available for you to include in your page';
+$_lang['snippets_available'] = 'Snippets beschikbaar voor jou om te includen in jouw pagina';
 $_lang['snippet_code'] = 'Snippet code (php)';
-$_lang['snippet_delete_confirm'] = 'Are you sure you want to delete this snippet?';
-$_lang['snippet_desc'] = 'Description';
-$_lang['snippet_duplicate_confirm'] = 'Are you sure you want to duplicate this snippet?';
-$_lang['snippet_duplicate_error'] = 'An error occurred while duplicating the snippet.';
-$_lang['snippet_err_create'] = 'An error occurred while creating the snippet.';
-$_lang['snippet_err_delete'] = 'An error occured while trying to delete the snippet.';
-$_lang['snippet_err_duplicate'] = 'An error occured while trying to duplicate the snippet.';
-$_lang['snippet_err_exists_name'] = 'A snippet already exists with the name "[[+name]]".';
-$_lang['snippet_err_invalid_name'] = 'Snippet name is invalid.';
-$_lang['snippet_err_locked'] = 'This snippet is locked for editing.';
-$_lang['snippet_err_nf'] = 'Snippet not found!';
-$_lang['snippet_err_ns'] = 'Snippet not specified.';
-$_lang['snippet_err_ns_name'] = 'Please specify a name for the snippet.';
-$_lang['snippet_err_remove'] = 'An error occurred while remove the snippet.';
-$_lang['snippet_err_save'] = 'An error occurred while saving the snippet.';
-$_lang['snippet_execonsave'] = 'Execute snippet after saving.';
-$_lang['snippet_lock'] = 'Lock snippet for editing';
-$_lang['snippet_lock_msg'] = 'Users must have the edit_locked attribute in order to can edit this snippet.';
-$_lang['snippet_management_msg'] = 'Here you can choose which snippet you wish to edit.';
-$_lang['snippet_msg'] = 'Here you can add/edit snippets. Remember, snippets are \'raw\' PHP code, and if you expect the output of the snippet to be shown at a certain point within the template, you need to return a value from within the snippet.';
-$_lang['snippet_name'] = 'Snippet name';
-$_lang['snippet_new'] = 'New Snippet';
-$_lang['snippet_properties'] = 'Default Properties';
-$_lang['snippet_title'] = 'Create/edit snippet';
-$_lang['snippet_untitled'] = 'Untitled snippet';
+$_lang['snippet_delete_confirm'] = 'Weet je zeker dat je deze snippet wilt verwijderen?';
+$_lang['snippet_desc'] = 'Omschrijving';
+$_lang['snippet_duplicate_confirm'] = 'Weet je zeker dat je deze snippet wilt dupliceren?';
+$_lang['snippet_duplicate_error'] = 'Er is een fout opgetreden tijdens het dupliceren van de snippet.';
+$_lang['snippet_err_create'] = 'Er is een fout opgetreden tijdens het maken van de snippet.';
+$_lang['snippet_err_delete'] = 'Er is een fout opgetreden tijdens het proberen te verwijderen van de snippet.';
+$_lang['snippet_err_duplicate'] = 'Er is een fout opgetreden tijdens het proberen te dupliceren van de snippet.';
+$_lang['snippet_err_exists_name'] = 'Een snippet met deze naam "[[+name]]" bestaat reeds.';
+$_lang['snippet_err_invalid_name'] = 'Snippetnaam is ongeldig.';
+$_lang['snippet_err_locked'] = 'Deze snippet is vergrendeld voor bewerken.';
+$_lang['snippet_err_nf'] = 'Snippet niet gevonden!';
+$_lang['snippet_err_ns'] = 'Snippet niet gespecificeerd.';
+$_lang['snippet_err_ns_name'] = 'Vul een naam in voor de snippet.';
+$_lang['snippet_err_remove'] = 'Er is een fout opgetreden tijdens het verwijderen van de snippet.';
+$_lang['snippet_err_save'] = 'Er is een fout opgetreden tijdens het opslaan van de snippet.';
+$_lang['snippet_execonsave'] = 'Snippet uitvoeren na opslaan.';
+$_lang['snippet_lock'] = 'Vergrendel snippet voor bewerken';
+$_lang['snippet_lock_msg'] = 'Gebruikers moeten de edit_locked attribuut hebben om deze snippet te kunnen bewerken.';
+$_lang['snippet_management_msg'] = 'Hier kun je kiezen welke snippet je wilt bewerken.';
+$_lang['snippet_msg'] = 'Hier kun je snippets toevoegen/wijzigen. Onthoud, snippets zijn \'ruwe\' PHP code en als je verwacht dat de output van de snippet getoond wordt op een bepaalde plek in jouw template, dan moet je de waarde retourneren in de snippet.';
+$_lang['snippet_name'] = 'Snippetnaam';
+$_lang['snippet_new'] = 'Nieuwe snippet';
+$_lang['snippet_properties'] = 'Standaard eigenschappen';
+$_lang['snippet_title'] = 'Maak/wijzig snippet';
+$_lang['snippet_untitled'] = 'Naamloze snippet';
 $_lang['snippets'] = 'Snippets';

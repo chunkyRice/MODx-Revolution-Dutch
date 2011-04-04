@@ -1,23 +1,25 @@
 <?php
 /**
- * Custom Filters English lexicon topic
+ * Custom Filters Dutch lexicon topic
  *
- * @language en
+ * @language nl
  * @package modx
  * @subpackage lexicon
+ * 
+ * @author MJ Hofland, veiliggesteld.nl
  */
-$_lang['ago'] = '[[+time]] ago';
-$_lang['ago_day'] = '[[+time]] day';
-$_lang['ago_days'] = '[[+time]] days';
-$_lang['ago_hour'] = '[[+time]] hour';
-$_lang['ago_hours'] = '[[+time]] hours';
-$_lang['ago_minutes'] = '[[+time]] min';
-$_lang['ago_month'] = '[[+time]] month';
-$_lang['ago_months'] = '[[+time]] months';
-$_lang['ago_seconds'] = '[[+time]] sec';
+$_lang['ago'] = '[[+time]] terug';
+$_lang['ago_day'] = '[[+time]] dag';
+$_lang['ago_days'] = '[[+time]] dagen';
+$_lang['ago_hour'] = '[[+time]] uur';
+$_lang['ago_hours'] = '[[+time]] uren';
+$_lang['ago_minutes'] = '[[+time]] minuut';
+$_lang['ago_month'] = '[[+time]] maand';
+$_lang['ago_months'] = '[[+time]] maanden';
+$_lang['ago_seconds'] = '[[+time]] seconden';
 $_lang['ago_week'] = '[[+time]] week';
-$_lang['ago_weeks'] = '[[+time]] weeks';
-$_lang['ago_year'] = '[[+time]] year';
-$_lang['ago_years'] = '[[+time]] years';
-$_lang['today_at'] = 'today at [[+time]]';
-$_lang['yesterday_at'] = 'yesterday at [[+time]]';
+$_lang['ago_weeks'] = '[[+time]] weken';
+$_lang['ago_year'] = '[[+time]] jaar';
+$_lang['ago_years'] = '[[+time]] jaren';
+$_lang['today_at'] = 'vandaag om [[+time]]';
+$_lang['yesterday_at'] = 'gisteren om [[+time]]';

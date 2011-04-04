@@ -1,13 +1,15 @@
 <?php
 /**
- * System Events English lexicon topic
+ * System Events Dutch lexicon topic
  *
- * @language en
+ * @language nl
  * @package modx
  * @subpackage lexicon
+ * 
+ * @author Bert Oost, <bertoost85@gmail.com>
  */
-$_lang['clear'] = 'Clear';
-$_lang['error_log'] = 'Error Log';
-$_lang['error_log_desc'] = 'Here is the error log for MODX Revolution:';
-$_lang['system_events'] = 'System Events';
-$_lang['priority'] = 'Priority';
+$_lang['clear'] = 'Legen';
+$_lang['error_log'] = 'Fout Log';
+$_lang['error_log_desc'] = 'Hier is de fout log van MODX Revolution:';
+$_lang['system_events'] = 'Systeem gebeurtenissen';
+$_lang['priority'] = 'Prioriteit';

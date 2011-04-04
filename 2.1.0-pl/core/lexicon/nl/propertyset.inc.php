@@ -1,67 +1,70 @@
 <?php
 /**
- * Property Set English lexicon topic
+ * Property Set Dutch lexicon topic
  *
  * @language en
  * @package modx
  * @subpackage lexicon
+ *
+ * @author Bert Oost, <bertoost85@gmail.com>
  */
-$_lang['class_name'] = 'Class Name';
-$_lang['default'] = 'Default';
-$_lang['duplicate_of'] = 'Duplicate of [[+name]]';
-$_lang['element_properties_desc'] = 'Here you can edit the default properties for the element, or edit specific property sets. <b>Note</b>: When you edit the default set, you will be saving the properties to the default properties. Editing a specific property set will save those property settings to the property set.<br /><br />When you\'ve selected a property set to edit, the default properties will show in the grid in the color <span style="color: gray;">gray</span>. Properties in gray are not in the property set, but show up there for easier editing. Properties in <span style="color: green">green</span> are properties that have been overridden from the default. Properties in <span style="color: purple">purple</span> are new properties in the custom set that are not in the default properties.<br /><br /><b>Note:</b> It is best to not edit default properties for snippets installed via Package Management, as if those snippets are upgraded the default properties will be overwritten. Use a Property Set instead.';
-$_lang['file'] = 'File';
-$_lang['import'] = 'Import';
-$_lang['new_name'] = 'New Name';
+$_lang['class_name'] = 'Class naam';
+$_lang['default'] = 'Standaard';
+$_lang['duplicate_of'] = 'Dupliceer van [[+name]]';
+$_lang['element_properties_desc'] = '
+Hier kun je standaard eigenschapsets voor een element of een specifieke set wijzigen. <b>Let op:</b> Wanneer je de standaard set wijzigt, dan overschrijf je de standaard eigenschappen. Wijzigingen in een specifieke eigenschapset worden alleen in die set opgeslagen.<br /><br />Wanneer je een set aangeklikt hebt om te wijzigen, de standaard waarden worden dan in het <span style="color: gray;">grijs</span> getoond. Eigenschappen in het grijs zitten niet in de set, maar worden getoond om het wijzigen makkelijker te maken. Eigenschappen in het <span style="color: green">groen</span> zijn eigenschappen welke de standaard hebben overschreven. Eigenschappen in het <span style="color: purple">paars</span> zijn nieuwe eigenschappen welke niet in de standaard set aanwezig zijn.<br /><br /><b>Note:</b> Het is beter om standaard eigenschappen niet te wijzigen voor snippets geinstalleerd via de Pakket Manager, want als je deze snippets update, worden de eigenschappen overschreven. Gebruik daarom bij voorkeur een Eigenschapset!';
+$_lang['file'] = 'Bestand';
+$_lang['import'] = 'Importerr';
+$_lang['new_name'] = 'Nieuwe naam';
 $_lang['object'] = 'Object';
-$_lang['properties'] = 'Properties';
-$_lang['properties_default_locked'] = 'Default Properties Locked';
-$_lang['properties_default_locked_msg'] = 'Only a user with the "unlock_element_properties" permission may unlock default properties.';
-$_lang['properties_default_unlocked'] = 'Default Properties Unlocked';
-$_lang['properties_import'] = 'Import Properties';
-$_lang['properties_import_err_invalid'] = 'The file you specified is not a valid properties file. Please try again.';
-$_lang['properties_import_err_upload'] = 'Please specify a valid properties file to upload.';
-$_lang['properties_import_msg'] = 'Please select a valid properties file.';
-$_lang['properties_remove'] = 'Remove Properties';
-$_lang['properties_remove_confirm'] = 'Are you sure you want to remove these properties?';
-$_lang['property_create'] = 'Create Property';
-$_lang['property_update'] = 'Update Property';
-$_lang['property_option_create'] = 'Create Property Option';
-$_lang['property_option_remove'] = 'Remove Property Option';
-$_lang['property_option_remove_confirm'] = 'Are you sure you want to remove this property option?';
-$_lang['property_options'] = 'Property Options';
-$_lang['property_revert'] = 'Revert Property to Default';
-$_lang['property_revert_confirm'] = 'Are you sure you want to revert this property to the default?';
-$_lang['property_revert_all'] = 'Revert All to Default';
-$_lang['property_revert_all_confirm'] = 'Are you sure you want to revert all properties to their defaults?';
-$_lang['property_remove'] = 'Remove Property';
-$_lang['property_remove_confirm'] = 'Are you sure you want to remove this property?';
-$_lang['propertyset'] = 'Property Set';
-$_lang['propertyset_add'] = 'Add Property Set';
-$_lang['propertyset_create'] = 'Create Property Set';
-$_lang['propertyset_create_new'] = 'Create New Property Set';
-$_lang['propertyset_duplicate'] = 'Duplicate Property Set';
-$_lang['propertyset_duplicate_copyels'] = 'Copy Element associations?';
-$_lang['propertyset_element_add'] = 'Attach Element to Property Set';
-$_lang['propertyset_element_remove'] = 'Remove Element from Property Set';
-$_lang['propertyset_element_remove_confirm'] = 'Are you sure you want to unattach this element from this property set?';
-$_lang['propertyset_err_ae'] = 'A property set already exists with that name. Please specify another.';
-$_lang['propertyset_err_associate'] = 'An error occurred while trying to associate the property set to the element.';
-$_lang['propertyset_err_create'] = 'An error occurred while trying to create the property set.';
-$_lang['propertyset_err_element_add'] = 'An error occurred while trying to add the element to the property set.';
-$_lang['propertyset_err_element_nf'] = 'That element is not associated to that property set.';
-$_lang['propertyset_err_element_remove'] = 'An error occurred while trying to remove the element from the property set.';
-$_lang['propertyset_err_nf'] = 'Property set not found.';
-$_lang['propertyset_err_nfs'] = 'Property set not found with ID [[+id]].';
-$_lang['propertyset_err_ns'] = 'Property set not specified.';
-$_lang['propertyset_err_ns_name'] = 'Please specify a name for the property set.';
-$_lang['propertyset_err_remove'] = 'An error occurred while trying to remove the property set.';
-$_lang['propertyset_err_update'] = 'An error occurred while trying to update the property set.';
-$_lang['propertyset_new'] = 'New Property Set';
-$_lang['propertyset_panel_desc'] = 'Here you can create a property set, or select an existing one to attach to this element.';
-$_lang['propertyset_remove'] = 'Remove Property Set';
-$_lang['propertyset_remove_confirm'] =  'Are you sure you want to remove this property set?';
-$_lang['propertyset_save'] = 'Save Property Set';
-$_lang['propertyset_update'] = 'Update Property Set';
-$_lang['propertysets'] = 'Property Sets';
-$_lang['propertysets_desc'] = 'Here you can manage your property sets. Click a set in the tree to load that set\'s properties into the grid, where you can modify them specifically. You can also right-click on property sets in the tree to attach or unattach elements for them.';
+$_lang['properties'] = 'Eigenschappen';
+$_lang['properties_default_locked'] = 'Standaard eigenschappen vergrendeld';
+$_lang['properties_default_locked_msg'] = 'Alleen een gebruiker met het "unlock_element_properties" recht mag standaard eigenschappen ontgrendelen.';
+$_lang['properties_default_unlocked'] = 'Standaard eigenschappen ontgrendeld';
+$_lang['properties_import'] = 'Importeer eigenschappen';
+$_lang['properties_import_err_invalid'] = 'Het bestand door jouw gekozen is geen geldig eigenschappenbestand. Probeer het nog eens.';
+$_lang['properties_import_err_upload'] = 'Selecteer een geldig eigenschappenbestand om te uploaden.';
+$_lang['properties_import_msg'] = 'Selecteer een geldig eigenschappenbestand.';
+$_lang['properties_remove'] = 'Eigenschappen verwijderen';
+$_lang['properties_remove_confirm'] = 'Weet je zeker dat je deze eigenschappen wilt verwijderen?';
+$_lang['property_create'] = 'Eigenschap maken';
+$_lang['property_update'] = 'Eigenschap updaten';
+$_lang['property_option_create'] = 'Eigenschapoptie maken';
+$_lang['property_option_remove'] = 'Eigenschapoptie verwijderen';
+$_lang['property_option_remove_confirm'] = 'Weet je zeker dat je deze eigenschapoptie wilt verwijderen?';
+$_lang['property_options'] = 'Eigenschapopties';
+$_lang['property_revert'] = 'Draai eigenschap naar standaard terug';
+$_lang['property_revert_confirm'] = 'Weet je zeker dat je deze eigenschap naar de standaard wilt terugdraaien??';
+$_lang['property_revert_all'] = 'Draai alles terug';
+$_lang['property_revert_all_confirm'] = 'Weet je zeker dat je alle eigenschappen naar de standaard wilt terugdraaien?';
+$_lang['property_remove'] = 'Eigenschap verwijderen';
+$_lang['property_remove_confirm'] = 'Weet je zeker dat je deze eigenschap wilt verwijderen?';
+$_lang['propertyset'] = 'Eigenschappenset';
+$_lang['propertyset_add'] = 'Eigenschappenset toevoegen';
+$_lang['propertyset_create'] = 'Eigenschappenset maken';
+$_lang['propertyset_create_new'] = 'Maak een nieuwe eigenschapset';
+$_lang['propertyset_duplicate'] = 'Dupliceer eigenschapset';
+$_lang['propertyset_duplicate_copyels'] = 'Kopieer element koppelingen?';
+$_lang['propertyset_element_add'] = 'Koppel element aan eigenschapset';
+$_lang['propertyset_element_remove'] = 'Verwijder element van eigenschapset';
+$_lang['propertyset_element_remove_confirm'] = 'Weet je zeker dat je dit element van deze eigenschapset wilt verwijderen?';
+$_lang['propertyset_err_ae'] = 'Een eigenschapset met deze naam bestaat reeds. Geef een andere.';
+$_lang['propertyset_err_associate'] = 'Er is een fout opgetreden tijdens het proberen een eigenschapset te koppelen aan het element.';
+$_lang['propertyset_err_create'] = 'Er is een fout opgetreden tijdens het maken van de eigenschapset.';
+$_lang['propertyset_err_element_add'] = 'Er is een fout opgetreden tijdens het toevoegen van een element aan de eigenschapset.';
+$_lang['propertyset_err_element_nf'] = 'Dat element is niet gekoppeld aan deze eigenschapset.';
+$_lang['propertyset_err_element_remove'] = 'Er is een fout opgetreden tijdens het proberen te verwijderen van het element van de eigenschapset.';
+$_lang['propertyset_err_nf'] = 'Eigenschapset niet gevonden.';
+$_lang['propertyset_err_nfs'] = 'Eigenschapset met ID [[+id]] niet gevonden.';
+$_lang['propertyset_err_ns'] = 'Eigenschapset niet gedefinieerd.';
+$_lang['propertyset_err_ns_name'] = 'Geef een naam op voor de eigenschapset.';
+$_lang['propertyset_err_remove'] = 'Er is een fout opgetreden tijdens het proberen te verwijderen van de eigenschapset.';
+$_lang['propertyset_err_update'] = 'Er is een fout opgetreden tijdens het proberen te wijzigen van de eigenschapset.';
+$_lang['propertyset_new'] = 'Nieuwe eigenschapset';
+$_lang['propertyset_panel_desc'] = 'Hier kun je een nieuwe eigenschapset maken, of een bestaande kiezen om te koppelen aan dit element.';
+$_lang['propertyset_remove'] = 'Eigenschapset verwijderen';
+$_lang['propertyset_remove_confirm'] =  'Weet je zeker dat je deze eigenschapset wilt verwijderen?';
+$_lang['propertyset_save'] = 'Eigenschapset opslaan';
+$_lang['propertyset_update'] = 'Eigenschapset wijzigen';
+$_lang['propertysets'] = 'Eigenschapsets';
+$_lang['propertysets_desc'] = 'Hier kun je eigenschapsets beheren. Klik op een set in de boomstructuur om de eigenschappen te laden waarna je deze specifiek kunt wijzigen. Je kunt ook met de rechtermuisknop klikken op een eigenschapset om elementen te koppelen of ontkoppelen.';

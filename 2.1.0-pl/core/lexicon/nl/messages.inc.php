@@ -1,58 +1,60 @@
 <?php
 /**
- * Messages English lexicon topic
+ * Messages Dutch lexicon topic
  *
- * @language en
+ * @language nl
  * @package modx
  * @subpackage lexicon
+ * 
+ * @author Bert Oost, <bertoost85@gmail.com>
  */
-$_lang['all'] = 'All';
-$_lang['date_sent'] = 'Date Sent';
-$_lang['forward'] = 'Forward';
-$_lang['mark_unread'] = 'Mark Unread';
-$_lang['message'] = 'Message';
-$_lang['message_create'] = 'Create Message';
-$_lang['message_new'] = 'New Message';
-$_lang['message_remove_confirm'] = 'Are you sure you want to remove this message entirely?';
-$_lang['messages'] = 'Messages';
-$_lang['private'] = 'Private';
-$_lang['read'] = 'Read';
-$_lang['recipient'] = 'Recipient';
-$_lang['recipient_type'] = 'Recipient Type';
-$_lang['reply'] = 'Reply';
-$_lang['role'] = 'Role';
-$_lang['sender'] = 'Sender';
-$_lang['sent_by'] = 'Sent by';
-$_lang['sent_on'] = 'Sent on';
-$_lang['subject'] = 'Subject';
-$_lang['user'] = 'User';
-$_lang['usergroup'] = 'User Group';
+$_lang['all'] = 'Alle';
+$_lang['date_sent'] = 'Verstuurdatum';
+$_lang['forward'] = 'Doorsturen';
+$_lang['mark_unread'] = 'Markeer ongelezen';
+$_lang['message'] = 'Bericht';
+$_lang['message_create'] = 'Bericht maken';
+$_lang['message_new'] = 'Nieuw bericht';
+$_lang['message_remove_confirm'] = 'Weet je zeker dat je het bericht definitief wilt verwijderen?';
+$_lang['messages'] = 'Berichten';
+$_lang['private'] = 'Privé';
+$_lang['read'] = 'Lezen';
+$_lang['recipient'] = 'Ontvanger';
+$_lang['recipient_type'] = 'Ontvanger Type';
+$_lang['reply'] = 'Beantwoord';
+$_lang['role'] = 'Rol';
+$_lang['sender'] = 'Afzender';
+$_lang['sent_by'] = 'Verstuurd door';
+$_lang['sent_on'] = 'Verstuurd op';
+$_lang['subject'] = 'Onderwerp';
+$_lang['user'] = 'Gebruiker';
+$_lang['usergroup'] = 'Gebruikersgroep';
 
-$_lang['message_err_not_found'] = 'Message not found.';
-$_lang['message_err_not_specified_subject'] = 'Subject not specified!';
-$_lang['message_err_remove'] = 'An error occured while trying to delete the message.';
-$_lang['message_err_remove_notauth'] ='You are not authorized to delete this message.';
-$_lang['message_err_save'] = 'An error occurred while saving the message.';
-$_lang['messages_all'] = 'Everyone';
-$_lang['messages_compose'] = 'Compose a message';
-$_lang['messages_forward'] = 'Forward';
-$_lang['messages_from'] = 'From';
-$_lang['messages_group'] = 'A group';
-$_lang['messages_inbox'] = 'Inbox';
-$_lang['messages_mark_as_unread'] = 'Mark as unread';
-$_lang['messages_message'] = 'Message';
-$_lang['messages_not_allowed_to_read'] = 'You\'re not allowed to read this message!';
-$_lang['messages_no_messages'] = 'No messages in Inbox.';
-$_lang['messages_private'] = 'Private';
-$_lang['messages_read_message'] = 'Read message';
-$_lang['messages_reply'] = 'Reply';
-$_lang['messages_role'] = 'Role';
-$_lang['messages_select_group'] = 'Select a group';
-$_lang['messages_select_user'] = 'Select a user';
-$_lang['messages_send'] = 'Send';
-$_lang['messages_send_to'] = 'Send to';
-$_lang['messages_sent'] = 'Sent on';
-$_lang['messages_subject'] = 'Subject';
-$_lang['messages_system_user'] = '[System]';
-$_lang['messages_title'] = 'Messages';
-$_lang['messages_user'] = 'User';
+$_lang['message_err_not_found'] = 'Bericht niet gevonden.';
+$_lang['message_err_not_specified_subject'] = 'Onderwerp niet gedefiniëerd!';
+$_lang['message_err_remove'] = 'Er is een fout opgetreden bij het verwijderen van het bericht.';
+$_lang['message_err_remove_notauth'] = 'Je bent niet gemachtigd het bericht te verwijderen.';
+$_lang['message_err_save'] = 'Er is een fout opgetreden bij het opslaan van het bericht.';
+$_lang['messages_all'] = 'Iedereen';
+$_lang['messages_compose'] = 'Bericht opstellen';
+$_lang['messages_forward'] = 'Doorsturen';
+$_lang['messages_from'] = 'Van';
+$_lang['messages_group'] = 'Een Groep';
+$_lang['messages_inbox'] = 'Postvak IN';
+$_lang['messages_mark_as_unread'] = 'Markeer als gelezen';
+$_lang['messages_message'] = 'Bericht';
+$_lang['messages_not_allowed_to_read'] = 'Je hebt niet het recht dit bericht te lezen!';
+$_lang['messages_no_messages'] = 'Geen berichten in Postvak IN.';
+$_lang['messages_private'] = 'Privé';
+$_lang['messages_read_message'] = 'Lees bericht';
+$_lang['messages_reply'] = 'Beantwoord';
+$_lang['messages_role'] = 'Rol';
+$_lang['messages_select_group'] = 'Selecteer een groep';
+$_lang['messages_select_user'] = 'Selecteer een gebruiker';
+$_lang['messages_send'] = 'Verstuur';
+$_lang['messages_send_to'] = 'Verstuur aan';
+$_lang['messages_sent'] = 'Verzonden op';
+$_lang['messages_subject'] = 'Onderwerp';
+$_lang['messages_system_user'] = '[Systeem]';
+$_lang['messages_title'] = 'Berichten';
+$_lang['messages_user'] = 'Gebruiker';

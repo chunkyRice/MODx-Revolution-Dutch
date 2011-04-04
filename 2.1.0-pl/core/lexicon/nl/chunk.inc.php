@@ -1,32 +1,34 @@
 <?php
 /**
- * Chunk English lexicon topic
+ * Chunk Dutch lexicon topic
  *
- * @language en
+ * @language nl
  * @package modx
  * @subpackage lexicon
+ * 
+ * @author Bert Oost, <bertoost85@gmail.com>
  */
 $_lang['chunk'] = 'Chunk';
 $_lang['chunk_code'] = 'Chunk code (html)';
-$_lang['chunk_desc'] = 'Description';
-$_lang['chunk_delete_confirm'] = 'Are you sure you want to delete this chunk?';
-$_lang['chunk_duplicate_confirm'] = 'Are you sure you want to duplicate this chunk?';
-$_lang['chunk_err_duplicate'] = 'Error duplicating chunk.';
-$_lang['chunk_err_exists_name'] = 'There is already a chunk with the name "[[+name]]".';
-$_lang['chunk_err_invalid_name'] = 'Chunk name is invalid.';
-$_lang['chunk_err_locked'] = 'Chunk is locked.';
-$_lang['chunk_err_remove'] = 'An error occurred while trying to remove the chunk.';
-$_lang['chunk_err_save'] = 'An error occurred while saving the chunk.';
-$_lang['chunk_err_nf'] = 'Chunk not found!';
-$_lang['chunk_err_nfs'] = 'Chunk not found with id: [[+id]]';
-$_lang['chunk_err_ns'] = 'Chunk not specified.';
-$_lang['chunk_err_ns_name'] = 'Please specify a name.';
-$_lang['chunk_lock'] = 'Lock chunk for editing';
-$_lang['chunk_lock_msg'] = 'Users must have the edit_locked attribute in order to edit this chunk.';
-$_lang['chunk_msg'] = 'Here you can add/edit chunks. Remember; chunks are \'raw\' HTML code; so any PHP code won\'t be processed.';
-$_lang['chunk_name'] = 'Chunk name';
-$_lang['chunk_new'] = 'New Chunk';
-$_lang['chunk_properties'] = 'Default Properties';
-$_lang['chunk_title'] = 'Create/edit chunk';
-$_lang['chunk_untitled'] = 'Untitled Chunk';
+$_lang['chunk_desc'] = 'Omschrijving';
+$_lang['chunk_delete_confirm'] = 'Weet je zeker dat je deze chunk wilt verwijderen?';
+$_lang['chunk_duplicate_confirm'] = 'Weet je zeker dat je deze chunk wilt dupliceren?';
+$_lang['chunk_err_duplicate'] = 'Fout bij dupliceren chunk.';
+$_lang['chunk_err_exists_name'] = 'Er is reeds een chunk met de naam "[[+name]]".';
+$_lang['chunk_err_invalid_name'] = 'Chunk naam is ongeldig.';
+$_lang['chunk_err_locked'] = 'Chunk is vergrendeld.';
+$_lang['chunk_err_remove'] = 'Er is een fout opgetreden tijdens het verwijderen van de chunk.';
+$_lang['chunk_err_save'] = 'Er is een fout opgetreden tijdens het opslaan van de chunk.';
+$_lang['chunk_err_nf'] = 'Chunk niet gevonden!';
+$_lang['chunk_err_nfs'] = 'Chunk met sleutel [[+id]] niet gevonden';
+$_lang['chunk_err_ns'] = 'Chunk niet gespecificeerd.';
+$_lang['chunk_err_ns_name'] = 'Vul een naam in.';
+$_lang['chunk_lock'] = 'Vergrendel chunk voor bewerken';
+$_lang['chunk_lock_msg'] = 'Gebruikers moeten de edit_locked attribuut hebben om deze chunk te bewerken.';
+$_lang['chunk_msg'] = 'Hier kun je chunks toevoegen/bewerken. Onthoud; een chunk is \'ruwe\' HTML code; dus geen enkele PHP wordt uitgevoerd.';
+$_lang['chunk_name'] = 'Chunk naam';
+$_lang['chunk_new'] = 'Nieuwe chunk';
+$_lang['chunk_properties'] = 'Standaard eigenschappen';
+$_lang['chunk_title'] = 'Nieuw/bewerk chunk';
+$_lang['chunk_untitled'] = 'Naamloze chunk';
 $_lang['chunks'] = 'Chunks';

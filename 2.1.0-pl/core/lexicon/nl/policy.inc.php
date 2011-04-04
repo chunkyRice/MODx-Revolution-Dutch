@@ -1,67 +1,69 @@
 <?php
 /**
- * Access Policy English lexicon topic
+ * Access Policy Dutch lexicon topic
  *
- * @language en
+ * @language nl
  * @package modx
  * @subpackage lexicon
+ * 
+ * @author Bert Oost, <bertoost85@gmail.com>
  */
-$_lang['active_of'] = '[[+active]] of [[+total]]';
-$_lang['active_permissions'] = 'Active Permissions';
-$_lang['no_policy_option'] = ' (no policy) ';
-$_lang['permission'] = 'Permission';
-$_lang['permission_add'] = 'Add Permission';
-$_lang['permission_add_template'] = 'Add Permission to Template';
-$_lang['permission_err_ae'] = 'Permission already exists for this policy.';
-$_lang['permission_err_nf'] = 'Permission not found.';
-$_lang['permission_err_ns'] = 'Permission not specified.';
-$_lang['permission_err_remove'] = 'An error occurred while trying to remove this permission.';
-$_lang['permission_err_save'] = 'An error occurred while trying to save this permission.';
-$_lang['permission_new'] = 'New Permission';
-$_lang['permission_remove'] = 'Remove Permission';
-$_lang['permission_remove_confirm'] = 'Are you sure you want to remove this permission?';
-$_lang['permission_update'] = 'Update Permission';
-$_lang['permissions'] = 'Permissions';
-$_lang['permissions_desc'] = 'Here you can define specific permissions that this policy will contain. All user groups with this policy will inherit these permissions.';
-$_lang['policies'] = 'Access Policies';
-$_lang['policy'] = 'Access Policy';
-$_lang['policy_create'] = 'Create Access Policy';
-$_lang['policy_data'] = 'Policy Data';
-$_lang['policy_desc'] = 'Access policies are generic policies that restrict or enable certain actions with MODX.';
-$_lang['policy_duplicate'] = 'Duplicate Policy';
-$_lang['policy_duplicate_confirm'] = 'Are you sure you want to duplicate this policy and all of its data?';
-$_lang['policy_err_ae'] = 'A Policy already exists with the name `[[+name]]`. Please select another name.';
-$_lang['policy_err_nf'] = 'Policy not found.';
-$_lang['policy_err_ns'] = 'Policy not specified.';
-$_lang['policy_err_remove'] = 'An error occurred while trying to remove the Policy.';
-$_lang['policy_err_save'] = 'An error occurred while trying to save the Policy.';
-$_lang['policy_management'] = 'Access Policies';
-$_lang['policy_management_msg'] = 'Access Policies manage how MODX handles permissions for specified actions.';
-$_lang['policy_name'] = 'Policy Name';
-$_lang['policy_property_create'] = 'Create Access Policy Property';
-$_lang['policy_property_new'] = 'New Policy Property';
-$_lang['policy_property_remove'] = 'Delete Access Policy Property';
-$_lang['policy_property_specify_name'] = 'Please specify a policy property name:';
-$_lang['policy_remove'] = 'Remove Policy';
-$_lang['policy_remove_confirm'] = 'Are you sure you want to remove this Access Policy?';
-$_lang['policy_remove_multiple'] = 'Remove Policies';
-$_lang['policy_remove_multiple_confirm'] = 'Are you sure you want to remove these Access Policies? This is irreversible.';
-$_lang['policy_update'] = 'Update Policy';
-$_lang['policy_template'] = 'Policy Template';
-$_lang['policy_template.desc'] = 'A Policy Template defines what Permissions will show up in the Permissions grid when editing a specific Policy. You can add or remove specific Permissions from this template below. Note that removing a Permission from a Template will remove it from any Policies that use this Template.';
-$_lang['policy_template_create'] = 'Create Policy Template';
-$_lang['policy_template_duplicate'] = 'Duplicate Policy Template';
-$_lang['policy_template_duplicate_confirm'] = 'Are you sure you want to duplicate this Policy Template?';
-$_lang['policy_template_err_ae'] = 'A Policy Template already exists with the name `[[+name]]`. Please select another name.';
-$_lang['policy_template_err_nf'] = 'Policy Template not found.';
-$_lang['policy_template_err_ns'] = 'Policy Template not specified.';
-$_lang['policy_template_err_remove'] = 'An error occurred while trying to remove the Policy Template.';
-$_lang['policy_template_err_save'] = 'An error occurred while trying to save the Policy Template.';
-$_lang['policy_template_remove'] = 'Remove Policy Template';
-$_lang['policy_template_remove_confirm'] = 'Are you sure you want to remove this Policy Template? It will remove all Policies attached to this Template as well - this could break your MODX installation if any active Policies are attached to this Template.';
-$_lang['policy_template_remove_multiple'] = 'Remove Selected Policy Templates';
-$_lang['policy_template_remove_multiple_confirm'] = 'Are you sure you want to remove these Policy Templates? It will remove all Policies attached to these Templates as well - this could break your MODX installation if any active Policies are attached to these Templates.';
-$_lang['policy_template_update'] = 'Update Policy Template';
-$_lang['policy_templates'] = 'Policy Templates';
-$_lang['policy_templates.intro_msg'] = 'This is a list of Policy Templates, which define lists of Permissions that are checked or unchecked in specific Policies.';
-$_lang['template_group'] = 'Template Group';
+$_lang['active_of'] = '[[+active]] van [[+total]]';
+$_lang['active_permissions'] = 'Actieve machtigingen';
+$_lang['no_policy_option'] = ' (geen beleid) ';
+$_lang['permission'] = 'Machtiging';
+$_lang['permission_add'] = 'Machtiging toevoegen';
+$_lang['permission_add_template'] = 'Voeg machtiging toe aan template';
+$_lang['permission_err_ae'] = 'Er bestaat al een machtiging voor dit beleid.';
+$_lang['permission_err_nf'] = 'Machtiging niet gevonden.';
+$_lang['permission_err_ns'] = 'Machtiging niet nader omschreven.';
+$_lang['permission_err_remove'] = 'Er is een fout opgetreden tijdens een poging om deze machtiging te verwijderen.';
+$_lang['permission_err_save'] = 'Er is een fout opgetreden tijdens het opslaan van deze machtiging.';
+$_lang['permission_new'] = 'Nieuwe machtiging';
+$_lang['permission_remove'] = 'Verwijder machtiging';
+$_lang['permission_remove_confirm'] = 'Weet je zeker dat je deze machtiging wilt verwijderen?';
+$_lang['permission_update'] = 'Machtiging bijwerken';
+$_lang['permissions'] = 'Machtigingen';
+$_lang['permissions_desc'] = 'Hier kun je specifieke machtigingen omschrijven welke in dit beleid zijn opgenomen. Alle gebruikers groepen die in dit beleid zijn opgenomen, krijgen deze machtigingen ook toegewezen.';
+$_lang['policies'] = 'Toegang beleid';
+$_lang['policy'] = 'Toegang beleid';
+$_lang['policy_create'] = 'Maak een nieuw toegang beleid';
+$_lang['policy_data'] = 'Beleid data';
+$_lang['policy_desc'] = 'Een toegang beleid is een standaard set regels dat bepaalde acties in MODX kan toestaan of weigeren.';
+$_lang['policy_duplicate'] = 'Beleid dupliceren';
+$_lang['policy_duplicate_confirm'] = 'Weet je zeker dat je dit beleid en alle data wilt dupliceren?';
+$_lang['policy_err_ae'] = 'Het beleid met de naam `[[+name]]` bestaat al. Gebruik een andere naam.';
+$_lang['policy_err_nf'] = 'Beleid niet gevonden.';
+$_lang['policy_err_ns'] = 'Beleid niet gespecificeerd.';
+$_lang['policy_err_remove'] = 'Er is een fout opgetreden tijdens het proberen te verwijderen van het beleid.';
+$_lang['policy_err_save'] = 'Er is een fout opgetreden tijdens het opslaan van het beleid.';
+$_lang['policy_management'] = 'Toegang beleid';
+$_lang['policy_management_msg'] = 'Een toegang beleid beheert machtigingen voor bepaalde acties in MODX en hoe MODX hiermee moet omgaan.';
+$_lang['policy_name'] = 'Naam beleid';
+$_lang['policy_property_create'] = 'Maak een beleid regel';
+$_lang['policy_property_new'] = 'Nieuwe beleid regel';
+$_lang['policy_property_remove'] = 'Verwijder een beleid regel';
+$_lang['policy_property_specify_name'] = 'Geef naam aan deze regel:';
+$_lang['policy_remove'] = 'Verwijder beleid';
+$_lang['policy_remove_confirm'] = 'Weet je zeker dat je deze beleid regel wilt verwijderen?';
+$_lang['policy_remove_multiple'] = 'Verwijder beleid';
+$_lang['policy_remove_multiple_confirm'] = 'Weet je zeker dat je dit beleid wilt verwijderen? Dit is onomkeerbaar.';
+$_lang['policy_update'] = 'Update beleid regel';
+$_lang['policy_template'] = 'Beleid template';
+$_lang['policy_template.desc'] = 'Een beleidstemplate definieert welke machtigingen getoond worden in het rechten vak wanneer een beleid aangepast wordt. Je kunt machtigingen toevoegen en verwijderen van de template hieronder. Let op dat het verwijderen van een machtiging van de template ook de machtiging van het andere beleid dat deze template gebruikt verwijderd.';
+$_lang['policy_template_create'] = 'Maak beleidstemplate';
+$_lang['policy_template_duplicate'] = 'Dupliceer beleidstemplate';
+$_lang['policy_template_duplicate_confirm'] = 'Weet je zeker dat je deze beleidstemplate wilt verwijderen?';
+$_lang['policy_template_err_ae'] = 'Een beleidstemplate met de naam `[[+name]]` bestaat reeds. Kies een andere naam.';
+$_lang['policy_template_err_nf'] = 'Beleidstemplate is niet vonden.';
+$_lang['policy_template_err_ns'] = 'Beleidstemplate is niet gespecificeerd.';
+$_lang['policy_template_err_remove'] = 'Er is een fout opgetreden tijdens het verwijderen van het beleidstemplate.';
+$_lang['policy_template_err_save'] = 'Er is een fout opgetreden tijdens het opslaan van het beleidstemplate.';
+$_lang['policy_template_remove'] = 'Verwijder beleidstemplate';
+$_lang['policy_template_remove_confirm'] = 'Weet je zeker dat je deze beleidstemplate wilt verwijderen? Het zal alle machtigingen welke aan deze template zitten ook verwijderen - dit kan jouw MODX installatie breken indien actieve machtigingen aan deze template gekoppeld zijn.';
+$_lang['policy_template_remove_multiple'] = 'Verwijder geselecteerde beleidstemplates.';
+$_lang['policy_template_remove_multiple_confirm'] = 'Weet je zeker dat je deze beleidstemplates wilt verwijderen? Het zal alle machtigingen gekoppeld aan deze template ook verwijderen - dit kan jouw MODX installatie breken indien actieve machtigingen aan deze template gekoppeld zijn.';
+$_lang['policy_template_update'] = 'Update beleidstemplate';
+$_lang['policy_templates'] = 'Beleidstemplates';
+$_lang['policy_templates.intro_msg'] = 'Dit is een lijst van beleidstemplates, welke een lijst van rechten, aan- of uitgevinkt, definieert in specifieke machtigingen.';
+$_lang['template_group'] = 'Template Groep';
