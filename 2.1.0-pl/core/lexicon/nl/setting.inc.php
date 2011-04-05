@@ -153,6 +153,9 @@ $_lang['setting_cache_scripts_desc'] = 'Indien ingeschakeld, MODX zal alle scrip
 $_lang['setting_cache_system_settings'] = 'Inschakelen Systeeminstellingen Cache';
 $_lang['setting_cache_system_settings_desc'] = 'Indien ingeschakeld, systeeminstellingen worden gecached om laadtijd te verbeteren. MODX beveelt aan om dit aan te laten staan.';
 
+$_lang['setting_clear_cache_refresh_trees'] = 'Vernieuw boomstructuren bij legen site cache';
+$_lang['setting_clear_cache_refresh_trees_desc'] = 'Indien ingeschakeld, dan worden de boomstructuren vernieuwd na het legen van de site cache.';
+
 $_lang['setting_compress_css'] = 'Gebruik Gecomprimeerde CSS';
 $_lang['setting_compress_css_desc'] = 'Indien ingeschakeld, MODX zal een gecomprimeerde versie van zijn css stylesheets gebruiken in de manager interface. Dit reduceert de laadtijd enorm in de manager. Schakel deze alleen uit als je aanpassingen verricht aan core elementen.';
 
@@ -222,11 +225,20 @@ $_lang['setting_feed_modx_security_enabled_desc'] = 'Indien \'Nee\', MODX zal he
 $_lang['setting_filemanager_path'] = 'Bestandsmanager pad';
 $_lang['setting_filemanager_path_desc'] = 'IIS heeft moeite met het goed instellen van de document_root instelling, welke door de bestandsmanager gebruikt wordt zodat bepaald wordt wat jij te zien krijgt. Indien je problemen ondervindt in de bestandsmanager, controleer of dit pad naar de root van jouw MODX installatie gaat.';
 
+$_lang['setting_filemanager_path_relative'] = 'Is het Bestandsmanager pad relatief?';
+$_lang['setting_filemanager_path_relative_desc'] = 'Indien filemanager_path instelling relatief is aan de MODX base_path, zet deze instelling dan op Ja. Indien jouw filemanager_path buiten de docroot valt, zet dit dan op Nee.';
+
 $_lang['setting_filemanager_url'] = 'Bestandsmanager URL';
 $_lang['setting_filemanager_url_desc'] = 'Optioneel. Stel deze in als je een expliciete URL wilt gebruiken voor de bestanden in de MODX bestandsmanager (handig als je het filemanager_path naar een pad buiten de MODX webroot hebt veranderd). Controleer wel of dit een web-bereikbare URL van de filemanager_path is. Als je deze leeg laat zal MODX proberen dit pad automatisch te berekenen.';
 
+$_lang['setting_filemanager_url_relative'] = 'Is de bestandsmanager URL relatief?';
+$_lang['setting_filemanager_url_relative_desc'] = 'Indien filemanager_url instelling relatief is aan de MODX base_url, zet deze instelling dan op Ja. Indien jouw filemanager_url buiten de webroot valt, zet dit dan op Nee.';
+
 $_lang['setting_forgot_login_email'] = 'Inlog vergeten e-mail';
 $_lang['setting_forgot_login_email_desc'] = 'Het template voor de e-mail welke gestuurd wordt zodra een gebruiker zijn MODX gebruikersnaam/wachtwoord vergeten is';
+
+$_lang['setting_forward_merge_excludes'] = 'sendForward sluit velden bij samenvoegen uit';
+$_lang['setting_forward_merge_excludes_desc'] = 'Een Symlink voegt niet-lege veld waarden met het doel document samen; deze komma gescheiden lijst van velden worden van samenvoegen uitgesloten door de Symlink.';
 
 $_lang['setting_friendly_alias_lowercase_only'] = 'FURL Kleine letter aliassen';
 $_lang['setting_friendly_alias_lowercase_only_desc'] = 'Bepaal of er alleen kleine letters in een document alias gebruikt mag worden.';
@@ -249,6 +261,9 @@ $_lang['setting_friendly_alias_translit_desc'] = 'De methode voor transliteratie
 $_lang['setting_friendly_alias_translit_class'] = 'FURL alias transliteration service class';
 $_lang['setting_friendly_alias_translit_class_desc'] = 'Een optionele service class welke een aangepaste transliteratie service bied voor de FURL Alias generator/filtering.';
 
+$_lang['setting_friendly_alias_translit_class_path'] = 'FURL Alias Transliteration Service Class pad';
+$_lang['setting_friendly_alias_translit_class_path_desc'] = 'De pakket model locatie waar de FURL Alias Transliteration Service Class uit geladen wordt.';
+
 $_lang['setting_friendly_alias_trim_chars'] = 'FURL trim alias karakters';
 $_lang['setting_friendly_alias_trim_chars_desc'] = 'Karakters welke aan het eind van de een document alias weggehaald worden.';
 
@@ -261,6 +276,15 @@ $_lang['setting_friendly_alias_word_delimiters_desc'] = 'De karakters welke sche
 $_lang['setting_friendly_urls'] = 'Gebruik vriendelijke URLs';
 $_lang['setting_friendly_urls_desc'] = 'Dit staat je toe om zoekmachine vriendelijke URLs te gebruiken met MODX. Let op: dit zal alleen werken in MODX installaties draaiend op Apache en je moet een .htaccess bestand gemaakt hebben om dit te laten werken. Bekijk de .htaccess bestand welke is meegeleverd voor meer info.';
 $_lang['setting_friendly_urls_err'] = 'Vul in of je wel of niet gebruik wilt maken van vriendelijke URLs.';
+
+$_lang['setting_global_duplicate_uri_check'] = 'Controleer op gedupliceerde URIs in alle contexts';
+$_lang['setting_global_duplicate_uri_check_desc'] = 'Selecteer \'Ja\' voor controles op gedupliceerde URIs voor alle contexts tijdens het zoeken. Anders, wordt alleen de context waar het document zich in bevindt gecontroleerd.';
+
+$_lang['setting_hidemenu_default'] = 'Standaard verbergen in menu';
+$_lang['setting_hidemenu_default_desc'] = 'Selecteer \'Ja\' om alle nieuwe documenten standaard te verbergen in het menu.';
+
+$_lang['setting_link_tag_scheme'] = 'URL Generator Schema';
+$_lang['setting_link_tag_scheme_desc'] = 'URL generator schema voor tag [[~id]]. Beschikbare opties: <a href="http://api.modxcms.com/modx/modX.html#makeUrl">http://api.modxcms.com/modx/modX.html#makeUrl</a>';
 
 $_lang['setting_mail_charset'] = 'Mail Karakterset';
 $_lang['setting_mail_charset_desc'] = 'Het (standaard) karakterset voor e-mails, bijv. \'iso-8859-1\' of \'UTF-8\'';
@@ -307,6 +331,9 @@ $_lang['setting_manager_direction_desc'] = 'Kies de richting waarin de tekst get
 $_lang['setting_manager_date_format'] = 'Manager Datumformaat';
 $_lang['setting_manager_date_format_desc'] = 'Het formaat, in PHP date() formaat, voor de datums vertegenwoordigd in de manager.';
 
+$_lang['setting_manager_favicon_url'] = 'Manager Favicon URL';
+$_lang['setting_manager_favicon_url_desc'] = 'Indien gezet, dan zal deze URL als favicon voor de manager geladen worden. Moet een relatieve URL zijn ten opzichte van de manager/ map of een absolute URL.';
+
 $_lang['setting_manager_lang_attribute'] = 'Manager HTML en XML taal attribuut';
 $_lang['setting_manager_lang_attribute_desc'] = 'Vul een taalcode in dat het beste past bij de gekozen manager taal, dit zal ervoor zorgen dat de browser de content in een zo goed mogelijk formaat kan tonen.';
 
@@ -340,6 +367,12 @@ $_lang['setting_new_folder_permissions_desc'] = 'Wanneer een nieuwe map toegeoeg
 $_lang['setting_password_generated_length'] = 'Lengte auto-gegenereerde wachtwoorden';
 $_lang['setting_password_generated_length_desc'] = 'De lengte van de auto-gegenereerde wachtwoorden voor een gebruiker.';
 
+$_lang['setting_password_min_length'] = 'Minimale wachtwoord lengte';
+$_lang['setting_password_min_length_desc'] = 'De minimale lengte van een wachtwoord voor een gebruiker.';
+
+$_lang['setting_principal_targets'] = 'ACL doelen te laden';
+$_lang['setting_principal_targets_desc'] = 'Pas de ACL doelen voor MODX users aan.';
+
 $_lang['setting_proxy_auth_type'] = 'Proxy Authenticatie Type';
 $_lang['setting_proxy_auth_type_desc'] = 'Ondersteund BASIC of NTLM.';
 
@@ -355,8 +388,8 @@ $_lang['setting_proxy_port_desc'] = 'De poort voor jouw proxy server.';
 $_lang['setting_proxy_username'] = 'Proxy gebruikersnaam';
 $_lang['setting_proxy_username_desc'] = 'De gebruikersnaam nodig voor authenticatie van de proxy server.';
 
-$_lang['setting_password_min_length'] = 'Minimale wachtwoord lengte';
-$_lang['setting_password_min_length_desc'] = 'De minimale lengte van een wachtwoord voor een gebruiker.';
+$_lang['setting_phpthumb_allow_src_above_docroot'] = 'phpThumb Sta src buiten document root toe';
+$_lang['setting_phpthumb_allow_src_above_docroot_desc'] = 'Geeft aan of het src pad buiten de document root is toegestaan. Dit is handig voor multi-context implementaties met meerdere virtuele hosts.';
 
 $_lang['setting_phpthumb_cache_maxage'] = 'phpThumb maximale cache leeftijd';
 $_lang['setting_phpthumb_cache_maxage_desc'] = 'Verwijder gecachte thumbnails welke niet opgeroepen zijn meer dan X dagen.';
@@ -370,14 +403,56 @@ $_lang['setting_phpthumb_cache_maxfiles_desc'] = 'Verwijder minst onlangs benade
 $_lang['setting_phpthumb_cache_source_enabled'] = 'phpThumb cache bronbestanden';
 $_lang['setting_phpthumb_cache_source_enabled_desc'] = 'Wel of niet cachen van bronbestanden zodra ze geladen zijn. Uit is aanbevolen.';
 
-$_lang['setting_phpthumb_imagemagick_path'] = 'phpThumb ImageMagick pad';
-$_lang['setting_phpthumb_imagemagick_path_desc'] = 'Optioneel. Stel een alternatief ImageMagick pad in voor het genereren van de thumbnails met phpThumb, als het niet in de PHP standaard opgenomen is.';
+$_lang['setting_phpthumb_document_root'] = 'PHPThumb Document Root';
+$_lang['setting_phpthumb_document_root_desc'] = 'Stel dit in als je problemen ondervindt met de server variable DOCUMENT_ROOT, of wanneer je fouten krijgt met OutputThumbnail of !is_resource. Zet hier het absolute document root in welke jij wilt gebruiken. Indien deze leeg is, zal MODX de DOCUMENT_ROOT server variable gebruiken.';
 
-$_lang['setting_phpthumb_zoomcrop'] = 'phpThumb Zoom-Crop';
-$_lang['setting_phpthumb_zoomcrop_desc'] = 'De standaard zoom-crop instelling voor phpThumb bij gebruik in MODX. Standaard op 0 om zoom-crop te voorkomen.';
+$_lang['setting_phpthumb_error_bgcolor'] = 'phpThumb fout achtergrond kleur';
+$_lang['setting_phpthumb_error_bgcolor_desc'] = 'Een Hex waarde, zonder #, voor de achtergrond kleur van de phpThumb fout uitvoer.';
+
+$_lang['setting_phpthumb_error_fontsize'] = 'phpThumb fout font size';
+$_lang['setting_phpthumb_error_fontsize_desc'] = 'Een em waarde voor de font grootte, zichtbaar in de phpThumb fout uitvoer.';
+
+$_lang['setting_phpthumb_error_textcolor'] = 'phpThumb fout font color';
+$_lang['setting_phpthumb_error_textcolor_desc'] = 'Een Hex waarde, zonder #, voor de tekst kleur van de phpThumb fout uitvoer.';
 
 $_lang['setting_phpthumb_far'] = 'phpThumb behoud verhoudingen forceren';
 $_lang['setting_phpthumb_far_desc'] = 'De standaard instelling voor zover phpThumb bij gebruik in MODX. Standaard C tot verhouding in de richting van het midden.';
+
+$_lang['setting_phpthumb_imagemagick_path'] = 'phpThumb ImageMagick pad';
+$_lang['setting_phpthumb_imagemagick_path_desc'] = 'Optioneel. Stel een alternatief ImageMagick pad in voor het genereren van de thumbnails met phpThumb, als het niet in de PHP standaard opgenomen is.';
+
+$_lang['setting_phpthumb_nohotlink_enabled'] = 'phpThumb Hotlinking Uitgeschakeld';
+$_lang['setting_phpthumb_nohotlink_enabled_desc'] = 'Externe servers zijn toegestaan in de src parameter tenzij je hotlinking in phpThumb uitschakeld.';
+
+$_lang['setting_phpthumb_nohotlink_erase_image'] = 'phpThumb Hotlinking afbeelding wissen';
+$_lang['setting_phpthumb_nohotlink_erase_image_desc'] = 'Geeft aan of een afbeelding van een externe server gewist zou moeten worden wanneer niet toegestaan.';
+
+$_lang['setting_phpthumb_nohotlink_text_message'] = 'phpThumb Hotlinking niet toegestaan bericht';
+$_lang['setting_phpthumb_nohotlink_text_message_desc'] = 'Een bericht in plaats van een thumbnail dat zichtbaar wordt wanneer een hotlinking poging is afgewezen.';
+
+$_lang['setting_phpthumb_nohotlink_valid_domains'] = 'phpThumb Hotlinking geldige domeinen';
+$_lang['setting_phpthumb_nohotlink_valid_domains_desc'] = 'Een komma-gescheiden lijst van host namen welke geldig zijn voor src URLs.';
+
+$_lang['setting_phpthumb_nooffsitelink_enabled'] = 'phpThumb Offsite Linking uitgeschakeld';
+$_lang['setting_phpthumb_nooffsitelink_enabled_desc'] = 'Schakeld de mogelijkheid voor anderen om phpThumb te gebruiken voor hun eigen sites uit.';
+
+$_lang['setting_phpthumb_nooffsitelink_erase_image'] = 'phpThumb Offsite Linking afbeelding wissen';
+$_lang['setting_phpthumb_nooffsitelink_erase_image_desc'] = 'Geeft aan of een afbeelding gelinkt van een externe server gewist zou moeten worden wanneer niet toegestaan.';
+
+$_lang['setting_phpthumb_nooffsitelink_require_refer'] = 'phpThumb Offsite Linking Referrer verplicht';
+$_lang['setting_phpthumb_nooffsitelink_require_refer_desc'] = 'Indien ingeschakeld, elke offsite linking poging zonder geldige referrer header wordt afgewezen.';
+
+$_lang['setting_phpthumb_nooffsitelink_text_message'] = 'phpThumb Offsite Linking niet toegestaan bericht';
+$_lang['setting_phpthumb_nooffsitelink_text_message_desc'] = 'Een bericht in plaats van een thumbnail dat zichtbaar wordt wanneer een offsite linking poging is afgewezen.';
+
+$_lang['setting_phpthumb_nooffsitelink_valid_domains'] = 'phpThumb Offsite Linking geldige domeinen';
+$_lang['setting_phpthumb_nooffsitelink_valid_domains_desc'] = 'Een komma-gescheiden lijst van host namen welke geldige referrers zijn voor offsite linking.';
+
+$_lang['setting_phpthumb_nooffsitelink_watermark_src'] = 'phpThumb Offsite Linking watermerk bron';
+$_lang['setting_phpthumb_nooffsitelink_watermark_src_desc'] = 'Optioneel. Een geldig bestandssysteem pad naar een bestand welke gebruikt wordt voor het watermerk, wanneer jouw afbeeldingen offsite gerenderd worden door phpThumb.';
+
+$_lang['setting_phpthumb_zoomcrop'] = 'phpThumb Zoom-Crop';
+$_lang['setting_phpthumb_zoomcrop_desc'] = 'De standaard zoom-crop instelling voor phpThumb bij gebruik in MODX. Standaard op 0 om zoom-crop te voorkomen.';
 
 $_lang['setting_publish_default'] = 'Standaard gepubliceerd';
 $_lang['setting_publish_default_desc'] = 'Selecteer \'Ja\' om alle nieuwe documenten standaard gepubliceerd te maken.';
@@ -403,6 +478,12 @@ $_lang['setting_request_param_id_desc'] = 'De naam van de GET parameter om docum
 
 $_lang['setting_resolve_hostnames'] = 'Achterhalen hostnamen';
 $_lang['setting_resolve_hostnames_desc'] = 'Wil je dat MODX probeert de hostnamen van jouw bezoekers te achterhalen wanneer deze jouw site bezoeken? Hostnamen achterhalen kan wellicht extra laadtijd veroorzaken, hoewel jouw bezoekers op geen enkele wijze bericht hiervan krijgen.';
+
+$_lang['setting_resource_tree_node_name'] = 'Document structuur node veld';
+$_lang['setting_resource_tree_node_name_desc'] = 'Specificeer het te gebruiken document veld bij het renderen van de nodes in de document structuur. Standaard pagetitle, maar elk veld kan gebruikt worden, zoals menutitle, alias, longtitle, etc.';
+
+$_lang['setting_resource_tree_node_tooltip'] = 'Document structuur Tooltip veld';
+$_lang['setting_resource_tree_node_tooltip_desc'] = 'Specificeer het te gebruiken document veld bij het renderen van de nodes in de document structuur. Elk document veld kan gebruikt worden, zoals menutitle, alias, longtitle etc. Indien leeg, dan wordt longtitle met de description eronder gebruikt.';
 
 $_lang['setting_richtext_default'] = 'Richtext standaard';
 $_lang['setting_richtext_default_desc'] = 'Selecteer \'Ja\' om alle nieuwe documenten gebruik te laten maken van de richtekst editor.';
@@ -441,6 +522,9 @@ $_lang['setting_session_name_desc'] = 'Gebruik deze instelling om de sessienaam 
 $_lang['setting_settings_version'] = 'Instellingen Versie';
 $_lang['setting_settings_version_desc'] = 'De huidig ge�nstalleerde versie van MODX.';
 
+$_lang['setting_settings_distro'] = 'Distributie instellingen';
+$_lang['setting_settings_distro_desc'] = 'De huidige geinstalleerde distributie van MODX.';
+
 $_lang['setting_set_header'] = 'Stel HTTP Headers in';
 $_lang['setting_set_header_desc'] = 'Indien geactiveerd, MODX zal proberen de HTTP headers in te stellen voor documenten.';
 
@@ -470,8 +554,14 @@ $_lang['setting_site_unavailable_page_err'] = 'Vul een document ID in voor de ni
 $_lang['setting_strip_image_paths'] = 'Herschrijf browser paden?';
 $_lang['setting_strip_image_paths_desc'] = 'Als dit op \'Nee\' gezet is, MODX zal bestandsmanager geschreven src\'s (afbeeldingen, bestanden, flash, etc.) als absolute URLs. Relatieve URLs zijn nuttig indien je wenst de MODX installatie te verplaatsen, bijv. van staging naar een productie omgeving. Indien je niet weet wat dit inhoudt laat dit dan staan op \'Ja\'.';
 
+$_lang['setting_symlink_merge_fields'] = 'Voeg document velden samen in Symlinks';
+$_lang['setting_symlink_merge_fields_desc'] = 'Indien op Ja ingesteld, worden alle niet-lege velden autmatisch samengevoegd met het doel document wanneer Symlinks gebruikt worden.';
+
 $_lang['setting_topmenu_show_descriptions'] = 'Toon omschrijvingen in het topmenu';
 $_lang['setting_topmenu_show_descriptions_desc'] = 'Als op \'No\' ingesteld is, MODX zal de omschrijvingen verbergen in het menu bovenin de manager.';
+
+$_lang['setting_tree_default_sort'] = 'Document structuur standaard sorteerveld';
+$_lang['setting_tree_default_sort_desc'] = 'Het standaard sorteerveld voor de document structuur wanneer de manager geladen wordt.';
 
 $_lang['setting_tree_root_id'] = 'Structuur Root ID';
 $_lang['setting_tree_root_id_desc'] = 'Stel dit in naar een geldig ID van een document om boomstructuur aan de linkerkant te starten als root. De gebruiker zal alleen de documenten zien dat subs zijn van dit document.';
@@ -518,8 +608,7 @@ $_lang['setting_webpwdreminder_message_default'] = 'Hallo [[+uid]]\n\nOm je nieu
 
 $_lang['setting_websignupemail_message'] = 'Web Inschrijf e-mail';
 $_lang['setting_websignupemail_message_desc'] = 'Hier kun je het e-mailbericht opstellen welke gestuurd wordt naar gebruikers wanneer je een account voor ze aanmaakt en MODX een e-mail laat sturen met de te gebruiken gebruikersnaam en wachtwoord.<br /><strong>Let op:</strong> de volgende placeholders worden vervangen door de Content Manager wanneer het bericht verstuurd wordt:<br /><br />[[+sname]] - Naam van jouw website<br />[[+saddr]] - Het standaard e-mailadres<br />[[+surl]] - Website URL<br />[[+uid]] - Gebruikers loginnaam of id<br />[[+pwd]] - Gebruikerswachtwoord<br />[[+ufn]] - Gebruikers volledige naam<br /><br />Laat de [[+uid]] en [[+pwd]] in het e-mailbericht, want anders wordt er geen gebruikersnaam en wachtwoord gestuurd en weet de gebruiker niet hoe hij/zij moet inloggen!</strong>';
-$_lang['setting_signupemail_message_default'] = 'Hallo [[+uid]]\n\nHier zijn jouw logingegevens voor [[+sname]]:\n\nGebruikersnaam: [[+uid]]\nWachtwoord: [[+pwd]]\n\nAls je inlogt in de Content Manager ([[+surl]]), kun je je wachtwoord wijzigen.\n\nMet vriendelijke groet,\nSite beheerder';
-
+$_lang['setting_websignupemail_message_default'] = 'Hallo [[+uid]] \n\nHier jouw login gegevens voor [[+sname]]:\n\nGebruikersnaam: [[+uid]]\nWachtwoord: [[+pwd]]\n\nEenmaal ingelogd op [[+sname]] ([[+surl]]), kun je je wachtwoord wijzigen.\n\nMet vriendelijke groet,\nSite Administrator';
 
 $_lang['setting_welcome_screen'] = 'Toon welkomstscherm';
 $_lang['setting_welcome_screen_desc'] = 'Indien op waar gezet, dan wordt het welkomstscherm wordt getoond bij het laden van de welkomstpagina en daarna niet meer.';
