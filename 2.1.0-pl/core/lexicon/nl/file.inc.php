@@ -9,7 +9,6 @@
  * @author Bert Oost <bertoost85@gmail.com>
  */
 $_lang['file_confirm_remove'] = 'Weet je zeker dat je dit bestand wilt verwijderen? Dit kan uw website potentieel breken!';
-$_lang['file_confirm_remove'] = 'Bent u zeker dat u dit bestand wilt verwijderen? Dit kan uw website potentieel breken.';
 $_lang['file_deleted'] = 'Succes!';
 $_lang['file_delete_file'] = 'Verwijder Bestand';
 $_lang['file_delete_folder'] = 'Verwijder Map';
@@ -93,7 +92,7 @@ $_lang['upf_close'] = 'Sluiten';
 $_lang['upf_close_desc'] = 'Sluit Venster.';
 $_lang['upf_err_failed'] = 'Server is niet beschikbaar of er is een interne server fout opgetreden.';
 $_lang['upf_err_filetype'] = 'Geselecteerde bestandsextensie is niet toegestaan.<br/>Selecteer bestanden met de volgende extensies: {1}';
-$_lang['upf_error'] = 'Error';
+$_lang['upf_error'] = 'Fout';
 $_lang['upf_filename'] = 'Bestandsnaam';
 $_lang['upf_note'] = 'Notitie';
 $_lang['upf_progress_wait'] = 'Een moment geduld a.u.b...';
@@ -105,7 +104,7 @@ $_lang['upf_reset_desc'] = 'Reset wachtrij.';
 $_lang['upf_state'] = 'Staat';
 $_lang['upf_success'] = 'OK.';
 $_lang['upf_upload'] = 'Upload';
-$_lang['upf_upload_desc'] = 'Upload queued files to the server.';
+$_lang['upf_upload_desc'] = 'Upload wachtende bestanden naar de server.';
 $_lang['upf_upload_err'] = 'Upload fout.';
 $_lang['upf_uploading'] = 'Uploading...';
 $_lang['upf_uploading_desc'] = 'Uploading: {0} van {1} bestanden voltooid.';
