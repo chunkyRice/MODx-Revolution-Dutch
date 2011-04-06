@@ -22,7 +22,7 @@ $_lang['area_manager'] = 'Back-end Manager';
 $_lang['area_proxy'] = 'Proxy';
 $_lang['area_session'] = 'Session en Cookie';
 $_lang['area_lexicon_string'] = 'Gebied Lexicon Entry';
-$_lang['area_lexicon_string_msg'] = 'Vul hier een key in van de lexicon entry for het gebied. Indien er geen lexicon entry is, dan wordt de key van het gebied getoond.<br />Core gebieden:<ul><li>authenticatie</li><li>caching</li><li>bestand</li><li>furls</li><li>gateway</li><li>taal</li><li>manager</li><li>session</li><li>site</li><li>systeem</li></ul>';
+$_lang['area_lexicon_string_msg'] = 'Vul hier een key in van een lexicon entry gebied. Indien er geen lexicon entry is, dan wordt de key van het gebied getoond.<br />Core gebieden:<ul><li>authentication</li><li>caching</li><li>file</li><li>furls</li><li>gateway</li><li>language</li><li>manager</li><li>session</li><li>site</li><li>system</li></ul>';
 $_lang['area_site'] = 'Site';
 $_lang['area_system'] = 'Systeem en Server';
 $_lang['areas'] = 'Gebieden';
@@ -92,7 +92,7 @@ $_lang['setting_auto_check_pkg_updates_cache_expire'] = 'Cache verlooptijd voor 
 $_lang['setting_auto_check_pkg_updates_cache_expire_desc'] = 'Het aantal minuten dat de Pakket Manager de update resultaten in de cache houdt.';
 
 $_lang['setting_allow_multiple_emails'] = 'Toestaan dubbele e-mailadressen voor gebruikers';
-$_lang['setting_allow_multiple_emails_desc'] = 'Indien ingeschakeld, gebruikers mogen hetzelfde e-mailadressen hebben.';
+$_lang['setting_allow_multiple_emails_desc'] = 'Indien ingeschakeld, gebruikers mogen hetzelfde e-mailadres hebben.';
 
 $_lang['setting_automatic_alias'] = 'Automatisch aliassen genereren';
 $_lang['setting_automatic_alias_desc'] = 'Selecteer \'Ja\' om het systeem automatisch een alias te laten genereren aan de hand van de document titel bij het opslaan.';
